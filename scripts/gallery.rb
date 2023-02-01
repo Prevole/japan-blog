@@ -82,9 +82,13 @@ ORDER BY
 
   result_images = statement_images.execute(gallery_id)
 
+  one_date = nil
+
   images_hash = {}
   result_images.each do |row|
     title = sanitize_title row["alttext"]
+
+    one_date = row["imagedate"].strftime("%Y-%m-%d %H:%M:%S %z") if one_date.nil?
 
     images_hash[row["filename"]] = {
       "title" => "#{title}",
@@ -101,8 +105,17 @@ ORDER BY
   images = []
 
   files.each do |file_name|
+    if images_hash[file_name].nil?
+      image_data = {
+        "title" => "n/a",
+        "date" => one_date
+      }
+    else
+      image_data = images_hash[file_name]
+    end
+
     images << {
-      **images_hash[file_name],
+      **image_data,
       "file" => file_name,
       "path" => File.join("", gallery_relative_dest_path, file_name),
       "thumb" => File.join("", gallery_relative_dest_path, "thumbs", "thumbs_#{file_name}")
