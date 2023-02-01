@@ -54,14 +54,14 @@ def sanitize_post_content(content)
     .gsub(/: \)/, ":)")
 end
 
-def create_image_file(paths, short_date, name, img_name, extension, title, width)
-  if width == "225"
+def create_image_file(paths, short_date, name, img_name, extension, title, width, height)
+  if width == "225" or width == "200"
     orientation = "portrait"
-    thumb = "225x300"
   else
     orientation = "landscape"
-    thumb = "300x225"
   end
+
+  thumb = "#{width}x#{height}"
 
   files = %W[#{img_name}#{extension} #{img_name}-#{thumb}#{extension}]
 
@@ -70,6 +70,7 @@ def create_image_file(paths, short_date, name, img_name, extension, title, width
 {% include img.html
     image=\"#{img_name}#{extension}\"
     type=\"#{orientation}\"
+    thumb_size=\"#{thumb}\"
     title=\"#{title}\"
     gallery=\"img\"
 %}
@@ -142,6 +143,8 @@ def process_media(content, short_date, name, paths)
   sanitized_blocks.each do |block|
     block[:list].each do |elem|
       elem.scan(/<a href=".*\/(.*?)(.jpg)"><img .*?title="(.*?)" .*?width="(\d+)".*?<\/a>/).each do |image|
+        height = elem.gsub(/.*?height="(\d+)".*/, "\\1")
+        image << height
         media_str = create_image_file paths, short_date, name, *image
         content = content.sub(elem, media_str)
       end

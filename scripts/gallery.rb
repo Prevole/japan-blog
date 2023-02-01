@@ -11,7 +11,8 @@ def sanitize_title(title)
       .gsub("\\'", "'")
       .gsub(/(\\)?&#039;/, "'")
   )
-    .gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
+  .gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
+  .gsub("...", "…")
 end
 
 def gallery_to_yaml(gallery)
@@ -23,6 +24,9 @@ def gallery_to_yaml(gallery)
     .gsub(/^\s{4}'/, "    ")
     .gsub(/:'\n/, ":\n")
     .gsub(/''/, "'")
+    .gsub(/(\s{4})"/, "\\1")
+    .gsub(/"(\n)/, "\\1")
+    .gsub(/(\/.*?\.[jJ][pP][gG])/, "\\1\"")
 end
 
 def gallery(gallery_id)

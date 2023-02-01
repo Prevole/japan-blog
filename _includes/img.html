@@ -2,17 +2,40 @@
 {%- assign elems = include.image | split: '.' -%}
 {%- assign name = elems[0] -%}
 {%- assign format = elems[1] -%}
+
 {%- if include.type == "portrait" -%}
 {%- assign thumb = "225x300" -%}
 {%- else -%}
 {%- assign thumb = "300x225" -%}
 {%- endif -%}
-<a href="/assets/images/posts/{{ folder_path }}/{{ include.image }}"
+
+{%- if include.thumb_size -%}
+{%- assign thumb = include.thumb_size -%}
+{%- endif -%}
+{%- assign thumb_attributes = "" -%}
+
+{%- if include.thumb_width -%}
+{%- capture thumb_attributes -%}{{ thumb_attributes }} width="{{ include.thumb_width }}"{%- endcapture -%}
+{%- endif -%}
+
+{%- if include.thumb_height -%}
+{%- capture thumb_attributes -%}{{ thumb_attributes }} height="{{ include.thumb_height }}"{%- endcapture -%}
+{%- endif -%}
+
+{%- capture img_path -%}/assets/images/posts/{{ folder_path }}/{{ include.image }}{%- endcapture -%}
+{%- if include.thumb_use_original == "yes" -%}
+{%- assign thumb_path = img_path -%}
+{%- else -%}
+{%- capture thumb_path -%}/assets/images/posts/{{ folder_path }}/{{ name}}-{{ thumb }}.{{ format }}{%- endcapture -%}
+{%- endif -%}
+
+<a href="{{ img_path }}"
    class="glightbox-gallery"
    data-gallery="{{ include.gallery }}"
    data-description="{{ include.title }}">
     <img
         class="image"
-        src="/assets/images/posts/{{ folder_path }}/{{ name}}-{{ thumb }}.{{ format }}"
-        alt="{{ include.title }}">
+        src="{{ thumb_path }}"
+        alt="{{ include.title }}"
+        {{ thumb_attributes }} >
 </a>

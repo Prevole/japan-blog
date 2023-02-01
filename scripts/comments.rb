@@ -10,10 +10,11 @@ def sanitize_comment(comment)
       .strip
       .gsub(/\r\n/, "\n")
   )
-    .gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
-    .gsub(/ $/, "")
-    .gsub(/ {2,}/, " ")
-    .gsub("\\x01", "")
+  .gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
+  .gsub(/ $/, "")
+  .gsub(/ {2,}/, " ")
+  .gsub("\\x01", "")
+  .gsub(/\.\.\./, "…")
 end
 
 def comments_to_yaml(comments)

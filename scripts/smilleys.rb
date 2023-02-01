@@ -32,5 +32,6 @@ def smilleys(content)
     .gsub(" oO", " :open_mouth:")
     .gsub(" :/", " :confounded:")
     .gsub(" /|", " :boy:")
+    .gsub(" XD", " :astonished:")
     .strip
 end
