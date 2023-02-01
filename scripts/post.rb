@@ -160,7 +160,6 @@ def process_media(content, short_date, name, paths)
 end
 
 def process_gallery(content)
-  # [nggallery id=74]
   content.scan(/\[(?:ng)?gallery(?:=| id=)(\d+)\]/).each do |gallery_match|
     gallery_str = gallery gallery_match[0]
     content = content.gsub(/\[(ng)?gallery(=| id=)(\d+)\]/, gallery_str)

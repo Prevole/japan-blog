@@ -5,3 +5,4 @@ _site
 vendor
 temp/
 .DS_Store
+.envrc

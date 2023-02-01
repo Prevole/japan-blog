@@ -1,0 +1,4 @@
+export J_DB_NAME=
+export J_DB_USERNAME=
+export J_DB_PASSWORD=
+export J_DB_HOST=
