@@ -16,7 +16,7 @@ bizarres en panure. L'allure peut paraître un peu spéciale mais au final c'ét
 398 yen (4 CHF environ) ce qui est largement raisonnable. Les tomates cherries juste à côté m'ont coûté 200 yen (2
 CHF environ) pour 18 tomates cherries. Elles étaient bonnes aussi.
 
-<!-- /assets/images/2008-07-24-nouveau-plateau-repas/dsc00317.jpg -->
+<!-- /assets/images/posts/2008-07-24-nouveau-plateau-repas/dsc00317.jpg -->
 {% include img.html
     image="dsc00317.jpg"
     type="landscape"

@@ -1,5 +1,5 @@
 def smilleys(content)
-  content
+  " #{content}"
     .gsub(" :D", " :laughing:")
     .gsub(" ;)", " :wink:")
     .gsub(" :=", " :grin:")
@@ -22,6 +22,7 @@ def smilleys(content)
     .gsub(" :siffle:", " :yum:")
     .gsub(" :auréole:", " :innocent:")
     .gsub(" :tux:", " :penguin:")
+    .gsub(" :evil:", " :smiling_imp:")
     .gsub(" :...:", " :confounded:")
     .gsub(" :)", " :smiley:")
     .gsub(" =)", " :grimacing:")
@@ -31,4 +32,5 @@ def smilleys(content)
     .gsub(" oO", " :open_mouth:")
     .gsub(" :/", " :confounded:")
     .gsub(" /|", " :boy:")
+    .strip
 end

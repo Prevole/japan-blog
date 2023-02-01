@@ -8,16 +8,7 @@ require "#{File.expand_path(File.dirname(__FILE__))}/db.rb"
 require "#{File.expand_path(File.dirname(__FILE__))}/comments.rb"
 require "#{File.expand_path(File.dirname(__FILE__))}/gallery.rb"
 require "#{File.expand_path(File.dirname(__FILE__))}/smilleys.rb"
-
-LINE_WIDTH = 115
-BREAK_SEQUENCE = "\n"
-
-# https://github.com/rails/rails/blob/7c70791470fc517deb7c640bead9f1b47efb5539/actionview/lib/action_view/helpers/text_helper.rb#L264
-def word_wrap(text)
-  text.split("\n").collect! do |line|
-    line.length > LINE_WIDTH ? line.gsub(/(.{1,#{LINE_WIDTH}})(\s+|$)/, "\\1#{BREAK_SEQUENCE}").rstrip : line
-  end * BREAK_SEQUENCE
-end
+require "#{File.expand_path(File.dirname(__FILE__))}/utils.rb"
 
 def categories_str(categories)
   categories.map do |result|
@@ -37,7 +28,7 @@ categories: [#{categories}]
 end
 
 def sanitize_post_content(content)
-  lines = content
+  lines = smilleys(content)
     .split("\n")
     .map { |line| line.strip }
     .select { |line| line.length > 0 }
@@ -53,18 +44,14 @@ def sanitize_post_content(content)
       end
     end
 
-  content = lines.join("\n\n")
-
-  smilleys(content)
+  lines
+    .join("\n\n")
     .gsub(/<hr( \/)?>/, "-----\n")
     .gsub("\\'", "'")
     .gsub(/(\\)?&#039;/, "'")
     .gsub(/(\d+)\s*?[yY][eE][nN]/, "\\1¥")
     .gsub(/ {2,}/, " ")
     .gsub(/: \)/, ":)")
-  #.gsub(/(\n){3,}?/, "\n\n")
-
-  #.gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
 end
 
 def create_image_file(paths, short_date, name, img_name, extension, title, width)
@@ -79,7 +66,7 @@ def create_image_file(paths, short_date, name, img_name, extension, title, width
   files = %W[#{img_name}#{extension} #{img_name}-#{thumb}#{extension}]
 
   replacement = """
-<!-- /assets/images/#{short_date}-#{name}/#{img_name}#{extension} -->
+<!-- /assets/images/posts/#{short_date}-#{name}/#{img_name}#{extension} -->
 {% include img.html
     image=\"#{img_name}#{extension}\"
     type=\"#{orientation}\"
@@ -114,7 +101,7 @@ def create_media_file(paths, short_date, name, media_name, extension, title)
   files = ["#{media_name}#{extension}"]
 
   replacement = """
-<!-- /assets/media/#{short_date}-#{name}/#{media_name}.mp4 -->
+<!-- /assets/media/posts/#{short_date}-#{name}/#{media_name}.mp4 -->
 {% include media.html
     media=\"#{media_name}.mp4\"
     title=\"#{title}\"

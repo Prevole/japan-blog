@@ -1,0 +1,12 @@
+- author: Olivier
+  date: '2008-08-20 19:11:48 +0200'
+  text: |
+    J2ME Polish est une solution qui facilite la conception d'interfaces utilisateurs pour mobiles (notamment avec un
+    système de feuilles de styles). Il semble qu'ils supportent aussi DoJa
+    (https://www.j2mepolish.org/cms/leftsection/documentation/platforms/doja.html, 
+    https://github.com/Enough-Software/j2mepolish). C'est donc peut-être une option à considérer. 
+    
+    Attention à 2 points: 
+    
+    1. à la license (pas de soucis pour le projet)
+    2. au poids ajouté à la midlet.

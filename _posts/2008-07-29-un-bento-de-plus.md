@@ -24,7 +24,7 @@ et j'ai trouvé ça plutôt bon. Certains goûts ne me sont clairement pas connu
 
 Je vous laisse admirer mon repas.
 
-<!-- /assets/images/2008-07-29-un-bento-de-plus/dsc00511.jpg -->
+<!-- /assets/images/posts/2008-07-29-un-bento-de-plus/dsc00511.jpg -->
 {% include img.html
     image="dsc00511.jpg"
     type="landscape"
@@ -32,7 +32,7 @@ Je vous laisse admirer mon repas.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-29-un-bento-de-plus/dsc00512.jpg -->
+<!-- /assets/images/posts/2008-07-29-un-bento-de-plus/dsc00512.jpg -->
 {% include img.html
     image="dsc00512.jpg"
     type="landscape"

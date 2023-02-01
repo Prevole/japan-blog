@@ -13,7 +13,7 @@ quelques photo de cet endroit qui ne fut vraiment pas très plaisant.
 Comme vous pouvez le constater, vide ça paraît un poil plus grand, mais seulement un poil :laughing: Ce matin j'ai même dû
 donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00712.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00712.jpg -->
 {% include img.html
     image="dsc00712.jpg"
     type="landscape"
@@ -21,7 +21,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00713.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00713.jpg -->
 {% include img.html
     image="dsc00713.jpg"
     type="landscape"
@@ -29,7 +29,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00714.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00714.jpg -->
 {% include img.html
     image="dsc00714.jpg"
     type="landscape"
@@ -37,7 +37,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00715.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00715.jpg -->
 {% include img.html
     image="dsc00715.jpg"
     type="landscape"
@@ -45,7 +45,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00716.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00716.jpg -->
 {% include img.html
     image="dsc00716.jpg"
     type="portrait"
@@ -53,7 +53,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00717.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00717.jpg -->
 {% include img.html
     image="dsc00717.jpg"
     type="portrait"
@@ -61,7 +61,7 @@ donner un coup d'aspirateur. Enfin, j'appelle ça faire pour faire :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-04-nostalgie-ou-pas/dsc00718.jpg -->
+<!-- /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00718.jpg -->
 {% include img.html
     image="dsc00718.jpg"
     type="portrait"

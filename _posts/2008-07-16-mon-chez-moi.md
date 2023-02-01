@@ -15,7 +15,7 @@ fait chaud et humide. Je suis tout le temps trempé. La douche me sert à me lav
 Cette porte n’a pas l’air très solide, et ne l’est vraiment pas selon moi. Une simple serrure à un seul tour. De plus, 
 elle donne sur un couloir directement terminé par un escalier qui donne sur le dehors.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/room_1.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_1.jpg -->
 {% include img.html
     image="room_1.jpg"
     type="portrait"
@@ -32,7 +32,7 @@ Comme dit précédemment, mon lit est à même le sol. La commode dans l’armoi
 chambre) contient que des outils pour faire la cuisine. Désolé pour le duvet en bordel mais je viens d’arriver faut 
 me comprendre :wink:
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/room_2.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_2.jpg -->
 {% include img.html
     image="room_2.jpg"
     type="landscape"
@@ -46,7 +46,7 @@ photo précédente). Le frigo semble ne pas fonctionner, mais je préfère pense
 service :wink: La petite table est très basse et me sert de bureau comme vous pouvez le constater. J’ai internet 
 directement dans ma chambre et gratuitement, heureusement d’ailleurs. Je paie deja assez pour tout ça :confused:
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/room_3.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_3.jpg -->
 {% include img.html
     image="room_3.jpg"
     type="landscape"
@@ -58,7 +58,7 @@ Pour finir, la petite commode qui va me servir à y fourrer toutes mes affaires 
 bout du matelas dépasser. Celui-ci ne fait pas plus de deux mètres. Je vous laisse vous faire un avis sur la taille 
 de ma chambre.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/room_4.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_4.jpg -->
 {% include img.html
     image="room_4.jpg"
     type="landscape"
@@ -73,7 +73,7 @@ les bus :laughing: Je confirme, je suis bien au Japon :laughing:
 Comme promis, voici une petite mise à jour de mon chez moi. Quelques photos, pour bien vous faire comprendre que je 
 déprime dans ce logis.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_1.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_1.jpg -->
 {% include img.html
     image="house_1.jpg"
     type="portrait"
@@ -81,7 +81,7 @@ déprime dans ce logis.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_2.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_2.jpg -->
 {% include img.html
     image="house_2.jpg"
     type="portrait"
@@ -92,7 +92,7 @@ déprime dans ce logis.
 A présent, quelques photos de l’intérieur, et pour commencer du couloir de la mort. Les photos sont prises en direction 
 des toilettes et de la sortie depuis le pas de ma porte.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_3.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_3.jpg -->
 {% include img.html
     image="house_3.jpg"
     type="portrait"
@@ -100,7 +100,7 @@ des toilettes et de la sortie depuis le pas de ma porte.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_4.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_4.jpg -->
 {% include img.html
     image="house_4.jpg"
     type="portrait"
@@ -112,7 +112,7 @@ Après ce petit couloir, mais très long, je vous propose de découvrir le coin 
 propre et fonctionnel. A noter que les toilettes sont automatiques pour le couvercle. Lorsqu’on s’approche, le couvercle 
 s’ouvre. La chasse d’eau est électrique.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_5.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_5.jpg -->
 {% include img.html
     image="house_5.jpg"
     type="landscape"
@@ -120,7 +120,7 @@ s’ouvre. La chasse d’eau est électrique.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_6.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_6.jpg -->
 {% include img.html
     image="house_6.jpg"
     type="landscape"
@@ -131,7 +131,7 @@ s’ouvre. La chasse d’eau est électrique.
 Ensuite vient le coin douche, cuisine et laverie. Trois en un pour mon plus grand malheur. On peut également voir qu’il 
 y a du linge de suspendu dehors.
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_7.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_7.jpg -->
 {% include img.html
     image="house_7.jpg"
     type="landscape"
@@ -139,7 +139,7 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_8.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_8.jpg -->
 {% include img.html
     image="house_8.jpg"
     type="landscape"
@@ -147,7 +147,7 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_9.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_9.jpg -->
 {% include img.html
     image="house_9.jpg"
     type="landscape"
@@ -155,7 +155,7 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-mon-chez-moi/house_10.jpg -->
+<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_10.jpg -->
 {% include img.html
     image="house_10.jpg"
     type="landscape"

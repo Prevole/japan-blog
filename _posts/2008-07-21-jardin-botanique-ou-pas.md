@@ -14,7 +14,7 @@ suis arrivé à 15h et le jardin fermait ses portes à 15h30. Du coup, j'ai fait
 En allant au jardin, j'ai longé la rivière Kamo. J'ai pris en photo quelques volatiles et un poisson qui trainaient
 par là.
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00293.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00293.jpg -->
 {% include img.html
     image="dsc00293.jpg"
     type="landscape"
@@ -22,7 +22,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00294.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00294.jpg -->
 {% include img.html
     image="dsc00294.jpg"
     type="landscape"
@@ -30,7 +30,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00295.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00295.jpg -->
 {% include img.html
     image="dsc00295.jpg"
     type="landscape"
@@ -38,7 +38,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00298.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00298.jpg -->
 {% include img.html
     image="dsc00298.jpg"
     type="landscape"
@@ -46,7 +46,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00300.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00300.jpg -->
 {% include img.html
     image="dsc00300.jpg"
     type="landscape"
@@ -54,7 +54,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00301.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00301.jpg -->
 {% include img.html
     image="dsc00301.jpg"
     type="landscape"
@@ -62,7 +62,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00296.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00296.jpg -->
 {% include img.html
     image="dsc00296.jpg"
     type="landscape"
@@ -70,7 +70,7 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00297.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00297.jpg -->
 {% include img.html
     image="dsc00297.jpg"
     type="landscape"
@@ -81,7 +81,7 @@ par là.
 Durant ma marche, j'ai également vu des gens en congé. Ils profitaient pleinement de la rivière pour y faire
 barboter leurs pieds.
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00299.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00299.jpg -->
 {% include img.html
     image="dsc00299.jpg"
     type="landscape"
@@ -92,7 +92,7 @@ barboter leurs pieds.
 J'ai également fait deux petites photos de la rivière Kamo depuis un pont plus en avant de ma dernière balade au
 bord de la rivière. Elle est vraiment plaisante. Elle remplacerait presque mon petit lac léman :wink:
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00302.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00302.jpg -->
 {% include img.html
     image="dsc00302.jpg"
     type="landscape"
@@ -100,7 +100,7 @@ bord de la rivière. Elle est vraiment plaisante. Elle remplacerait presque mon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00303.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00303.jpg -->
 {% include img.html
     image="dsc00303.jpg"
     type="landscape"
@@ -111,7 +111,7 @@ bord de la rivière. Elle est vraiment plaisante. Elle remplacerait presque mon 
 Après cela, j'ai rejoint le jardin botanique par une jolie allée ombragée et très agréable pour éviter de marcher
 au soleil.
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00304.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00304.jpg -->
 {% include img.html
     image="dsc00304.jpg"
     type="landscape"
@@ -119,7 +119,7 @@ au soleil.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00305.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00305.jpg -->
 {% include img.html
     image="dsc00305.jpg"
     type="landscape"
@@ -130,7 +130,7 @@ au soleil.
 Malheureusement, à mon arrivée j'ai vu le panneau des horaires et des prix. Pour le prix, y a pas à se plaindre
 mais les horaires c'est pas pratique :laughing: J'ai qu'à moins faire la grasse matinée c'est vrai :laughing:
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00307.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00307.jpg -->
 {% include img.html
     image="dsc00307.jpg"
     type="landscape"
@@ -145,7 +145,7 @@ minutes.
 J'ai suivi une allée ombragée le long de l'autre berge de la rivière lorsque je suis reparti pour ma promenade. Vu
 que je n'avais plus rien à visiter, je me suis dit que j'allais marcher et regarder un peu les rues.
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00306.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00306.jpg -->
 {% include img.html
     image="dsc00306.jpg"
     type="landscape"
@@ -159,7 +159,7 @@ baladent à la campagne en été. Ils font beaucoup de bruit ces machins. Mon pr
 le sol avant d'aller dans les arbres et de mourrir deux jours plus tard. D'ailleurs ceux en photo avaient pas l'air
 trop vivant :laughing:
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00308.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00308.jpg -->
 {% include img.html
     image="dsc00308.jpg"
     type="landscape"
@@ -167,7 +167,7 @@ trop vivant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-21-jardin-botanique-ou-pas/dsc00309.jpg -->
+<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00309.jpg -->
 {% include img.html
     image="dsc00309.jpg"
     type="landscape"

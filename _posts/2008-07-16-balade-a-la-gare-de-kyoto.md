@@ -14,7 +14,7 @@ parcouru une distance assez grande (une bonne petite heure de marche). Je me sui
 faire passer mes maux de tête (et oui encore). Sur le chemin, j’ai fait deux photos de bâtiments "authentiques". Je ne 
 sais pas du tout ce que c’est, mais ça fait joli en photo :laughing:
 
-<!-- /assets/images/2008-07-16-balade-a-la-gare-de-kyoto/dsc00010.jpg -->
+<!-- /assets/images/posts/2008-07-16-balade-a-la-gare-de-kyoto/dsc00010.jpg -->
 {% include img.html
     image="dsc00010.jpg"
     type="landscape"
@@ -22,7 +22,7 @@ sais pas du tout ce que c’est, mais ça fait joli en photo :laughing:
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-16-balade-a-la-gare-de-kyoto/dsc00009.jpg -->
+<!-- /assets/images/posts/2008-07-16-balade-a-la-gare-de-kyoto/dsc00009.jpg -->
 {% include img.html
     image="dsc00009.jpg"
     type="landscape"

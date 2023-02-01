@@ -16,7 +16,7 @@ une crevette panée, un morceau de poisson avec des arrêtes, du tofu, du riz (t
 des trucs dedans, des machins bizarres (en haut, au milieu). Je crois que j'ai rien oublié. C'est assez conséquent
 et c'est bon. En tout cas, je me nourris suffisamment. Faudra que je fasse attention avec mon alimentation du soir.
 
-<!-- /assets/images/2008-07-31-bento-du-jour/dsc00516.jpg -->
+<!-- /assets/images/posts/2008-07-31-bento-du-jour/dsc00516.jpg -->
 {% include img.html
     image="dsc00516.jpg"
     type="landscape"
@@ -24,7 +24,7 @@ et c'est bon. En tout cas, je me nourris suffisamment. Faudra que je fasse atten
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-31-bento-du-jour/dsc00517.jpg -->
+<!-- /assets/images/posts/2008-07-31-bento-du-jour/dsc00517.jpg -->
 {% include img.html
     image="dsc00517.jpg"
     type="landscape"

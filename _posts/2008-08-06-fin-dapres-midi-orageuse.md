@@ -13,7 +13,7 @@ aller en acheter un dans le magasin de l'uni. Bien m'en a pris car il est tombé
 Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon en début de soirée. Il était 18h -
 18h30 quand j'ai pris les premiers clichés. Pour la seconde série, il était 19h00. Tout d'abord la première série.
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00749.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00749.jpg -->
 {% include img.html
     image="dsc00749.jpg"
     type="landscape"
@@ -21,7 +21,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00750.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00750.jpg -->
 {% include img.html
     image="dsc00750.jpg"
     type="landscape"
@@ -29,7 +29,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00751.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00751.jpg -->
 {% include img.html
     image="dsc00751.jpg"
     type="landscape"
@@ -37,7 +37,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00752.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00752.jpg -->
 {% include img.html
     image="dsc00752.jpg"
     type="landscape"
@@ -45,7 +45,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00753.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00753.jpg -->
 {% include img.html
     image="dsc00753.jpg"
     type="landscape"
@@ -53,7 +53,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00754.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00754.jpg -->
 {% include img.html
     image="dsc00754.jpg"
     type="landscape"
@@ -61,7 +61,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00755.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00755.jpg -->
 {% include img.html
     image="dsc00755.jpg"
     type="landscape"
@@ -69,7 +69,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00756.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00756.jpg -->
 {% include img.html
     image="dsc00756.jpg"
     type="landscape"
@@ -79,7 +79,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
 
 Et voici la seconde série qui, comme je l'ai dit plus haut, a été prise un peu plus tard que la première.
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00757.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00757.jpg -->
 {% include img.html
     image="dsc00757.jpg"
     type="landscape"
@@ -87,7 +87,7 @@ Et voici la seconde série qui, comme je l'ai dit plus haut, a été prise un pe
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00758.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00758.jpg -->
 {% include img.html
     image="dsc00758.jpg"
     type="landscape"
@@ -95,7 +95,7 @@ Et voici la seconde série qui, comme je l'ai dit plus haut, a été prise un pe
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00759.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00759.jpg -->
 {% include img.html
     image="dsc00759.jpg"
     type="landscape"
@@ -103,7 +103,7 @@ Et voici la seconde série qui, comme je l'ai dit plus haut, a été prise un pe
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00760.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00760.jpg -->
 {% include img.html
     image="dsc00760.jpg"
     type="landscape"
@@ -111,7 +111,7 @@ Et voici la seconde série qui, comme je l'ai dit plus haut, a été prise un pe
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00761.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00761.jpg -->
 {% include img.html
     image="dsc00761.jpg"
     type="landscape"
@@ -123,7 +123,7 @@ Et le petit bonus de la journée, mon repas du soir :laughing: Ceci dit, il s'ap
 avec des machins panés en plus (sorte de purée de légume à l'intérieur, pas mauvais) et du poivron. Pour le reste c'est
 la même chose qu'hier.
 
-<!-- /assets/images/2008-08-06-fin-dapres-midi-orageuse/dsc00748.jpg -->
+<!-- /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00748.jpg -->
 {% include img.html
     image="dsc00748.jpg"
     type="landscape"

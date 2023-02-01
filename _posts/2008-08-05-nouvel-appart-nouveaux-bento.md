@@ -16,7 +16,7 @@ savoir où étaient rangées les sauces à salade. Il m'a gentiment amené vers 
 un choix entre 10 ou 20 sauces différentes alors j'ai pris au hasard :laughing: J'ai eu de la chance, elle a bon goût 
 :laughing: Et tout de suite, une petite photo de mon repas.
 
-<!-- /assets/images/2008-08-05-nouvel-appart-nouveaux-bento/dsc00747.jpg -->
+<!-- /assets/images/posts/2008-08-05-nouvel-appart-nouveaux-bento/dsc00747.jpg -->
 {% include img.html
     image="dsc00747.jpg"
     type="landscape"

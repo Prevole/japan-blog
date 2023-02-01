@@ -46,7 +46,7 @@ Nous nous sommes séparés et je suis rentré chez moi après ce petit tour dans
 plaisir. Je me suis arrêté dans un restaurant de sushis sur le chemin de mon chez moi actuel. Je me suis pris des
 sushis pour 1145 yen (11.45 CHF). Voici ce que j'ai eu pour cette somme. C'est tout à fait correct à mon sens.
 
-<!-- /assets/images/2008-07-25-une-journee-de-plus/dsc00320.jpg -->
+<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00320.jpg -->
 {% include img.html
     image="dsc00320.jpg"
     type="landscape"
@@ -54,7 +54,7 @@ sushis pour 1145 yen (11.45 CHF). Voici ce que j'ai eu pour cette somme. C'est t
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-25-une-journee-de-plus/dsc00321.jpg -->
+<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00321.jpg -->
 {% include img.html
     image="dsc00321.jpg"
     type="landscape"
@@ -66,7 +66,7 @@ En sortant du restaurant et en me dirigeant chez moi, j'ai croisé une nouvelle 
 montre ce que ça donne. C'est vraiment grand. Je sais pas si ça pique, mord ou autre joyeuseté du genre, mais si
 c'est le cas j'ai pas très envie de tester :laughing:
 
-<!-- /assets/images/2008-07-25-une-journee-de-plus/dsc00318.jpg -->
+<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00318.jpg -->
 {% include img.html
     image="dsc00318.jpg"
     type="landscape"
@@ -74,7 +74,7 @@ c'est le cas j'ai pas très envie de tester :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-25-une-journee-de-plus/dsc00319.jpg -->
+<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00319.jpg -->
 {% include img.html
     image="dsc00319.jpg"
     type="landscape"

@@ -18,7 +18,7 @@ Durant ma balade, je suis retourné dans la rue marchande que j'avais traversé 
 mon professeur. J'ai pris quelques photos au passage dont la devanture d'un restaurant apparemment. J'ai également
 pris la rue commerçante. Il faut savoir que le crabe sur la photo de la devanture bougeait.
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00522.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00522.jpg -->
 {% include img.html
     image="dsc00522.jpg"
     type="landscape"
@@ -26,7 +26,7 @@ pris la rue commerçante. Il faut savoir que le crabe sur la photo de la devantu
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00523.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00523.jpg -->
 {% include img.html
     image="dsc00523.jpg"
     type="landscape"
@@ -38,7 +38,7 @@ Après, j'ai pris une rue transversale que l'on avait parcouru avec mon professe
 photos. On peut largement apercevoir les câbles électriques ainsi que les poteaux. C'est quelque chose d'assez
 amusant pour nous :laughing:
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00524.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00524.jpg -->
 {% include img.html
     image="dsc00524.jpg"
     type="landscape"
@@ -46,7 +46,7 @@ amusant pour nous :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00526.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00526.jpg -->
 {% include img.html
     image="dsc00526.jpg"
     type="landscape"
@@ -59,7 +59,7 @@ le magasin d'électronique en tout genre et n'ai rien acheté pour le moment. Mo
 dire ce que je voulais si besoin, pour qu'il regarde sur un site qui référence les meilleures prix. C'est très
 sympa de sa part et je ne vais certainement pas refuser ce genre d'aide :laughing:
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00525.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00525.jpg -->
 {% include img.html
     image="dsc00525.jpg"
     type="landscape"
@@ -67,7 +67,7 @@ sympa de sa part et je ne vais certainement pas refuser ce genre d'aide :laughin
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00527.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00527.jpg -->
 {% include img.html
     image="dsc00527.jpg"
     type="landscape"
@@ -79,7 +79,7 @@ Une fois mon petit tour fini par ici, je suis parti en direction du bus me perme
 me suis rendu compte que je n'étais pas loin de mon futur chez moi. Je me suis décidé d'y aller faire un tour et
 faire du repérage. Sur le chemin également, j'ai pris en photo un bâtiment dont je trouve le style sympa.
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00528.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00528.jpg -->
 {% include img.html
     image="dsc00528.jpg"
     type="landscape"
@@ -87,7 +87,7 @@ faire du repérage. Sur le chemin également, j'ai pris en photo un bâtiment do
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00529.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00529.jpg -->
 {% include img.html
     image="dsc00529.jpg"
     type="landscape"
@@ -98,7 +98,7 @@ faire du repérage. Sur le chemin également, j'ai pris en photo un bâtiment do
 Encore sur le même chemin, je me suis fait la réflexion qu'ici, avoir une Smart c'est vraiment pratique. Pour
 preuve. Ca se range partout :laughing:
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00530.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00530.jpg -->
 {% include img.html
     image="dsc00530.jpg"
     type="landscape"
@@ -109,7 +109,7 @@ preuve. Ca se range partout :laughing:
 J'ai également pris en photo le carrefour qui se trouve à deux pas de mon futur chez moi. On a pas trop l'habitude
 de voir ça dans notre région.
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00531.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00531.jpg -->
 {% include img.html
     image="dsc00531.jpg"
     type="landscape"
@@ -117,7 +117,7 @@ de voir ça dans notre région.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00532.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00532.jpg -->
 {% include img.html
     image="dsc00532.jpg"
     type="landscape"
@@ -125,7 +125,7 @@ de voir ça dans notre région.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00533.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00533.jpg -->
 {% include img.html
     image="dsc00533.jpg"
     type="landscape"
@@ -133,7 +133,7 @@ de voir ça dans notre région.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00534.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00534.jpg -->
 {% include img.html
     image="dsc00534.jpg"
     type="landscape"
@@ -143,7 +143,7 @@ de voir ça dans notre région.
 
 J'ai aussi croisé une école de Kyoto avec sa partie consacrée au Baseball à mon avis.
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00535.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00535.jpg -->
 {% include img.html
     image="dsc00535.jpg"
     type="landscape"
@@ -151,7 +151,7 @@ J'ai aussi croisé une école de Kyoto avec sa partie consacrée au Baseball à 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00536.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00536.jpg -->
 {% include img.html
     image="dsc00536.jpg"
     type="landscape"
@@ -159,7 +159,7 @@ J'ai aussi croisé une école de Kyoto avec sa partie consacrée au Baseball à 
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00537.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00537.jpg -->
 {% include img.html
     image="dsc00537.jpg"
     type="landscape"
@@ -172,7 +172,7 @@ Avant c'était Shijo-Horikawa et à présent c'est Sanjo-Horikawa. Comme vous l'
 allant vers le nord se nomme Horikawa dori (Remplacez les R par des L pour la prononciation, dori n'est pas le nain
 du SDA).
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00538.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00538.jpg -->
 {% include img.html
     image="dsc00538.jpg"
     type="landscape"
@@ -180,7 +180,7 @@ du SDA).
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00539.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00539.jpg -->
 {% include img.html
     image="dsc00539.jpg"
     type="portrait"
@@ -192,7 +192,7 @@ J'ai finalement emprunté la rue marchande allant vers mon futur chez moi et pri
 poissonneries, un magasin de maquettes (mieux que la dernière fois), un magasin de procelaine (plus grand que le
 précédent) et un "temple".
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00540.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00540.jpg -->
 {% include img.html
     image="dsc00540.jpg"
     type="landscape"
@@ -200,7 +200,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00541.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00541.jpg -->
 {% include img.html
     image="dsc00541.jpg"
     type="landscape"
@@ -208,7 +208,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00542.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00542.jpg -->
 {% include img.html
     image="dsc00542.jpg"
     type="landscape"
@@ -216,7 +216,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00543.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00543.jpg -->
 {% include img.html
     image="dsc00543.jpg"
     type="landscape"
@@ -224,7 +224,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00544.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00544.jpg -->
 {% include img.html
     image="dsc00544.jpg"
     type="landscape"
@@ -232,7 +232,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00545.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00545.jpg -->
 {% include img.html
     image="dsc00545.jpg"
     type="landscape"
@@ -240,7 +240,7 @@ précédent) et un "temple".
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00546.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00546.jpg -->
 {% include img.html
     image="dsc00546.jpg"
     type="landscape"
@@ -251,7 +251,7 @@ précédent) et un "temple".
 Pour finir, je suis tombé sur ce que vous pouvez voir sur la photo suivante. Je sais que c'est un bateau mais je
 sais pas trop en quoi c'est fait. Mais comme je trouvai ça joli, j'ai pris une petite photo :wink:
 
-<!-- /assets/images/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00547.jpg -->
+<!-- /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00547.jpg -->
 {% include img.html
     image="dsc00547.jpg"
     type="landscape"

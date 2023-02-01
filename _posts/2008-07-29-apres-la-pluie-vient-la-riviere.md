@@ -13,7 +13,7 @@ matin, je me suis dirigé vers la rivière avant de partir à l'uni pour voir ce
 Et bien à mon avis ça n'a pas changé des masses. En tout cas c'est pas une masse d'eau spectaculaire qui déferlait
 dans la rivière :wink: Voici deux petites photos pour s'en rendre compte.
 
-<!-- /assets/images/2008-07-29-apres-la-pluie-vient-la-riviere/dsc00506.jpg -->
+<!-- /assets/images/posts/2008-07-29-apres-la-pluie-vient-la-riviere/dsc00506.jpg -->
 {% include img.html
     image="dsc00506.jpg"
     type="landscape"
@@ -21,7 +21,7 @@ dans la rivière :wink: Voici deux petites photos pour s'en rendre compte.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-29-apres-la-pluie-vient-la-riviere/dsc00507.jpg -->
+<!-- /assets/images/posts/2008-07-29-apres-la-pluie-vient-la-riviere/dsc00507.jpg -->
 {% include img.html
     image="dsc00507.jpg"
     type="landscape"

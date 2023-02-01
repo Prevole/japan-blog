@@ -21,7 +21,7 @@ et Pêche blanche) Emballage individuel, taille des fruits et protection autour.
 mais j'avais envie de tester et voir le goût. Je vous tiendrai au courant pour la suite de mon expérience. J'ai mis mon 
 natel pour une photo de comparaison de taille.
 
-<!-- /assets/images/2008-07-19-petit-tour-au-supermarche/dsc00288.jpg -->
+<!-- /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00288.jpg -->
 {% include img.html
     image="dsc00288.jpg"
     type="landscape"
@@ -29,7 +29,7 @@ natel pour une photo de comparaison de taille.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-petit-tour-au-supermarche/dsc00292.jpg -->
+<!-- /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00292.jpg -->
 {% include img.html
     image="dsc00292.jpg"
     type="landscape"
@@ -37,7 +37,7 @@ natel pour une photo de comparaison de taille.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-petit-tour-au-supermarche/dsc00289.jpg -->
+<!-- /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00289.jpg -->
 {% include img.html
     image="dsc00289.jpg"
     type="portrait"
@@ -45,7 +45,7 @@ natel pour une photo de comparaison de taille.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-petit-tour-au-supermarche/dsc00290.jpg -->
+<!-- /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00290.jpg -->
 {% include img.html
     image="dsc00290.jpg"
     type="portrait"
@@ -59,7 +59,7 @@ Maintenant que j'ai compris qu'avec une prise branchée, le frigo fonctionne mie
 trucs dedans. Mes sushis m'ont couté 500 yen (5 CHF) ce qui est tout de même bien moins cher que les assortiments chez 
 nous que l'on trouve à la Migros... Une petite image pour vous donner l'aperçu de ce que je vais manger.
 
-<!-- /assets/images/2008-07-19-petit-tour-au-supermarche/dsc00291.jpg -->
+<!-- /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00291.jpg -->
 {% include img.html
     image="dsc00291.jpg"
     type="landscape"

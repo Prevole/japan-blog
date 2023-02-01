@@ -2,9 +2,10 @@ require 'yaml'
 
 require "#{File.expand_path(File.dirname(__FILE__))}/db.rb"
 require "#{File.expand_path(File.dirname(__FILE__))}/smilleys.rb"
+require "#{File.expand_path(File.dirname(__FILE__))}/smilleys.rb"
 
 def sanitize_comment(comment)
-  smilleys(
+  word_wrap smilleys(
     comment
       .strip
       .gsub(/\r\n/, "\n")

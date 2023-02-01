@@ -19,7 +19,7 @@ C'est ce que j'ai fait.
 Durant ma petite demi heure de marche, j'ai pris quelques photos de ce que j'ai croisé. D'abord les rues que j'ai
 traversé et une voiture qui m'a l'air de ne pas avoir été utilisée récemment.
 
-<!-- /assets/images/2008-08-03-ninnaji-temple/dsc00651.jpg -->
+<!-- /assets/images/posts/2008-08-03-ninnaji-temple/dsc00651.jpg -->
 {% include img.html
     image="dsc00651.jpg"
     type="landscape"
@@ -27,7 +27,7 @@ traversé et une voiture qui m'a l'air de ne pas avoir été utilisée récemmen
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-03-ninnaji-temple/dsc00652.jpg -->
+<!-- /assets/images/posts/2008-08-03-ninnaji-temple/dsc00652.jpg -->
 {% include img.html
     image="dsc00652.jpg"
     type="landscape"
@@ -35,7 +35,7 @@ traversé et une voiture qui m'a l'air de ne pas avoir été utilisée récemmen
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-03-ninnaji-temple/dsc00653.jpg -->
+<!-- /assets/images/posts/2008-08-03-ninnaji-temple/dsc00653.jpg -->
 {% include img.html
     image="dsc00653.jpg"
     type="landscape"
@@ -57,7 +57,7 @@ le bus numéro 12. Ca vous dira surement rien je l'avoue, mais je vais publier u
 soyez patient :laughing: . En chemin, j'ai pris deux photos d'arbre qui m'ont parru assez sympatique. La seconde photo
 montre que la nature trouve toujours un chemin pour reprendre vie.
 
-<!-- /assets/images/2008-08-03-ninnaji-temple/dsc00708.jpg -->
+<!-- /assets/images/posts/2008-08-03-ninnaji-temple/dsc00708.jpg -->
 {% include img.html
     image="dsc00708.jpg"
     type="landscape"
@@ -65,7 +65,7 @@ montre que la nature trouve toujours un chemin pour reprendre vie.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-08-03-ninnaji-temple/dsc00709.jpg -->
+<!-- /assets/images/posts/2008-08-03-ninnaji-temple/dsc00709.jpg -->
 {% include img.html
     image="dsc00709.jpg"
     type="landscape"

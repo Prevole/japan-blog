@@ -40,7 +40,7 @@ d'appoint. Je pense que mon linge sera sec dans 2 jours maximum.
 Pour finir, je vous laisse une petite photo pour vous montrer à quoi ressemble ma chambre actuellement. Je m'amuse
 comme un fou :laughing:
 
-<!-- /assets/images/2008-07-29-jour-de-lessive/dsc00509.jpg -->
+<!-- /assets/images/posts/2008-07-29-jour-de-lessive/dsc00509.jpg -->
 {% include img.html
     image="dsc00509.jpg"
     type="landscape"

@@ -13,7 +13,7 @@ de repérer un petit peu les endroits où je vis, je travaille, je visite.
 Tout d'abord laissez moi vous présenter une vue générale de la ville de Kyoto avec ses principaux points de repères
 (en tout cas pour moi :laughing:). On y voit quelques endroits que j'ai visité et que je vais visiter prochainement.
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/kyoto.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/kyoto.jpg -->
 {% include img.html
     image="kyoto.jpg"
     type="landscape"
@@ -25,7 +25,7 @@ A présent, le chemin que j'ai fait en bus depuis la gare de Kyoto jusqu'à Yura
 représente quand même 8km. Du coup, lorsque je voulais aller à pied depuis Yurakuso jusqu'à la gare, je comprends
 pourquoi j'y suis jamais arrivé et que ça me semblait très loin :laughing:
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/kyotostationyurakusobus.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/kyotostationyurakusobus.jpg -->
 {% include img.html
     image="kyotostationyurakusobus.jpg"
     type="portrait"
@@ -36,7 +36,7 @@ pourquoi j'y suis jamais arrivé et que ça me semblait très loin :laughing:
 Puis vient le trajet que je faisais en bus depuis Yurakuso GuestHouse jusqu'à l'université (Ritsumeikan Daigaku).
 La distance est de 4.3km.
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/yurakusoritsumeikanbus.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/yurakusoritsumeikanbus.jpg -->
 {% include img.html
     image="yurakusoritsumeikanbus.jpg"
     type="landscape"
@@ -47,7 +47,7 @@ La distance est de 4.3km.
 A présent, un petit trajet depuis la gare jusqu'à mon nouveau logement. Ce petit trajet fait 3.6km. Ça fait une
 jolie petite trotte.
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/kyotostationseedinbus.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/kyotostationseedinbus.jpg -->
 {% include img.html
     image="kyotostationseedinbus.jpg"
     type="landscape"
@@ -58,7 +58,7 @@ jolie petite trotte.
 Passons maintenant au trajet que j'effectue tous les matins en bus (pour le moment). Ce petit trajet qui me mène de
 mon logement à l'université, fait tout de même 7.2km.
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/seedinritsumeikanbus.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/seedinritsumeikanbus.jpg -->
 {% include img.html
     image="seedinritsumeikanbus.jpg"
     type="landscape"
@@ -69,7 +69,7 @@ mon logement à l'université, fait tout de même 7.2km.
 Pour finir, voici le trajet qui m'attend lorsque j'aurai acheté mon vélo. Un petit trajet de 4km environ qui me
 mènera de mon logement à l'université.
 
-<!-- /assets/images/2008-08-07-lecon-de-geographie/seedinritsumeikanbycicle.jpg -->
+<!-- /assets/images/posts/2008-08-07-lecon-de-geographie/seedinritsumeikanbycicle.jpg -->
 {% include img.html
     image="seedinritsumeikanbycicle.jpg"
     type="landscape"

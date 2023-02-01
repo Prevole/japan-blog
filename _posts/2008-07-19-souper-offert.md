@@ -15,7 +15,7 @@ Avant cela, il m'a fallu l'attendre et j'en ai donc profité pour visiter un peu
 rendez-vous avec lui. J'ai également pris quelques photos et si vous êtes perspicaces vous ferez le lien avec celle du
 Gion Matsuri.
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00275.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00275.jpg -->
 {% include img.html
     image="dsc00275.jpg"
     type="landscape"
@@ -23,7 +23,7 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00276.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00276.jpg -->
 {% include img.html
     image="dsc00276.jpg"
     type="landscape"
@@ -31,7 +31,7 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00277.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00277.jpg -->
 {% include img.html
     image="dsc00277.jpg"
     type="landscape"
@@ -39,7 +39,7 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00278.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00278.jpg -->
 {% include img.html
     image="dsc00278.jpg"
     type="landscape"
@@ -47,7 +47,7 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00279.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00279.jpg -->
 {% include img.html
     image="dsc00279.jpg"
     type="landscape"
@@ -57,7 +57,7 @@ Gion Matsuri.
 
 Durant mon parcours de la rue commerçante je suis tombé sur un temple en plein millieu avec une divinité à l'intérieur.
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00280.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00280.jpg -->
 {% include img.html
     image="dsc00280.jpg"
     type="landscape"
@@ -98,7 +98,7 @@ Michael a pris une glace à l'orange directement servi dans une vraie orange.
 Après le repas - qu'il m'a payé - nous sommes allés nous promener dans le jardin du restaurant. J'ai tenté de prendre 
 quelques photos et le résultat est pas super, mais c'est mieux que rien. Certaines parties du jardin ont plus de 100ans.
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00281.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00281.jpg -->
 {% include img.html
     image="dsc00281.jpg"
     type="landscape"
@@ -106,7 +106,7 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00282.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00282.jpg -->
 {% include img.html
     image="dsc00282.jpg"
     type="landscape"
@@ -114,7 +114,7 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00283.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00283.jpg -->
 {% include img.html
     image="dsc00283.jpg"
     type="landscape"
@@ -122,7 +122,7 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00284.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00284.jpg -->
 {% include img.html
     image="dsc00284.jpg"
     type="landscape"
@@ -134,7 +134,7 @@ Nous avons quitté ensuite le restaurant et Michael m'a montré quelques endroit
 chances de faire des rencontres internationales. Nous avons pris un verre dans un de ces endroits et j'ai trouvé une 
 petite photo insolite à faire.
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00285.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00285.jpg -->
 {% include img.html
     image="dsc00285.jpg"
     type="portrait"
@@ -149,7 +149,7 @@ Pour finir, je suis rentré. J'ai pris un bus qui me rapprochait de mon chez moi
 demi-heure pour arriver jusqu'à mon chez moi. Au final, ce fut une très chouette journée de promenade mais le résultat 
 de ma journée est le suivant.
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00287.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00287.jpg -->
 {% include img.html
     image="dsc00287.jpg"
     type="landscape"
@@ -157,7 +157,7 @@ de ma journée est le suivant.
     gallery="g"
 %}
 
-<!-- /assets/images/2008-07-19-souper-offert/dsc00286.jpg -->
+<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00286.jpg -->
 {% include img.html
     image="dsc00286.jpg"
     type="landscape"

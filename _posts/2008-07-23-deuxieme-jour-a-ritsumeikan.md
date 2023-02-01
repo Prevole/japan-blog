@@ -25,7 +25,7 @@ réseaux. C'est un peu spécial mais ça fonctionne plutôt bien vu que je suis 
 attendant mon rendez-vous de 16h avec mon responsable officiel japonais à l'Art Research Center (ARC). J'en profite
 pour vous glisser des photos de mon bureau.
 
-<!-- /assets/images/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00315.jpg -->
+<!-- /assets/images/posts/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00315.jpg -->
 {% include img.html
     image="dsc00315.jpg"
     type="landscape"
@@ -33,7 +33,7 @@ pour vous glisser des photos de mon bureau.
     gallery="img"
 %}
 
-<!-- /assets/images/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00314.jpg -->
+<!-- /assets/images/posts/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00314.jpg -->
 {% include img.html
     image="dsc00314.jpg"
     type="landscape"
@@ -62,7 +62,7 @@ d'un autre apparthotel possible.
 Je suis rentré et j'ai pris mon repas que vous pouvez apercevoir ci-après. Il n'était pas mauvais d'ailleurs :smiley: Je
 fais quelques expériences. Vu que ces temps mon appétit est bizarre :laughing:
 
-<!-- /assets/images/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00316.jpg -->
+<!-- /assets/images/posts/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00316.jpg -->
 {% include img.html
     image="dsc00316.jpg"
     type="landscape"
