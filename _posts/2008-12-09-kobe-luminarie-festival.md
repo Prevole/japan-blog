@@ -48,7 +48,14 @@ finir quelques bisucuits (que je pensais fourré à quelque chose, photo de l'em
 que j'ai fini à l'hôtel après un bon bain bien mérité. Je dois dire que c'est quand même pratique quand ils
 indiquent le prix sur des affiches :laughing:
 
-<a href="http://japan.prevole.ch/wp-content/uploads/2008/12/biscuits.png"><img class="alignnone size-medium wp-image-1211 aligncenter" style="border: 3px double black;" title="Emballage à biscuits." src="http://japan.prevole.ch/wp-content/uploads/2008/12/biscuits-156x300.png" alt="Emballage à biscuits." width="156" height="300" /></a>
+<!-- /assets/images/posts/2008-12-09-kobe-luminarie-festival/biscuits.png -->
+{% include img.html
+    image="biscuits.png"
+    type="landscape"
+    thumb_size="156x300"
+    title="Emballage à biscuits."
+    gallery="img"
+%}
 
 Sans plus attendre, la galerie d'images. J'ai fait mon japonais et j'ai mitraillé. Vu les conditions pour les
 prises, je trouve que j'ai fait du super boulot. Si j'ai autant mitraillé c'est qu'il faut comprendre que quand on
