@@ -1,0 +1,18 @@
+{%- assign folder_path = page.name | remove: '.md' -%}
+{%- assign elems = include.image | split: '.' -%}
+{%- assign name = elems[0] -%}
+{%- assign format = elems[1] -%}
+{%- if include.type == "portrait" -%}
+{%- assign thumb = "225x300" -%}
+{%- else -%}
+{%- assign thumb = "300x225" -%}
+{%- endif -%}
+<a href="/assets/images/posts/{{ folder_path }}/{{ include.image }}"
+   class="glightbox-gallery"
+   data-gallery="{{ include.gallery }}"
+   data-description="{{ include.title }}">
+    <img
+        class="image"
+        src="/assets/images/posts/{{ folder_path }}/{{ name}}-{{ thumb }}.{{ format }}"
+        alt="{{ include.title }}">
+</a>

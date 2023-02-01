@@ -1,0 +1,8 @@
+{%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
+{%- assign time_format = site.minima.date_format | default: "%H:%M" -%}
+{%- for comment in site.data.comments[include.comments_file] -%}
+<div>Par {{ comment.author }} le {{ comment.date | date: date_format }} à {{ comment.date | date: time_format }}</div>
+<div class="post-content e-content" itemprop="articleBody">
+    {{ comment.text | markdownify }}
+</div>
+{%- endfor -%}
