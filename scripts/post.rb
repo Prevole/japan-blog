@@ -40,6 +40,7 @@ def sanitize_post_content(content)
   lines = content
     .split("\n")
     .map { |line| line.strip }
+    .select { |line| line.length > 0 }
     .map do |line|
       if line =~ /<p.*?><a/
         line.gsub(/(<p.*?>|<\/p>)/, "")
@@ -52,17 +53,16 @@ def sanitize_post_content(content)
       end
     end
 
-  content = lines.join("\n")
+  content = lines.join("\n\n")
 
-  smilleys(
-    content
-      .gsub(/<hr( \/)?>/, "-----\n")
-      .gsub("\\'", "'")
-      .gsub(/(\\)?&#039;/, "'")
-  )
-  .gsub(/ {2,}/, " ")
-  .gsub(/: \)/, ":)")
-  .gsub(/(\n){3,}?/, "\n\n")
+  smilleys(content)
+    .gsub(/<hr( \/)?>/, "-----\n")
+    .gsub("\\'", "'")
+    .gsub(/(\\)?&#039;/, "'")
+    .gsub(/(\d+)\s*?[yY][eE][nN]/, "\\1¥")
+    .gsub(/ {2,}/, " ")
+    .gsub(/: \)/, ":)")
+  #.gsub(/(\n){3,}?/, "\n\n")
 
   #.gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
 end

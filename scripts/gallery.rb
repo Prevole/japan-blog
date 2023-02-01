@@ -45,8 +45,9 @@ WHERE
   gallery_name = result_gallery["name"]
 
   gallery_source_path = "#{download_path}/#{gallery_name}"
-  gallery_relative_dest_path = "/assets/images/galleries"
-  gallery_dest_path = "#{base_dir}/#{gallery_relative_dest_path}"
+  gallery_relative_dest_path = "/assets/images/galleries/#{gallery_name}"
+  gallery_dest_path = "#{base_dir}/assets/images/galleries/"
+  gallery_dest_full_path = "#{gallery_dest_path}/#{gallery_name}"
   gallery_data_path = "#{base_dir}/_data/galleries/#{gallery_name}.yaml"
 
   if ENV["J_DRY_RUN"]
@@ -54,10 +55,14 @@ WHERE
 Source gallery: #{gallery_source_path}
 Destination gallery: #{gallery_dest_path}
 """
-    gallery_files_path = gallery_source_path
   else
     FileUtils.mv(gallery_source_path, gallery_dest_path) if Dir.exist?(gallery_source_path)
-    gallery_files_path = "#{gallery_dest_path}/#{gallery_name}"
+  end
+
+  if Dir.exist?("#{gallery_dest_full_path}")
+    gallery_current_path = gallery_dest_full_path
+  else
+    gallery_current_path = gallery_source_path
   end
 
   statement_images = client.prepare("""
@@ -83,9 +88,11 @@ ORDER BY
     }
   end
 
-  gallery_path = "#{gallery_dest_path}/#{gallery_name}"
-
-  files = Dir.entries(gallery_files_path).reject{|f| f == ".DS_Store"}.select { |f| File.file? File.join(gallery_path, f) }.sort
+  files = Dir
+    .entries(gallery_current_path)
+    .reject{|f| f == ".DS_Store"}
+    .select { |f| File.file? File.join(gallery_current_path, f) }
+    .sort
 
   images = []
 
@@ -93,8 +100,8 @@ ORDER BY
     images << {
       **images_hash[file_name],
       "file" => file_name,
-      "path" => File.join("", gallery_dest_path, file_name),
-      "thumb" => File.join("", gallery_dest_path, "thumbs", "thumbs_#{file_name}")
+      "path" => File.join("", gallery_relative_dest_path, file_name),
+      "thumb" => File.join("", gallery_relative_dest_path, "thumbs", "thumbs_#{file_name}")
     }
   end
 

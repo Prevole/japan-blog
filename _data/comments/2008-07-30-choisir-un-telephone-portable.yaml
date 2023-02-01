@@ -1,0 +1,28 @@
+- author: Sanne
+  date: '2008-07-30 21:43:12 +0200'
+  text: |
+    Lorsque j'étais au Japon en 1996 -97 (oui, je sais, je vous le mets à chaque fois - mais c'est que je suis
+    vieux et par conséquent je radote... :dizzy_face: ).
+    
+    Donc, lorsque j'ai travaillé au Japon, j'ai programmé en PERL et en JAVA. Mais je ne pouvais jamais utiliser les 
+    toutes dernières versions du langage PERL ou du logiciel WinCafé (l'environnement de développement JAVA) car 
+    celles-ci n'étaient pas encore traduites en Japonais. A mes demandes pour de nouvelles versions mes collèques me 
+    répondaient "'PERL 5' has not been Japanized yet." ou "'WinCafé 1.5' has not been Japanized yet."
+    
+    Tu vois ce qui peut t'attendre ! :grin: 
+    
+    Au fait, l'OS de ton ordi, il est en japonais ?
+    
+    ﹣ Sanne"
+
+- author: Prevole
+  date: '2008-07-31 03:25:22 +0200'
+  text: |
+    @Sanne : Heureusement pour moi, je n'ai pas ce problème de langue vu que j'utilise mon ordinateur portable 
+    personnel. De plus, mon professeur responsable est d'origine Canadienne (partie anglophone) et par conséquent, 
+    tout mon travail est à faire en anglais. En gros j'ai une très grande latitude dans mes choix et options.
+
+    Là où tout se complique, c'est que la documentation est souvent en japonais et par conséquent je ne peux pas la 
+    lire. C'est pour ça qu'on ne se précipite pas dans le choix du téléphone portable pour mon projet. J'ai de toute 
+    manière un gros boulot à faire au niveau du serveur et je peux avancer sans problème sur cette partie sans être 
+    bloquer par la partie cliente. Je peux même réaliser une partie des tests sans le client.
