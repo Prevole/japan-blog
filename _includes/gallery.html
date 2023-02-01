@@ -9,16 +9,20 @@
 <ul class="image-gallery">
     {% assign gallery = site.data.galleries[include.gallery] %}
     {% for image in gallery.images %}
+    {%- assign image_name = (image.file | split: ".")[0]  %}
     <li>
         <a href="{{ image.path }}"
            class="glightbox-gallery"
            data-gallery="{{ include.gallery }}"
-           data-description="{{ image.title }}">
+           data-description=".custom-desc-{{ image_name }}">
             <img
                 class="image"
                 src="{{ image.thumb }}"
                 alt="{{ image.title }}">
         </a>
+        <div class="glightbox-desc custom-desc-{{ image_name }}">
+            <p>{{ image.title }}</p>
+        </div>
     </li>
    {% endfor %}
 </ul>
