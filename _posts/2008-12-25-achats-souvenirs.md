@@ -24,7 +24,7 @@ peu de chance de fonctionner :smiling_imp:). La figurine n'est autre que Cloud (
 suis tombé dessus vraiment tout par hasard. Pour cet objet, je peux vous mettre les photos :laughing: Ça constitue
 un peu mon Noël du coup.
 
-<!-- /assets/images/posts/2008-12-25-achats-souvenirs/img_2530.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2530.jpg"
     type="landscape"
@@ -33,7 +33,6 @@ un peu mon Noël du coup.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-25-achats-souvenirs/img_2531.jpg -->
 {% include img.html
     image="img_2531.jpg"
     type="landscape"
@@ -41,13 +40,14 @@ un peu mon Noël du coup.
     title="FFVII - Cloud - Hardy Daytona (derrière)"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'ai également fait l'acquisition d'un petit appareil dans le but de pouvoir faire des Takoyaki à la maison. C'est
 vraiment quelque chose qui m'a bien plu (parmi toutes les autres choses) et quand je suis tombé sur l'objet en
 question et vu son prix, je n'ai pas réfléchi bien longtemps. Même l'aspect électrique ne m'a pas semblé un grand
 problème sur le moment (je le pense toujours d'ailleurs :laughing:). Voilà de quoi il s'agit.
 
-<!-- /assets/images/posts/2008-12-25-achats-souvenirs/img_2520.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2520.jpg"
     type="landscape"
@@ -55,4 +55,4 @@ problème sur le moment (je le pense toujours d'ailleurs :laughing:). Voilà de 
     title="Takoyaki Grill"
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

@@ -21,19 +21,19 @@ qu’il y avait.
 Pour le reste je vous laisse en juger par vous même au moyen des quelques photos à disposition et des vidéos montrant 
 des tambours japonais.
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri/mov00086.mpg -->
+{%- media_cartridge -%}
 {% include media.html
     media="mov00086.mp4"
     title="Tambours de rue japonais"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri/mov00087.mpg -->
 {% include media.html
     media="mov00087.mp4"
     title="Tambour japonais 2ème prise"
     gallery="video"
 %}
+{%- endmedia_cartridge -%}
 
 Je dois encore ajouter quelques détails. Dans la rue, il y a sans arrêt des employés des enseignes des alentours qui 
 crient pour que l’on vienne chez eux plutôt qu’ailleurs :laughing: C’est assez soûlant à la longue, mais ça fait partie 

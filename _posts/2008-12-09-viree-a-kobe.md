@@ -18,7 +18,5 @@ déplacements, la préparation (très longue :laughing:) et le debriefing d'apr�
 Je vous propose directement une petite galerie, avant de passer aux choses sérieuses dans l'article qui suit. Les
 photos proposent des vues depuis mon arrivée à Shinkobe et à mon hôtel.
 
------
-
 {% include gallery.html gallery="kobe-arrival" %}
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      Un dimanche à la maison
 date:       2008-08-31 15:40:47 +0200
-categories: ["Nourriture & Cuisine", "Quotidien"]
+categories: ["Nourriture"]
 ---
 
 C'est la première fois depuis que je suis au Japon que je ne mets pas les pieds dehors. Il faut dire que j'ai
@@ -22,13 +22,14 @@ photos, quelques images de mes repas du jour. J'ai tout d'abord testé un sandwi
 composé de pain mou légèrement sucré, d'oeuf (genre de crèpe) et de pâtes. Le résultat, je dois dire, plutôt moyen.
 Je ne reprendrais pas de si tôt un sandwich de la sorte :laughing: Mais sans plus attendre l'image du sandwich.
 
-<!-- /assets/images/posts/2008-08-31-un-dimanche-a-la-maison/dsc01130.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01130.jpg"
     type="landscape"
     title="Sandwich un peu bizare."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Pour le soir, je me suis improvisé des tranches panées. Je dois dire que je suis très content du résultat. J'ai pas
 l'habitude de travailler avec la chapelure locale :laughing: Le reste de l'oeuf qui m'a servi pour paner a fini sous forme
@@ -36,7 +37,7 @@ d'omelette. Le tout fut accompagné d'une bonne petite salade. Au moins, si le p
 va bien et mes repas aussi :laughing: Voici les photos de mes tranches panées après cuisson. La couleur sombre de
 l'omelette est due à la sauce soja que j'utilise pour saler mes plats.
 
-<!-- /assets/images/posts/2008-08-31-un-dimanche-a-la-maison/dsc01131.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01131.jpg"
     type="landscape"
@@ -44,11 +45,10 @@ l'omelette est due à la sauce soja que j'utilise pour saler mes plats.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-31-un-dimanche-a-la-maison/dsc01132.jpg -->
 {% include img.html
     image="dsc01132.jpg"
     type="landscape"
     title="Tranches pannées et omelette avec flash."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

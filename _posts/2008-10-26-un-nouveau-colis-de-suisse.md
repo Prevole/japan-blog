@@ -37,7 +37,7 @@ faut. C'est sûr que c'est plus cher, mais je crois sincèrement que ça en vaut
 suis sûr que tu comprendras mon point de vue et ma situation, s'il m'arrive quelque chose d'intestinal je serais pô
 dans la merde.
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1647.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1647.jpg"
     type="landscape"
@@ -46,7 +46,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1648.jpg -->
 {% include img.html
     image="img_1648.jpg"
     type="landscape"
@@ -55,7 +54,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1649.jpg -->
 {% include img.html
     image="img_1649.jpg"
     type="landscape"
@@ -64,7 +62,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1650.jpg -->
 {% include img.html
     image="img_1650.jpg"
     type="landscape"
@@ -73,7 +70,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1651.jpg -->
 {% include img.html
     image="img_1651.jpg"
     type="portrait"
@@ -82,7 +78,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1652.jpg -->
 {% include img.html
     image="img_1652.jpg"
     type="landscape"
@@ -91,7 +86,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1653.jpg -->
 {% include img.html
     image="img_1653.jpg"
     type="landscape"
@@ -100,7 +94,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1654.jpg -->
 {% include img.html
     image="img_1654.jpg"
     type="landscape"
@@ -109,7 +102,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1655.jpg -->
 {% include img.html
     image="img_1655.jpg"
     type="landscape"
@@ -118,7 +110,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1656.jpg -->
 {% include img.html
     image="img_1656.jpg"
     type="portrait"
@@ -127,7 +118,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1657.jpg -->
 {% include img.html
     image="img_1657.jpg"
     type="portrait"
@@ -136,7 +126,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1658.jpg -->
 {% include img.html
     image="img_1658.jpg"
     type="portrait"
@@ -145,7 +134,6 @@ dans la merde.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1659.jpg -->
 {% include img.html
     image="img_1659.jpg"
     type="landscape"
@@ -153,6 +141,7 @@ dans la merde.
     title="Un joujoux chips paprika."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'ai de quoi tenir quelque temps avec le chocolat. Pour le reste, ça va vite partir. Moi qui comptait perdre du
 poids au Japon, c'est pas encore gagné. Enfin, j'en sais rien, mais je sais que j'ai perdu :laughing:

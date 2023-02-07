@@ -15,7 +15,7 @@ Pour m'y rendre, j'ai pris deux bus et j'ai marché un bout. Sur le chemin j'ai 
 promenade y est très agréable par la chaleur qui régne. Une petite rivière, quelques animaux qui s'occupent de
 leurs affaires et quelques arbres pour donner un semblant de fraicheur.
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc00926.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00926.jpg"
     type="landscape"
@@ -23,7 +23,6 @@ leurs affaires et quelques arbres pour donner un semblant de fraicheur.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc00927.jpg -->
 {% include img.html
     image="dsc00927.jpg"
     type="landscape"
@@ -31,19 +30,19 @@ leurs affaires et quelques arbres pour donner un semblant de fraicheur.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc00928.jpg -->
 {% include img.html
     image="dsc00928.jpg"
     type="landscape"
     title="Une rivière paisible."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après ça, je suis arrivé près du temple mais j'ai du traverser une rue à la façon Ivoire pour ceux qui connaissent.
 En tout cas, ça m'a fait fortement penser à ça :laughing: D'un côté des souvenirs et babioles et de l'autre la même 
 chose. Des jolies choses à voir dans tous les cas. Puis après ça, on arrive au temple, du moins à l'entrée.
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc00929.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00929.jpg"
     type="landscape"
@@ -51,18 +50,18 @@ chose. Des jolies choses à voir dans tous les cas. Puis après ça, on arrive a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc00930.jpg -->
 {% include img.html
     image="dsc00930.jpg"
     type="landscape"
     title="La porte d'entrée du temple."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon article. Après ma visite, j'ai continué
 à prendre quelques clichés et me suis promené. Je vous laisse découvrir mes prises de vue.
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01000.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01000.jpg"
     type="landscape"
@@ -70,7 +69,6 @@ Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01001.jpg -->
 {% include img.html
     image="dsc01001.jpg"
     type="landscape"
@@ -78,7 +76,6 @@ Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01002.jpg -->
 {% include img.html
     image="dsc01002.jpg"
     type="landscape"
@@ -86,7 +83,6 @@ Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01003.jpg -->
 {% include img.html
     image="dsc01003.jpg"
     type="portrait"
@@ -94,7 +90,6 @@ Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01004.jpg -->
 {% include img.html
     image="dsc01004.jpg"
     type="landscape"
@@ -102,13 +97,13 @@ Après ça, je vous laisse découvrir la galerie de ma visite à la fin de mon a
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-17-ginkakuji-temple/dsc01005.jpg -->
 {% include img.html
     image="dsc01005.jpg"
     type="landscape"
     title="La montagne d'hier mais éteinte et de jour."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Enfin voici la galerie. Je vous prie de croire que l'effet ressenti lors de la visite, était tout aussi
 impressionnant que pour le Kinkakuji Temple. J'en suis resté ébahi et transcendé. Je dois dire que ce genre de

@@ -27,7 +27,7 @@ musique qui se répète sans cesse (certains de mes camarades vous diront que m�
 :smiling_imp:). D'après quelques personnes, ma musique s'entendait très loin dans le hall (vive les caisses de
 résonance :laughing:).
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2878.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2878.jpg"
     type="landscape"
@@ -36,7 +36,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2880.jpg -->
 {% include img.html
     image="img_2880.jpg"
     type="landscape"
@@ -45,7 +44,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2881.jpg -->
 {% include img.html
     image="img_2881.jpg"
     type="landscape"
@@ -54,7 +52,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2882.jpg -->
 {% include img.html
     image="img_2882.jpg"
     type="landscape"
@@ -63,7 +60,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2883.jpg -->
 {% include img.html
     image="img_2883.jpg"
     type="landscape"
@@ -72,7 +68,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2884.jpg -->
 {% include img.html
     image="img_2884.jpg"
     type="landscape"
@@ -81,7 +76,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2885.jpg -->
 {% include img.html
     image="img_2885.jpg"
     type="landscape"
@@ -90,7 +84,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2886.jpg -->
 {% include img.html
     image="img_2886.jpg"
     type="landscape"
@@ -99,7 +92,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2887.jpg -->
 {% include img.html
     image="img_2887.jpg"
     type="landscape"
@@ -108,7 +100,6 @@ résonance :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2888.jpg -->
 {% include img.html
     image="img_2888.jpg"
     type="landscape"
@@ -117,16 +108,12 @@ résonance :laughing:).
     gallery="img"
 %}
 
------
-
-<!-- /assets/media/posts/2009-01-25-journees-portes-ouvertes/OpenDays.mp4 -->
 {% include media.html
     media="OpenDays.mp4"
     title="Vidéo des portes ouvertes"
     gallery="video"
 %}
-
------
+{%- endmedia_cartridge -%}
 
 Le samedi était plus familial avec quelques parents qui sont venus voir les travaux. Ma mère est venue voir mon
 stand ainsi que ceux de mes camarades. Elle a eu l'occasion de rencontrer quelques-uns de mes camarades connus de
@@ -137,7 +124,7 @@ personnes :wink: . Elle a eu une très bonne guide avec Sandrine qui l'accompagn
 rencontrer ma mère et Sandrine. La matinée de samedi était nettement plus animée et surtout couronné d'un petit
 apéro offert par l'école. C'était bien sympathique. Voici quelques photos du samedi matin.
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2891.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2891.jpg"
     type="landscape"
@@ -146,7 +133,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2892.jpg -->
 {% include img.html
     image="img_2892.jpg"
     type="landscape"
@@ -155,7 +141,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2893.jpg -->
 {% include img.html
     image="img_2893.jpg"
     type="portrait"
@@ -164,7 +149,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2894.jpg -->
 {% include img.html
     image="img_2894.jpg"
     type="landscape"
@@ -173,7 +157,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2896.jpg -->
 {% include img.html
     image="img_2896.jpg"
     type="landscape"
@@ -182,7 +165,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2897.jpg -->
 {% include img.html
     image="img_2897.jpg"
     type="landscape"
@@ -191,7 +173,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2898.jpg -->
 {% include img.html
     image="img_2898.jpg"
     type="landscape"
@@ -200,7 +181,6 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2899.jpg -->
 {% include img.html
     image="img_2899.jpg"
     type="landscape"
@@ -208,6 +188,7 @@ apéro offert par l'école. C'était bien sympathique. Voici quelques photos du 
     title="idem."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Durant l'après-midi du vendredi, j'ai eu l'occasion d'être interviewé par un journal de la région d'Yverdon, alors
 que je ne le savais même pas. Au moins, j'aurai été naturel et j'aurai répondu aux questions sur mon projet sans
@@ -218,4 +199,3 @@ j'ai été pris au dépourvu et ne pas avoir été à mon avantage. M'enfin c'es
 Au final, ces deux journées ne m'auront pas apporté des choses fantasmagorique mais c'était vraiment sympa. C'était
 l'occasion de revoir le monde, faire des bons apéros, de pouvoir faire de la pub pour un professeur qui en vaut
 vraiment la peine, faire du public relation.
-

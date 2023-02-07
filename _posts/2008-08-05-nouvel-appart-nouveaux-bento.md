@@ -2,7 +2,7 @@
 layout:     post
 title:      Nouvel appart ... nouveaux bentô
 date:       2008-08-05 14:01:32 +0200
-categories: ["Nourriture & Cuisine", "Quotidien"]
+categories: ["Nourriture"]
 ---
 
 Et oui, la série des bentô n'est pas prête de s'arrêter. J'ai beau être dans un nouvel appart, je continue
@@ -16,13 +16,14 @@ savoir où étaient rangées les sauces à salade. Il m'a gentiment amené vers 
 un choix entre 10 ou 20 sauces différentes alors j'ai pris au hasard :laughing: J'ai eu de la chance, elle a bon goût 
 :laughing: Et tout de suite, une petite photo de mon repas.
 
-<!-- /assets/images/posts/2008-08-05-nouvel-appart-nouveaux-bento/dsc00747.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00747.jpg"
     type="landscape"
     title="Premier repas home made."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Il faut souligner que c'est mon premier repas préparé par mes petites mains à moi, ici au pays du soleil levant. Il
 faut comprendre que c'est plus facile ici qu'avant :wink: Et puis, maintenant que je sais que je reste ici pour le

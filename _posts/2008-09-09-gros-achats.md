@@ -52,13 +52,14 @@ japonais adorent ce genre de choses. Regardez par vous-même le nombre de machin
 restaurant. Il vaut mieux ne jamais en prendre si vous êtes un peu collectionneur sur les bords. Heum, je me tiens
 à bonne portée de ces machines car je sais qu'il y a des sujets intéressants :wink:
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01277.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01277.jpg"
     type="landscape"
     title="Machines à balles."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Nous avons encore fait quelques mètres ensemble et puis nous nous sommes dits aurevoir. J'ai bien apprécié son aide
 également pour porter mon APN mais bizarrement, il a hésité à me le donner au moment de partir :smiling_imp: Je le
@@ -69,7 +70,7 @@ acquisitions du jour. Mais je me suis posé la question comment faire pour prend
 nouvel APN :laughing: Mais non je déconne, c'était juste un petit délire passager. Sans plus attendre les photos de
 mes acquisitions.
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01278.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01278.jpg"
     type="landscape"
@@ -77,7 +78,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01279.jpg -->
 {% include img.html
     image="dsc01279.jpg"
     type="landscape"
@@ -85,7 +85,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01280.jpg -->
 {% include img.html
     image="dsc01280.jpg"
     type="landscape"
@@ -93,7 +92,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01281.jpg -->
 {% include img.html
     image="dsc01281.jpg"
     type="landscape"
@@ -101,7 +99,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01282.jpg -->
 {% include img.html
     image="dsc01282.jpg"
     type="landscape"
@@ -109,7 +106,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01283.jpg -->
 {% include img.html
     image="dsc01283.jpg"
     type="landscape"
@@ -117,7 +113,6 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01284.jpg -->
 {% include img.html
     image="dsc01284.jpg"
     type="landscape"
@@ -125,13 +120,13 @@ mes acquisitions.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-09-gros-achats/dsc01285.jpg -->
 {% include img.html
     image="dsc01285.jpg"
     type="landscape"
     title="Mon imprimante installée."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Quelques remarques supplémentaires. Vous vous doutez bien que tout ce beau monde est deja prêt et fonctionnel. Pour
 l'installation des deux appareils, rien de plus simple, on met le CD, on lit les instructions parce que directement

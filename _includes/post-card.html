@@ -1,0 +1,18 @@
+{%- assign post = include.post -%}
+{%- assign comment_collection = post.name | remove: '.md' -%}
+{%- assign category = post.categories | first | slugify: "latin" -%}
+<article class="post-card">
+    <header class="post-card-header {{ category }}">
+        <time datetime="{{ post.date }}">{{ post.date | format_dt }}</time>{{ post | comment_str }}
+        <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
+    </header>
+    <section class="post-card-categories">
+        {%- for category in post.categories -%}<span><a href="/category/{{ category }}">{{ category }}</a></span>{%- endfor -%}
+    </section>
+    <section class="post-card-excerpt">
+        {{ post.excerpt }}
+    </section>
+    <footer class="post-card-footer">
+        <a href="{{ post.url | relative_url }}">Suite…</a>
+    </footer>
+</article>

@@ -2,7 +2,7 @@
 layout:     post
 title:      Bonne année
 date:       2009-01-01 07:07:13 +0100
-categories: ["Général", "Nourriture & Cuisine", "Divers"]
+categories: ["Général", "Nourriture", "Divers"]
 ---
 
 Nous voilà déjà en 2009. Le temps passe tellement vite quand il est vécu intensément. Je vous souhaite, à vous mes
@@ -20,7 +20,7 @@ vraiment des mochi, j'attendrais confirmation des experts, mais d'après moi si 
 sorte de :laughing: Ces petits trucs sont fourrés avec des pâtes de haricots sucrées. Désolé pour le flou de la
 photo.
 
-<!-- /assets/images/posts/2009-01-01-bonne-annee/img_2775.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2775.jpg"
     type="landscape"
@@ -28,6 +28,7 @@ photo.
     title="Mochi."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 En dehors de ça, le compte à rebours à largement débuté pour mon retour. Dans 7 jours je décolle pour mon retour en
 Suisse. Ça fait vraiment tout bizarre de se dire qu'une aventure est sur le point de se terminer. Pour le moment,

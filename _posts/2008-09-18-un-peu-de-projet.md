@@ -53,7 +53,7 @@ Transfert Objects en partie.
 Tout de suite je vous propose un diagrame pour mieux fixer les idées en place et comprendre le cheminement du
 processus depuis la requête d'un client à la réponse au client.
 
-<!-- /assets/images/posts/2008-09-18-un-peu-de-projet/mvc.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="mvc.jpg"
     type="landscape"
@@ -63,7 +63,9 @@ processus depuis la requête d'un client à la réponse au client.
     thumb_use_original="yes"
     title="MVC"
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Je vous fais une fleur, je mets la légende en français :laughing:
 

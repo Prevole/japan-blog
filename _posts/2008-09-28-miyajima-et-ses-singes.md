@@ -20,6 +20,4 @@ instinctivement nos visites en commun à partir de ce moment. En tout cas sur le
 voir qu'ils n'ont absolument pas peur de nous. C'est tout juste pas s'il se jetteraient pas sur nous pour trouver
 de la nourriture. Par contre, entre eux, ils sont très vindicatifs.
 
------
-
 {% include gallery.html gallery="miyajima-singes" %}

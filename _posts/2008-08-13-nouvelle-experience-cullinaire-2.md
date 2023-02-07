@@ -2,7 +2,7 @@
 layout:     post
 title:      Nouvelle expérience culinaire
 date:       2008-08-13 13:59:14 +0200
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 Je sais, je sais, on en sort plus. On dirait que je suis ici que pour ça. Mais faut dire que c'est quand même
@@ -33,7 +33,7 @@ Pour finir, j'ai pu manger tranquille mon repas que voici. Il se compose d'une s
 de ce que je mets moi dans ma salade habituellement) avec une sauce au sésame très bonne et des sushis. Ça faisait
 quelques jours que j'en avais pas mangé :laughing:
 
-<!-- /assets/images/posts/2008-08-13-nouvelle-experience-cullinaire-2/dsc009031.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc009031.jpg"
     type="landscape"
@@ -41,13 +41,13 @@ quelques jours que j'en avais pas mangé :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-13-nouvelle-experience-cullinaire-2/dsc00904.jpg -->
 {% include img.html
     image="dsc00904.jpg"
     type="landscape"
     title="Salade et sushis avec flash."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après mon repas, je me suis remis au travail et vers 15h00 je reçois un message skype de la part de l'assistant qui
 me demande comment je vais et si j'ai prévu quelque chose pour mon repas de ce soir. A la base, j'avais prévu de me
@@ -66,13 +66,14 @@ première fois de ma vie j'ai mangé des poissions entiers (tête, queue, oeufs,
 je dois dire que tout était très bon. Ce changement de goût de la nourriture par rapport à ce que je connais est
 vraiment appréciable.
 
-<!-- /assets/images/posts/2008-08-13-nouvelle-experience-cullinaire-2/dsc00905.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00905.jpg"
     type="landscape"
     title="Aperçu du miam du soir."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Ce fut un très bon repas et une très chouette soirée. Je le remercie encore pour ce moment passé ensemble. La
 communication était pas tout le temps évidente mais dans l'ensemble nous nous sommes compris (en anglais) et avons

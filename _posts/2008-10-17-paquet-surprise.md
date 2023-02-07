@@ -17,7 +17,7 @@ j'avais besoin de quelque chose. Si ça c'est pas un coup prémédité. :smiling
 plaisir, et je me suis trop marré en ouvrant le paquet. Vous allez comprendre pourquoi, avec les quelques photos
 suivantes.
 
-<!-- /assets/images/posts/2008-10-17-paquet-surprise/dsc01318.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01318.jpg"
     type="landscape"
@@ -26,7 +26,6 @@ suivantes.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-17-paquet-surprise/dsc01319.jpg -->
 {% include img.html
     image="dsc01319.jpg"
     type="landscape"
@@ -35,7 +34,6 @@ suivantes.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-17-paquet-surprise/dsc01320.jpg -->
 {% include img.html
     image="dsc01320.jpg"
     type="landscape"
@@ -44,7 +42,6 @@ suivantes.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-17-paquet-surprise/dsc01321.jpg -->
 {% include img.html
     image="dsc01321.jpg"
     type="landscape"
@@ -52,6 +49,7 @@ suivantes.
     title="Le texte de la petite carte."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Pour ceux qui arriverait à lire la carte, vous vous demanderez certainement ce que veut dire le passage sur le
 Casino. Pour ça je répondrais simplement ceci. Tout le monde a refait le monde une fois ou plus dans sa vie tard le
@@ -79,7 +77,7 @@ J'ai deja englouti les snacks et gouté le Wasabi. Les snacks bien que particuli
 pour certains. Alors faut faire très attention, parce qu'on peut se casser une dent avec des machins comme ça. Pour
 le Wasabi, pas de doute ça pique la tête :laughing: Allez, une petite photo des snacks pour le fun.
 
-<!-- /assets/images/posts/2008-10-17-paquet-surprise/dsc01322.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01322.jpg"
     type="landscape"
@@ -87,6 +85,7 @@ le Wasabi, pas de doute ça pique la tête :laughing: Allez, une petite photo de
     title="Snacks."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Merci à toi Michael pour ce paquet. Ca m'a bien fait plaisir et bien fait rigoler. Mais c'est là qu'on voit, comme
 ça douille les frais postaux :neutral_face:

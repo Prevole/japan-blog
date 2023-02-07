@@ -14,7 +14,7 @@ C'est franchement super sympa et ça me touche tout plein. J'en ai déjà mangé
 miam et remiam. Merci à tous les signataires de la petite carte qui accompagne les biscuits. Sans plus attendre
 quelques photos.
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2501.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2501.jpg"
     type="landscape"
@@ -23,7 +23,6 @@ quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2502.jpg -->
 {% include img.html
     image="img_2502.jpg"
     type="portrait"
@@ -32,7 +31,6 @@ quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2503.jpg -->
 {% include img.html
     image="img_2503.jpg"
     type="landscape"
@@ -41,7 +39,6 @@ quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2504.jpg -->
 {% include img.html
     image="img_2504.jpg"
     type="landscape"
@@ -50,7 +47,6 @@ quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2505.jpg -->
 {% include img.html
     image="img_2505.jpg"
     type="portrait"
@@ -59,7 +55,6 @@ quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-10-biscuits-de-noel/img_2506.jpg -->
 {% include img.html
     image="img_2506.jpg"
     type="landscape"
@@ -67,4 +62,4 @@ quelques photos.
     title="Les milanais nature."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

@@ -17,7 +17,7 @@ pense que j'en ai déjà eu de similiaire, mais c'était très bon. Et je me sui
 un peu de vin japonais. Il porte bien son nom : "Bon Marché". Fallait tester :laughing: Pour le dessert, j'ai pris
 des tranches de roulade à la crème et à la mousse au chocolat. C'est dangereux, tellement c'est bon :laughing:
 
-<!-- /assets/images/posts/2008-11-25-bento-danniversaire/img_2075.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2075.jpg"
     type="landscape"
@@ -26,7 +26,6 @@ des tranches de roulade à la crème et à la mousse au chocolat. C'est dangereu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-25-bento-danniversaire/img_2076.jpg -->
 {% include img.html
     image="img_2076.jpg"
     type="landscape"
@@ -35,7 +34,6 @@ des tranches de roulade à la crème et à la mousse au chocolat. C'est dangereu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-25-bento-danniversaire/img_2077.jpg -->
 {% include img.html
     image="img_2077.jpg"
     type="landscape"
@@ -44,7 +42,6 @@ des tranches de roulade à la crème et à la mousse au chocolat. C'est dangereu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-25-bento-danniversaire/img_2078.jpg -->
 {% include img.html
     image="img_2078.jpg"
     type="landscape"
@@ -52,4 +49,4 @@ des tranches de roulade à la crème et à la mousse au chocolat. C'est dangereu
     title="Dessert, prise 2."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

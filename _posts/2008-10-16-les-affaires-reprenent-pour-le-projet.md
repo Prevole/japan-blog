@@ -6,7 +6,9 @@ categories: ["Projet"]
 ---
 
 Quelques mots sur le projet pour vous faire part d'une grande percée. Cette percée est avant tout psychologique
-qu'autre chose, mais c'est très important pour le moral.<!--more-->
+qu'autre chose, mais c'est très important pour le moral.
+
+<!--more-->
 
 Depuis deux semaines, je tente de mettre en place avec David - un assistant à l'IICT, institut dans lequel je fais
 mon Travail de Diplôme - inTrack directement intégré à une partie de mon projet. Ça ne s'est vraiment pas fait sans

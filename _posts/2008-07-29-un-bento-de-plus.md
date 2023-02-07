@@ -2,7 +2,7 @@
 layout:     post
 title:      Un bentô de plus
 date:       2008-07-29 13:45:51 +0200
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 C'est pas que je ne sais pas quoi mettre sur mon blog, mais je trouve marrant de vous faire partager mes plateaux
@@ -24,7 +24,7 @@ et j'ai trouvé ça plutôt bon. Certains goûts ne me sont clairement pas connu
 
 Je vous laisse admirer mon repas.
 
-<!-- /assets/images/posts/2008-07-29-un-bento-de-plus/dsc00511.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00511.jpg"
     type="landscape"
@@ -32,10 +32,10 @@ Je vous laisse admirer mon repas.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-29-un-bento-de-plus/dsc00512.jpg -->
 {% include img.html
     image="dsc00512.jpg"
     type="landscape"
     title="Bentô avec flash."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}

@@ -23,7 +23,7 @@ les pringles Suisse :laughing: Nan je suis pas en manque du pays c'est juste que
 boîte de bonbons j'attends de voir si certains penseront à ce que ça m'a fait penser. Bonne chance :smiling_imp:
 Indice : La boîte est en métal et quand on secoue ça fait du bruit :wink: (forcément :laughing:)
 
-<!-- /assets/images/posts/2008-09-21-temps-a-rester-sous-le-duvet/dsc01286.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01286.jpg"
     type="portrait"
@@ -32,7 +32,6 @@ Indice : La boîte est en métal et quand on secoue ça fait du bruit :wink: (fo
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-21-temps-a-rester-sous-le-duvet/dsc01287.jpg -->
 {% include img.html
     image="dsc01287.jpg"
     type="landscape"
@@ -40,6 +39,7 @@ Indice : La boîte est en métal et quand on secoue ça fait du bruit :wink: (fo
     title="Boîte de bonbons."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Durant l'après-midi, j'ai fait quelques photos depuis mon balcon, parce que je trouvais que ça en valait la peine.
 A vous d'en juger.

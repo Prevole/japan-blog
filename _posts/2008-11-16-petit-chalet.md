@@ -2,7 +2,7 @@
 layout:     post
 title:      Petit Chalet
 date:       2008-11-16 14:46:51 +0100
-categories: ["Balades", "Nourriture & Cuisine", "Divers"]
+categories: ["Balades", "Nourriture", "Divers"]
 ---
 
 Ce soir, nous sommes allés manger une fondue au fromage avec l'assistant. Je lui ai proposé avant-hier, d'aller
@@ -18,7 +18,7 @@ directement devant le resto ce dimanche à 18h00.
 J'ai trouvé facilement le lieu en question et l'assistant m'a rejoint quelques minutes après. Nous sommes entrés,
 mais avant cela, j'en ai profité pour faire deux ou trois photos de la devanture.
 
-<!-- /assets/images/posts/2008-11-16-petit-chalet/img_1979.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1979.jpg"
     type="landscape"
@@ -27,7 +27,6 @@ mais avant cela, j'en ai profité pour faire deux ou trois photos de la devantur
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-16-petit-chalet/img_1980.jpg -->
 {% include img.html
     image="img_1980.jpg"
     type="landscape"
@@ -36,7 +35,6 @@ mais avant cela, j'en ai profité pour faire deux ou trois photos de la devantur
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-16-petit-chalet/img_1981.jpg -->
 {% include img.html
     image="img_1981.jpg"
     type="landscape"
@@ -44,6 +42,7 @@ mais avant cela, j'en ai profité pour faire deux ou trois photos de la devantur
     title="Devanture, prise 3."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Nous avons effectivement mangé notre fondue. C'était la première fois que l'assistant mangeait une fondue. Je dois
 dire que malheureusement, pour une première fois, c'est pas des plus réussi :neutral_face: La fondue était faite

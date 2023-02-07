@@ -14,7 +14,5 @@ J'avais rendez-vous à 10h00 avec l'ami de l'assistant que j'avais rencontré lo
 première fois. Il m'a proposé de me servir de guide pour n'importe quel quartier de Tokyo et j'ai opté pour
 Akihabara - haut lieu de la Otaku Attitude.
 
------
-
 {% include gallery.html gallery="tokyo-station-view" %}
 

@@ -25,33 +25,18 @@ entrer dans les détails.
 
 Les cas d'utilisation implémentés sont les suivants :
 
-<ul>
-
-<li>Démarrage du jeu</li>
-
-<li>Enregistrement de l'utilisateur</li>
-
-<li>Choix de l'avatar (partie comprise dans le cas d'utilisation précédent)</li>
-
-<li>Connexion du joueur au jeu</li>
-
-<li>Premier dialogue lors de la première connexion pour proposer une première quête.</li>
-
-<li>Proposition de quête dans un dialogue</li>
-
-</ul>
+- Démarrage du jeu
+- Enregistrement de l'utilisateur
+- Choix de l'avatar (partie comprise dans le cas d'utilisation précédent)
+- Connexion du joueur au jeu
+- Premier dialogue lors de la première connexion pour proposer une première quête.
+- Proposition de quête dans un dialogue
 
 Les cas d'utilisation en cours d'implémentation sont les suivants :
 
-<ul>
-
-<li>Dialogue avec des personnages non joueur</li>
-
-<li>Localisation du joueur</li>
-
-<li>Affichage des éléments proches du joueur</li>
-
-</ul>
+- Dialogue avec des personnages non joueur
+- Localisation du joueur
+- Affichage des éléments proches du joueur
 
 Ca donne une petite idée de ce qui se passe dans le développement et ce qui se cache un petit peu derrière. Autant
 le dire tout de suite, je ne vais pas étaler ici des schémas de base de données ou de conception objet. La partie
@@ -66,13 +51,14 @@ maigres mais suffisantes pour un rendu minimal et suffisamment satisfaisant.
 Première capture, l'arrivée sur la page d'accueil qui offre le choix entre la connexion (par défaut) et
 l'enregistrement de l'utilisateur.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_1.jpg"
     type="portrait"
     title="Ecran d'accueil."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Pour cette petite présentation, j'ai passé directement par la case enregistrement où j'ai été amené à indiquer mon
 nickname et mon mot de passe. A priori, les caractères japonais seront acceptés. La base de données est configurées
@@ -81,37 +67,40 @@ clavier me le permettant. Toutefois, j'ai fait un copier/coller de caractères t
 très bien, sauf que dans phpmyadmin ça sortait bizarre mais pas au niveau du retour au client. Donc je pars de
 l'hypothèse que ce point est bon.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_2.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_2.jpg"
     type="portrait"
     title="Ecran d'enregistrement."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Vient le choix de l'avatar. Cet écran a été réalisé de manière à pouvoir être utilisé en dehors du processus
 d'enregistrement de l'utilisateur. Il est indépendant de ce processus en d'autres termes. Un choix de neuf avatars
 par page est proposé avec possibilité de changer de page.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_3.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_3.jpg"
     type="portrait"
     title="Ecran du choix de l'avatar."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Une fois choisi et cliqué sur "Finish", on se retrouve sur un écran de confirmation qui nous invite à poursuivre.
 Il n'est pas tout à fait fini mais s'inscrit dans un cadre générique d'affichage de message d'erreur, d'information
 ou d'avertissement. Cet affichage est donc relativement générique.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_4.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_4.jpg"
     type="portrait"
     title="Ecran de confirmation d'enregistrement."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Ensuite, nous nous retrouvons sur la page d'accueil et nous pouvons passer à la connexion. C'est ce que montre
 l'écran suivant ou j'ai déjà rempli les valeurs nécessaires. La case "Remember me" est une expérience. A la base,
@@ -125,38 +114,41 @@ tester que ça fonctionne sur un navigateur normal mais impossible de tester sur
 que sur le téléphone mobile ça fonctionnera. Je verrai bien. Dans le cas contraire, la petite case disparaitra tout
 simplement.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_5.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_5.jpg"
     type="portrait"
     title="Ecran de connexion."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Lors de la première connexion au jeu, le joueur se retrouve à parler avec son avatar. Le but de ce premier dialogue
 est de présenter le jeu et d'expliquer le mécanisme des quêtes. Après quoi, une quête est proposé au joueur (l'idée
 étant par exemple de trouver un NPC étant le plus proche du joueur).
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_6.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_6.jpg"
     type="portrait"
     title="Ecran de dialogue."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Voici à présent l'écran qui propose une quête. Comme on peut le constater, la place dans la bulle n'est pas très
 grande et ainsi, le détail de la quête ne peut être montré directement dans le dialogue. Pour pallier à ce
 problème, un écran de détails de quête est prévu à partir du dialogue. Le lien pour aller aux détails de la quête
 est d'ailleurs visible sur la droite de l'écran.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_7.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_7.jpg"
     type="portrait"
     title="Ecran de proposition de quête."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Voici le détail de la quête (oui je sais, les textes laissent à désirer mais c'est du test. L'important pour le
 moment était le mécanisme et pas le contenu. Le contenu va pas tarder, vous en faites pas.). Pour le moment, la
@@ -164,39 +156,42 @@ quête manque de substance. On ne voit par exemple pas les conditions à remplir
 récompenses à obtenir en cas de succès. Les mécanismes d'affichage sont présents mais je n'ai pas mis de données
 pour cette partie. Ca ne m'intéressait pas encore de tester cette partie.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_8.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_8.jpg"
     type="portrait"
     title="Ecran de détails d'une quête."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Lorsqu'on retourne à l'écran de la proposition de la quête, on a le choix entre accepter ou refuser la quête. Pour
 cette fois, j'ai accepté la quête. Voici ce que mon avatar me répond. Il faut savoir qu'en acceptant, la quête a
 été ajoutée à mon journal de quête (que l'on ne peut pas encore voir, vu qu'il n'existe pas encore de
 reprsésentation graphique :wink:). Mais au moins, la quête est à présent en cours.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_9.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_9.jpg"
     type="portrait"
     title="Autre écran de dialogue."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et pour finir, lorsque le dialogue prend fin comme c'est le cas à l'écran précédent, on se retrouve sur la vue
 principale qui est la carte. Pour le moment celle-ci n'est pas implémentée et ne le sera pas avant un moment suite
 à quelques petites difficultés. Toutefois, en attendant, je compte mettre en place une liste des objets à proximité
 du joueur. Quand je dis objets, j'entends NPC, Joueurs et items.
 
-<!-- /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_10.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="wui_10.jpg"
     type="portrait"
     title="Ecran vue de la carte."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Tout ceci est réalisé au moyen d'images, de code iHTML et style directement inclus dans les balises. J'ai voulu
 trouver un framework simple pour faire une application iMode mais je n'ai rien trouvé de pertinent en anglais ou en

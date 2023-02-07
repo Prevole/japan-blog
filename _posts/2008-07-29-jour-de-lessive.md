@@ -2,7 +2,7 @@
 layout:     post
 title:      Jour de lessive
 date:       2008-07-29 12:05:05 +0200
-categories: ["Quotidien"]
+categories: ["Divers"]
 ---
 
 Comme qui dirait, faut bien faire sa lessive de temps en temps. Normalement c'est quelque chose qui est facile à
@@ -40,11 +40,11 @@ d'appoint. Je pense que mon linge sera sec dans 2 jours maximum.
 Pour finir, je vous laisse une petite photo pour vous montrer à quoi ressemble ma chambre actuellement. Je m'amuse
 comme un fou :laughing:
 
-<!-- /assets/images/posts/2008-07-29-jour-de-lessive/dsc00509.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00509.jpg"
     type="landscape"
     title="T-Shirts en train de sécher."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

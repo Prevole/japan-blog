@@ -2,7 +2,7 @@
 layout:     post
 title:      Foreign Registration
 date:       2008-08-11 13:02:30 +0200
-categories: ["Nourriture & Cuisine", "Divers"]
+categories: ["Nourriture", "Divers"]
 ---
 
 Comme l'indique le titre, ou presque, aujourd'hui je suis allé à la préfecture pour me faire enregistrer en tant
@@ -50,7 +50,7 @@ que j'ai pas intérêt à oublier ces dates, si je veux pas recommencer ces dém
 Vu que la tradition est ancrée, je vous mets les photos de mon repas de ce soir. Dans 10 ans, quand je regarderai
 mes archives, je sens que je vais bien me marrer en repensant à toutes ces photos de repas :laughing:
 
-<!-- /assets/images/posts/2008-08-11-foreign-registration/dsc00899.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00899.jpg"
     type="landscape"
@@ -58,11 +58,10 @@ mes archives, je sens que je vais bien me marrer en repensant à toutes ces phot
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-11-foreign-registration/dsc00900.jpg -->
 {% include img.html
     image="dsc00900.jpg"
     type="landscape"
     title="Repas du soir avec flash."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

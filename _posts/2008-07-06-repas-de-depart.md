@@ -2,7 +2,7 @@
 layout:     post
 title:      Repas de départ
 date:       2008-07-06 23:00:00 +0200
-categories: ["Général", "Nourriture & Cusine"]
+categories: ["Général", "Nourriture"]
 ---
 
 Avant le départ, il est de coutume d’organiser une petite bouffe d’au revoir. C’est chose faite. J’ai préparé un repas 

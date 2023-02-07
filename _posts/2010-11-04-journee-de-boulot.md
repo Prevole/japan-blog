@@ -63,7 +63,7 @@ personne qui m'accueillait était contente, car il a découvert un quartier qu'i
 imaginait pas du tout que ça puisse exister, un tel magasin. Je vous laisse avec une petite photo de mes chaussures
 détruites (que j'ai pu laisser au magasin et repartir directement chaussé des nouvelles, pratique, très pratique).
 
-<!-- /assets/images/posts/2010-11-04-journee-de-boulot/IMG_0078.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="IMG_0078.jpg"
     type="portrait"
@@ -71,3 +71,4 @@ détruites (que j'ai pu laisser au magasin et repartir directement chaussé des 
     title="Chaussures détruites"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}

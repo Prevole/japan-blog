@@ -29,7 +29,7 @@ Après cette visite, il commençait à se faire tard. Nous sommes allés prendre
 et ensuite le train pour nos hôtels respectifs. Je devais encore faire le check-in. Nous nous sommes donnés
 rendez-vous à 20h30 à Akihabara pour aller partager le repas du soir.
 
-<!-- /assets/images/posts/2008-11-02-quartier-dasakusa-a-tokyo/tokyometromap1.png -->
+{%- media_cartridge -%}
 {% include img.html
     image="tokyometromap1.png"
     type="landscape"
@@ -39,10 +39,10 @@ rendez-vous à 20h30 à Akihabara pour aller partager le repas du soir.
     thumb_use_original="yes"
     title="Itinéraire."
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Sans plus attendre, la galerie de photos.
-
------
 
 {% include gallery.html gallery="asakusa" %}

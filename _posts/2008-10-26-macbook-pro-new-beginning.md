@@ -21,7 +21,7 @@ Ceci dit, je ne vous ai pas encore montré le déballage de la bête :laughing: 
 prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.2008 à 12h00 (bon pas tapantes :wink:
 ). Voici sans plus attendre les photos.
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1578.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1578.jpg"
     type="landscape"
@@ -30,7 +30,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1579.jpg -->
 {% include img.html
     image="img_1579.jpg"
     type="landscape"
@@ -39,7 +38,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1580.jpg -->
 {% include img.html
     image="img_1580.jpg"
     type="landscape"
@@ -48,7 +46,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1581.jpg -->
 {% include img.html
     image="img_1581.jpg"
     type="landscape"
@@ -57,7 +54,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1582.jpg -->
 {% include img.html
     image="img_1582.jpg"
     type="landscape"
@@ -66,7 +62,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1583.jpg -->
 {% include img.html
     image="img_1583.jpg"
     type="landscape"
@@ -75,7 +70,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1584.jpg -->
 {% include img.html
     image="img_1584.jpg"
     type="landscape"
@@ -84,7 +78,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1585.jpg -->
 {% include img.html
     image="img_1585.jpg"
     type="landscape"
@@ -93,7 +86,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1586.jpg -->
 {% include img.html
     image="img_1586.jpg"
     type="landscape"
@@ -102,7 +94,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1587.jpg -->
 {% include img.html
     image="img_1587.jpg"
     type="landscape"
@@ -111,7 +102,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1588.jpg -->
 {% include img.html
     image="img_1588.jpg"
     type="landscape"
@@ -120,7 +110,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1589.jpg -->
 {% include img.html
     image="img_1589.jpg"
     type="landscape"
@@ -129,7 +118,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1590.jpg -->
 {% include img.html
     image="img_1590.jpg"
     type="landscape"
@@ -138,7 +126,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1591.jpg -->
 {% include img.html
     image="img_1591.jpg"
     type="landscape"
@@ -147,7 +134,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1592.jpg -->
 {% include img.html
     image="img_1592.jpg"
     type="landscape"
@@ -156,7 +142,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1593.jpg -->
 {% include img.html
     image="img_1593.jpg"
     type="landscape"
@@ -165,7 +150,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1594.jpg -->
 {% include img.html
     image="img_1594.jpg"
     type="landscape"
@@ -174,7 +158,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1595.jpg -->
 {% include img.html
     image="img_1595.jpg"
     type="landscape"
@@ -183,7 +166,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1596.jpg -->
 {% include img.html
     image="img_1596.jpg"
     type="landscape"
@@ -192,7 +174,6 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1597.jpg -->
 {% include img.html
     image="img_1597.jpg"
     type="landscape"
@@ -200,6 +181,7 @@ prises fraichement après l'arrivée de mon Mac. Je l'ai eu le vendredi 24.10.20
     title="Vue d'ensemble sur le bureau avec mon vénérable portable qui a bien servi."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et voilà, après ces quelques photos, place au texte :laughing: J'ai passé mon week-end sur mon ordi. J'ai fait mon
 geek. J'ai presque failli oublier de faire mes courses et de manger. Heureusement que j'ai eu une petite voix

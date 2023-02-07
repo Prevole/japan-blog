@@ -2,7 +2,7 @@
 layout:     post
 title:      Balade dans tout Tokyo
 date:       2010-11-07 16:01:35 +0100
-categories: ["Balades"]
+categories: ["Balades", "Général"]
 ---
 
 Aujourd'hui étant mon dernier jour à Tokyo (avant la prochaine fois), j'ai profité pour faire un maximum de choses.
@@ -18,17 +18,19 @@ Tokyo Tower et l'arrivée, bah forcément proche de l'appartement. Pour le point
 point 4, c'était Akiba (je pouvais pas ne pas y retourner :laughing:), le point 3, où j'ai mangé ce soir et le
 point 4, Shibuya ou j'ai fait une petite halte de principe.
 
-<!-- /assets/images/posts/2010-11-07-balade-dans-tout-tokyo/tokyo-metro-map1.png -->
+{%- media_cartridge -%}
 {% include img.html
     image="tokyo-metro-map1.png"
     type="landscape"
-    thumb_size="300x200"
-    thumb_width="300"
-    thumb_height="195"
+    thumb_size="300x195"
+    thumb_width="500"
+    thumb_height="295"
     thumb_use_original="yes"
     title="Metro map"
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Alors commençons par le commencement. Ce matin, je me suis levé... bon bon ok. Je suis sorti faire mon dernier tour
 en partant du principe que j'allais au moins voir la Tokyo Tower et pour le reste, aucune idée précise. En gros,

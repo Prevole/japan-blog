@@ -2,7 +2,7 @@
 layout:     post
 title:      Une journée de plus
 date:       2008-07-25 14:39:16 +0200
-categories: ["Général", "Comparaisons", "Nourriture & Cuisine"]
+categories: ["Général", "Comparaisons", "Nourriture"]
 ---
 
 J'ai enfin débuté mon projet aujourd'hui. J'ai posé mes premières lignes de code sur la base de ce que l'on avait
@@ -46,7 +46,7 @@ Nous nous sommes séparés et je suis rentré chez moi après ce petit tour dans
 plaisir. Je me suis arrêté dans un restaurant de sushis sur le chemin de mon chez moi actuel. Je me suis pris des
 sushis pour 1145 yen (11.45 CHF). Voici ce que j'ai eu pour cette somme. C'est tout à fait correct à mon sens.
 
-<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00320.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00320.jpg"
     type="landscape"
@@ -54,19 +54,19 @@ sushis pour 1145 yen (11.45 CHF). Voici ce que j'ai eu pour cette somme. C'est t
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00321.jpg -->
 {% include img.html
     image="dsc00321.jpg"
     type="landscape"
     title="Sushi pas flachés."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 En sortant du restaurant et en me dirigeant chez moi, j'ai croisé une nouvelle bestiole toute bruyante. Je vous
 montre ce que ça donne. C'est vraiment grand. Je sais pas si ça pique, mord ou autre joyeuseté du genre, mais si
 c'est le cas j'ai pas très envie de tester :laughing:
 
-<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00318.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00318.jpg"
     type="landscape"
@@ -74,11 +74,10 @@ c'est le cas j'ai pas très envie de tester :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00319.jpg -->
 {% include img.html
     image="dsc00319.jpg"
     type="landscape"
     title="Grosse bestiolle bis."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

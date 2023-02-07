@@ -19,7 +19,7 @@ le train pour chez moi. Je ne voulais pas me préparer qqch encore en rentrant.
 En allant dans le hall de gare, j'ai vu que plein de gens prenaient des photos vers le haut de la gare. Je
 comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui suit :laughing:
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1966.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1966.jpg"
     type="portrait"
@@ -28,7 +28,6 @@ comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1967.jpg -->
 {% include img.html
     image="img_1967.jpg"
     type="portrait"
@@ -37,7 +36,6 @@ comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1968.jpg -->
 {% include img.html
     image="img_1968.jpg"
     type="portrait"
@@ -46,7 +44,6 @@ comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1969.jpg -->
 {% include img.html
     image="img_1969.jpg"
     type="portrait"
@@ -55,7 +52,6 @@ comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1970.jpg -->
 {% include img.html
     image="img_1970.jpg"
     type="portrait"
@@ -63,11 +59,12 @@ comprenais pas pourquoi jusqu'au moment où j'ai levé la tête pour voir ce qui
     title="Sacré sapin de noël, prise 5."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après être rentré j'ai encore fait une petite photo des boîtes de pot-au-feu que je vais envoyer au pays
 prochainement :laughing:
 
-<!-- /assets/images/posts/2008-11-02-retour-a-kyoto/img_1972.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1972.jpg"
     type="landscape"
@@ -75,6 +72,7 @@ prochainement :laughing:
     title="Pot-au-feu japonais."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est ici que s'arrête ma première aventure Tokyoïte, mais je compte bien y retourner avant de rentrer en Suisse.
 Ça sera probablement pour le mois de décembre.

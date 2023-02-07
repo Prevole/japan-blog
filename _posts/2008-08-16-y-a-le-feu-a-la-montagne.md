@@ -2,7 +2,7 @@
 layout:     post
 title:      Y a le feu à la montagne
 date:       2008-08-16 13:58:55 +0200
-categories: ["Nourriture & Cuisine", "Divers"]
+categories: ["Nourriture", "Divers"]
 ---
 
 Et oui, comme je vous le disais dans un article précédent, aujourd'hui est le point culminant de la période Obon.
@@ -45,7 +45,7 @@ crois :laughing:). C'était très bon et ça change un peu. Voici les images de 
 un peu trop cuite mais toujours très tendre) ainsi que ma salade. C'est intéressant de voir l'aspect de la viande
 avant cuisson avec tous les filaments blancs qui trainent dedans :wink:
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00912.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00912.jpg"
     type="landscape"
@@ -53,7 +53,6 @@ avant cuisson avec tous les filaments blancs qui trainent dedans :wink:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00914.jpg -->
 {% include img.html
     image="dsc00914.jpg"
     type="landscape"
@@ -61,20 +60,20 @@ avant cuisson avec tous les filaments blancs qui trainent dedans :wink:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00913.jpg -->
 {% include img.html
     image="dsc00913.jpg"
     type="landscape"
     title="Salade parsemée de croutons."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après avoir rangé mes affaires du repas du soir, je me suis dirigé vers le balcon pour voir le feu. C'est assez
 particulier car beaucoup de monde fait pareil. J'ai même vu des gens manger sur leur toît en attendant le feu dans
 la montagne. Sans plus attendre, les photos et après une petite vidéo. Malheureusement, ça ne donne pas super bien
 mais c'est toujours mieux que rien.
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00915.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00915.jpg"
     type="landscape"
@@ -82,7 +81,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00916.jpg -->
 {% include img.html
     image="dsc00916.jpg"
     type="landscape"
@@ -90,7 +88,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc009161.jpg -->
 {% include img.html
     image="dsc009161.jpg"
     type="landscape"
@@ -98,7 +95,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00920.jpg -->
 {% include img.html
     image="dsc00920.jpg"
     type="landscape"
@@ -106,7 +102,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00921.jpg -->
 {% include img.html
     image="dsc00921.jpg"
     type="landscape"
@@ -114,7 +109,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00922.jpg -->
 {% include img.html
     image="dsc00922.jpg"
     type="landscape"
@@ -122,7 +116,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00923.jpg -->
 {% include img.html
     image="dsc00923.jpg"
     type="landscape"
@@ -130,7 +123,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00924.jpg -->
 {% include img.html
     image="dsc00924.jpg"
     type="landscape"
@@ -138,7 +130,6 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00925.jpg -->
 {% include img.html
     image="dsc00925.jpg"
     type="landscape"
@@ -146,22 +137,23 @@ mais c'est toujours mieux que rien.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00918.jpg -->
 {% include img.html
     image="dsc00918.jpg"
     type="portrait"
     title="Le feu était encore fort au moment de cette prise, mais elle est verticale."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et pour finir la vidéo : 
 
-<!-- /assets/media/posts/2008-08-16-y-a-le-feu-a-la-montagne/mov00919.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="mov00919.mp4"
     title="Ptite vidéo où l'on voit pas plus."
     gallery="video"
 %}
+{%- endmedia_cartridge -%}
 
 Tout ça m'a quand même fait penser aux feux que l'on voit lors du premier août en Suisse sauf que chez nous, les
 feux durent beaucoup plus longtemps. Quand je suis retourné voir sur le balcon 20 minutes après, y'avait vraiment

@@ -24,7 +24,4 @@ les photos ne donnent vraiment pas très bien :neutral_face: Après nous être a
 redescendus. Au milieu de la descente nous nous sommes séparés. Lui n'avait qu'un billet simple course pour le
 télécabine/téléférique. J'ai continué la descente en solitaire et lui également mais à pied.
 
------
-
 {% include gallery.html gallery="miyajima-misen-observatoire" %}
-

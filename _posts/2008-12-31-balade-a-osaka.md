@@ -20,7 +20,5 @@ mon retour :smiling_imp:
 Voici les quelques photos que j'ai prises durant notre balade dans les rues d'Osaka, pas très loin de Nipponbashi.
 Il me manque encore quelques photos que j'attends de l'assistant et que je posterai dans cet article.
 
------
-
 {% include gallery.html gallery="balade-a-osaka" %}
 

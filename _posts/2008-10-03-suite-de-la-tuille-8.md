@@ -36,7 +36,7 @@ Je vous tiendrai au courant de la suite des évènements. En attendant, voici le
 ASUS V1J. Il aura bien servi je peux vous dire :laughing: Amorti par 10 - 16 heures d'utilisation quotidienne 
 :smiling_imp:
 
-<!-- /assets/images/posts/2008-10-03-suite-de-la-tuille-8/dsc01289.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01289.jpg"
     type="landscape"
@@ -45,7 +45,6 @@ ASUS V1J. Il aura bien servi je peux vous dire :laughing: Amorti par 10 - 16 heu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-03-suite-de-la-tuille-8/dsc01290.jpg -->
 {% include img.html
     image="dsc01290.jpg"
     type="landscape"
@@ -54,7 +53,6 @@ ASUS V1J. Il aura bien servi je peux vous dire :laughing: Amorti par 10 - 16 heu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-03-suite-de-la-tuille-8/dsc01291.jpg -->
 {% include img.html
     image="dsc01291.jpg"
     type="landscape"
@@ -63,7 +61,6 @@ ASUS V1J. Il aura bien servi je peux vous dire :laughing: Amorti par 10 - 16 heu
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-03-suite-de-la-tuille-8/dsc01292.jpg -->
 {% include img.html
     image="dsc01292.jpg"
     type="landscape"
@@ -71,3 +68,4 @@ ASUS V1J. Il aura bien servi je peux vous dire :laughing: Amorti par 10 - 16 heu
     title="La coque en plastique fracturée. Je peux plus parler de fissures :laughing:"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}

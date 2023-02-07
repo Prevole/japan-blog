@@ -22,7 +22,5 @@ genou.
 
 J'en ai profité également pour me rafraichir et me reposer un moment, en plus des quelques photos que j'ai prises.
 
------
-
 {% include gallery.html gallery="metropolitan-maranouchi-hotel" %}
 

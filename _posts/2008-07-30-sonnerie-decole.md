@@ -13,8 +13,9 @@ surpris la première fois que je l'ai entendu :laughing:.
 Il s'agit du son que j'entends tous les jours à 12h ainsi qu'à 13h. La première fois que ça a sonné j'ai fait un de
 ces bonds :laughing: C'était vraiment surprenant. Je sens que ce son va me taper sur le système dans 6 mois :wink:
 
-<!-- /assets/media/posts/2008-07-30-sonnerie-decole/mov00513.mp3 -->
+{%- media_cartridge -%}
 {% include sound.html
     media="mov00513.mp3"
     title="Sonnerie d'école"
 %}
+{%- endmedia_cartridge -%}

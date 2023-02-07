@@ -2,7 +2,7 @@
 layout:     post
 title:      La routine s'installe
 date:       2008-08-26 02:41:49 +0200
-categories: ["Quotidien"]
+categories: ["Divers"]
 ---
 
 Et oui, ça fait deux jours que je n'ai rien posté sur mon blog et pour cause. La routine commence à s'installer et

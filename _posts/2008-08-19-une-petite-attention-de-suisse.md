@@ -21,7 +21,7 @@ Ceci dit, j'ai eu bien peur en voyant arriver le paquet, parce qu'il tire la gue
 super état et sachant plus ou moins ce qu'il y a dedans ça m'a fait un petit peu souci. Deux petites photos pour
 illustrer tout ça.
 
-<!-- /assets/images/posts/2008-08-19-une-petite-attention-de-suisse/dsc01020.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01020.jpg"
     type="landscape"
@@ -29,22 +29,22 @@ illustrer tout ça.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-une-petite-attention-de-suisse/dsc01021.jpg -->
 {% include img.html
     image="dsc01021.jpg"
     type="landscape"
     title="Paquet vu de profil, il a pris une cure d'amaigrissement."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après avoir vu l'état, j'avais peur de l'intérieur et fort heureusement tout est nickel. Mes chocolats et autres
 produits sont parfaitement en bon état. Merci à ma môman pour ce chouette petit paquet qui va bien me dépanner.
 
-<!-- /assets/images/posts/2008-08-19-une-petite-attention-de-suisse/dsc01022.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01022.jpg"
     type="landscape"
     title="Contenu du paquet."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

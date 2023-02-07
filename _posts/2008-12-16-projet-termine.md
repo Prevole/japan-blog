@@ -13,8 +13,8 @@ aussi des regrets. Des regrets, car l'aventure est bientôt finie. Mais quelle a
 
 Il me reste encore quelques détails à régler dans mon document, et il sera prêt pour le rendu. Le projet étant lui
 aussi prêt pour le rendu. Ça fait vraiment drôle de voir le bout. Il reste encore la défense orale qui aura lieu le
-14 janvier 2009, à 13h30. C'est marrant, je viens de penser que c'est l'heure à laquelle j'ai décollé le 14 juillet
-2008. Y a des petites choses comme ça dans la vie qui sont bien amusantes.
+14 janvier 2009, à 13h30. C'est marrant, je viens de penser que c'est l'heure à laquelle j'ai décollé le 14 juillet 2008.
+Y a des petites choses comme ça dans la vie qui sont bien amusantes.
 
 Pour information, la défense se déroule en deux phases. Première phase de 20 minutes, composée de la présentation
 du projet ("je" décide ce que je présente) et la seconde phase de 20 minutes, également faite pour les questions du

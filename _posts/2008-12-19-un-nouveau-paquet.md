@@ -13,7 +13,7 @@ Le paquet vient de mon père. Il contient des biscuits, du chocolat, du foie gra
 bonnes choses qui sont pas faites pour aller sur une balance. Merci tout plein à lui. Ça m'a fait très plaisir
 ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
 
-<!-- /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2507.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2507.jpg"
     type="landscape"
@@ -22,7 +22,6 @@ ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2508.jpg -->
 {% include img.html
     image="img_2508.jpg"
     type="landscape"
@@ -31,7 +30,6 @@ ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2509.jpg -->
 {% include img.html
     image="img_2509.jpg"
     type="landscape"
@@ -40,7 +38,6 @@ ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2510.jpg -->
 {% include img.html
     image="img_2510.jpg"
     type="landscape"
@@ -49,7 +46,6 @@ ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2511.jpg -->
 {% include img.html
     image="img_2511.jpg"
     type="portrait"
@@ -57,4 +53,4 @@ ainsi que la petite carte qui l'accompagne. Tout de suite quelques photos.
     title="Le vin."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

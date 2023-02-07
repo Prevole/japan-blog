@@ -22,7 +22,7 @@ Après avoir remis batterie et carte mémoire, j'ai pris quelques photos de Gard
 vraiment ça, mais c'est en tout cas sur le chemin, à défaut :laughing:). Ca va avec Underground City. C'est un 2
 en 1 (si c'est pas plus) ces souterains :laughing: Voici quelques photos.
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1561.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1561.jpg"
     type="landscape"
@@ -31,7 +31,6 @@ en 1 (si c'est pas plus) ces souterains :laughing: Voici quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1562.jpg -->
 {% include img.html
     image="img_1562.jpg"
     type="landscape"
@@ -40,7 +39,6 @@ en 1 (si c'est pas plus) ces souterains :laughing: Voici quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1563.jpg -->
 {% include img.html
     image="img_1563.jpg"
     type="landscape"
@@ -48,11 +46,12 @@ en 1 (si c'est pas plus) ces souterains :laughing: Voici quelques photos.
     title="Garden City, prise 3."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Au retour, j'en ai également profité pour prendre un coin sympa des souterrains près de la gare. Voici quelques
 photos du Raining Wall (bah ouais, le mur pleut :laughing:).
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1564.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1564.jpg"
     type="landscape"
@@ -61,7 +60,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1565.jpg -->
 {% include img.html
     image="img_1565.jpg"
     type="landscape"
@@ -70,7 +68,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1566.jpg -->
 {% include img.html
     image="img_1566.jpg"
     type="landscape"
@@ -79,7 +76,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1567.jpg -->
 {% include img.html
     image="img_1567.jpg"
     type="landscape"
@@ -88,7 +84,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1568.jpg -->
 {% include img.html
     image="img_1568.jpg"
     type="landscape"
@@ -97,7 +92,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1569.jpg -->
 {% include img.html
     image="img_1569.jpg"
     type="landscape"
@@ -106,7 +100,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1570.jpg -->
 {% include img.html
     image="img_1570.jpg"
     type="landscape"
@@ -115,7 +108,6 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1571.jpg -->
 {% include img.html
     image="img_1571.jpg"
     type="landscape"
@@ -123,13 +115,14 @@ photos du Raining Wall (bah ouais, le mur pleut :laughing:).
     title="Raining Wall, prise 8."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'ai ensuite pris un métro direction la station de Namba pour aller me promener au quartier à Otaku :laughing: Une
 fois arrivé à la station, je me suis paumé pour trouver la bonne sortie. C'est pas évident de se repérer dans les
 souterrains :laughing: J'ai fini par sortir au bol et tenter de retrouver mon chemin par rapport à mes souvenirs de
 la fois d'avant. Sur le chemin, j'ai croisé un drôle de bâtiment.
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1572.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1572.jpg"
     type="portrait"
@@ -138,7 +131,6 @@ la fois d'avant. Sur le chemin, j'ai croisé un drôle de bâtiment.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1573.jpg -->
 {% include img.html
     image="img_1573.jpg"
     type="portrait"
@@ -147,7 +139,6 @@ la fois d'avant. Sur le chemin, j'ai croisé un drôle de bâtiment.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1574.jpg -->
 {% include img.html
     image="img_1574.jpg"
     type="portrait"
@@ -155,11 +146,12 @@ la fois d'avant. Sur le chemin, j'ai croisé un drôle de bâtiment.
     title="Drôle de bâtiment."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'ai fini par retrouver le chemin pour aller dans le quartier à Otaku :laughing: J'ai encore fait une ou deux
 photos pendant ma recherche du bon chemin.
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1575.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1575.jpg"
     type="landscape"
@@ -168,7 +160,6 @@ photos pendant ma recherche du bon chemin.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1576.jpg -->
 {% include img.html
     image="img_1576.jpg"
     type="landscape"
@@ -177,7 +168,6 @@ photos pendant ma recherche du bon chemin.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/img_1577.jpg -->
 {% include img.html
     image="img_1577.jpg"
     type="landscape"
@@ -185,6 +175,7 @@ photos pendant ma recherche du bon chemin.
     title="A la recherche de l'Otaku perdu, acte 3."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Aujourd'hui, je n'ai pas réussi à résister à la tentation. Certains le savent, Final Fantasy VII est un grand jeu.
 C'est un jeu que j'ai attendu avec une telle impatience en 1996 - 1997. C'est un jeu qui a marqué une époque et une
@@ -193,7 +184,7 @@ spécialisés les plus renommés. Bref, c'est un jeu qui a laissé son empreinte
 moment. C'est pour ça que j'ai cédé et que j'ai acheté quelques figurines sur le thème (j'en connais un qui sera
 jaloux :laughing:).
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01324.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01324.jpg"
     type="landscape"
@@ -202,7 +193,6 @@ jaloux :laughing:).
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01323.jpg -->
 {% include img.html
     image="dsc01323.jpg"
     type="landscape"
@@ -210,6 +200,7 @@ jaloux :laughing:).
     title="Final Fantasy VII, Play Arts, Vol 2."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Le volume 1 comprend dans l'ordre :
 
@@ -217,7 +208,7 @@ Le volume 1 comprend dans l'ordre :
 - Tifa Lockhart
 - Aerith Gainsborough
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01327.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01327.jpg"
     type="portrait"
@@ -226,7 +217,6 @@ Le volume 1 comprend dans l'ordre :
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01325.jpg -->
 {% include img.html
     image="dsc01325.jpg"
     type="portrait"
@@ -235,7 +225,6 @@ Le volume 1 comprend dans l'ordre :
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01326.jpg -->
 {% include img.html
     image="dsc01326.jpg"
     type="portrait"
@@ -243,6 +232,7 @@ Le volume 1 comprend dans l'ordre :
     title="Aerith Gainsborough."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Le volume 2 comprend :
 
@@ -251,7 +241,7 @@ Le volume 2 comprend :
 - Sephiroth
 - Red XIII &amp; Cait Sith
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01328.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01328.jpg"
     type="portrait"
@@ -260,7 +250,6 @@ Le volume 2 comprend :
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01329.jpg -->
 {% include img.html
     image="dsc01329.jpg"
     type="portrait"
@@ -269,7 +258,6 @@ Le volume 2 comprend :
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01330.jpg -->
 {% include img.html
     image="dsc01330.jpg"
     type="portrait"
@@ -278,7 +266,6 @@ Le volume 2 comprend :
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-10-20-apn-comme-neuf/dsc01331.jpg -->
 {% include img.html
     image="dsc01331.jpg"
     type="landscape"
@@ -286,6 +273,7 @@ Le volume 2 comprend :
     title="Red XIII &amp; Cait Sith."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est un petit brin de folie mais on ne vit qu'une fois à ce qui parait. Pour moi, c'est une partie de la culture
 japonaise, la culture moderne s'entend. Ceci dit, y a pas un nom parmi les sept qui vous dit quelque chose ? Enfin,

@@ -2,7 +2,7 @@
 layout:     post
 title:      Shinkansen Family
 date:       2008-12-09 14:30:14 +0100
-categories: ["Nourriture & Cuisine", "Divers"]
+categories: ["Nourriture", "Divers"]
 ---
 
 Après ce petit séjour très bref à Kobe, j'ai repris mon train depuis la gare de Shinkobe. Cette gare me plait tout
@@ -17,7 +17,7 @@ dans ma rue à Sanjo, j'ai été chercher à manger. Je vous livre le bentô du 
 malsains en trop grande quantité :laughing: De plus, je tiens à préciser que la photo ci-dessous et la 2500ème avec
 mon Canon. Je crois que je le rentabilise pas mal du coup :smiling_imp:
 
-<!-- /assets/images/posts/2008-12-09-shinkansen-family/img_2500.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2500.jpg"
     type="landscape"
@@ -26,6 +26,6 @@ mon Canon. Je crois que je le rentabilise pas mal du coup :smiling_imp:
     gallery="img"
 %}
 
------
-
 {% include gallery.html gallery="shinkansen-family" %}
+
+{%- endmedia_cartridge -%}

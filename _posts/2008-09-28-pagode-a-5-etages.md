@@ -29,7 +29,4 @@ qu'il n'avait pas encore fait et moi voir la pagode à 5 étages qu'il avait dé
 vite fait car seul l'extérieur est visible. J'y suis allé et effectivement, trois petites photos et j'ai poursuivi
 ma route.
 
------
-
 {% include gallery.html gallery="miyajima-pagode-5f" %}
-

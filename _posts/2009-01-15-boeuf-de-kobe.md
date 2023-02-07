@@ -2,7 +2,7 @@
 layout:     post
 title:      Boeuf de Kobe
 date:       2009-01-15 12:12:36 +0100
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 Avant de rentrer, je me suis permis une virée à Kobe (une de plus en fait :laughing:) pour aller déguster le
@@ -29,7 +29,7 @@ expérience a vraiment valu le coup !
 
 A présent, je vous propose quelques images. Tout d'abord les sashims de saumon fumé en entrée.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01428.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01428.jpg"
     type="landscape"
@@ -37,10 +37,11 @@ A présent, je vous propose quelques images. Tout d'abord les sashims de saumon 
     title="Sashimi de saumon fumé."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Vient l'assiette de légumes avant leur cuisson.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01429.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01429.jpg"
     type="landscape"
@@ -48,10 +49,11 @@ Vient l'assiette de légumes avant leur cuisson.
     title="L'assiette de légumes avant cuisson."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Le filet de 130gr de viande de boeuf de Kobe premium. On aperçoit également la préparation des chips d'ail.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01430.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01430.jpg"
     type="landscape"
@@ -59,10 +61,11 @@ Le filet de 130gr de viande de boeuf de Kobe premium. On aperçoit également la
     title="Présentation du morceau de viande."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 La soupe avec quelques flocons de blé en guise de croûtons.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01431.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01431.jpg"
     type="landscape"
@@ -70,10 +73,11 @@ La soupe avec quelques flocons de blé en guise de croûtons.
     title="La soupe."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est parti pour la préparation de la viande. Ça tranche dans le lard.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01432.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01432.jpg"
     type="landscape"
@@ -82,7 +86,6 @@ C'est parti pour la préparation de la viande. Ça tranche dans le lard.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01433.jpg -->
 {% include img.html
     image="dsc01433.jpg"
     type="landscape"
@@ -90,11 +93,12 @@ C'est parti pour la préparation de la viande. Ça tranche dans le lard.
     title="La viande est découpée."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Cuisson des légumes et une partie de la viande est réservée pour un usage plus tard, avec les germes de soja. Ça
 deviendra une sorte de plat de nouilles avec des mini morceaux de viande.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01434.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01434.jpg"
     type="landscape"
@@ -102,11 +106,12 @@ deviendra une sorte de plat de nouilles avec des mini morceaux de viande.
     title="Cuisson des légumes."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'oubliais de mentionner la petite salade en accompagnement. Ça meuble le temps pendant la cuisson des légumes
 :smiling_imp:
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01435.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01435.jpg"
     type="landscape"
@@ -114,10 +119,11 @@ J'oubliais de mentionner la petite salade en accompagnement. Ça meuble le temps
     title="Une petite salade en accompagnement."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 La cuisson se poursuit.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01436.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01436.jpg"
     type="landscape"
@@ -126,7 +132,6 @@ La cuisson se poursuit.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01437.jpg -->
 {% include img.html
     image="dsc01437.jpg"
     type="landscape"
@@ -134,10 +139,11 @@ La cuisson se poursuit.
     title="Ça cuit, ça cuit."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Puis vient la préparation des germes de soja avec le reliquat de la viande.
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01438.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01438.jpg"
     type="landscape"
@@ -145,10 +151,11 @@ Puis vient la préparation des germes de soja avec le reliquat de la viande.
     title="Préparation des germes de soja avec le reliquat de viande."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et finalement l'assiette prête
 
-<!-- /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01439.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01439.jpg"
     type="landscape"
@@ -156,4 +163,4 @@ Et finalement l'assiette prête
     title="Un repas délicieux."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

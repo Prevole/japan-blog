@@ -58,13 +58,14 @@ la hauteur de Sanjo Dori pour finir par emprunter la route des arcades marchande
 laisse voir le parcours sur la carte suivante. Cela représente une marche de presque 8km, faite en 2h30, y compris
 les pauses photos et pluie.
 
-<!-- /assets/images/posts/2008-08-23-kamo-river-le-retour/promenade.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="promenade.jpg"
     type="portrait"
     title="Itinéraire de promenade."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et pour finir la galerie de photos que j'ai prises en cours de balade le long de la rivière.
 

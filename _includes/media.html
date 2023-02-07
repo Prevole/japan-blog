@@ -2,9 +2,12 @@
 {%- assign elems = include.media | split: '.' -%}
 {%- assign name = elems[0] -%}
 
-<a href="/assets/media/posts/{{ folder_path }}/{{ include.media }}"
-   class="glightbox-media"
-   data-description="{{ include.title }}"
-   data-gallery="{{ include.gallery }}">
-    <img src="/assets/media/posts/{{ folder_path }}/thumb_{{ name }}.png" alt="{{ include.title }}" width="225" />
-</a>
+<figure>
+    <a href="/assets/media/posts/{{ folder_path }}/{{ include.media }}"
+       class="glightbox-media"
+       data-description="{{ include.title }}"
+       data-gallery="{{ include.gallery }}">
+        <img src="/assets/media/posts/{{ folder_path }}/thumb_{{ name }}.png" alt="{{ include.title }}" width="270" />
+    </a>
+    {%- if include.show_legend -%}<figcaption>{{ include.title }}</figcaption>{%- endif -%}
+</figure>

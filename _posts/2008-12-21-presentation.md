@@ -22,9 +22,11 @@ Au fait, j'ai oublié un petit détail. La présentation doit avoir lieu ce mard
 délai entre le fait d'apprendre, que je dois faire la présentation et la présentation elle-même n'est même pas de
 48h :smiling_imp: Encore un challenge a relever :wink:
 
-<!-- /assets/media/posts/2008-12-21-presentation/demo_4.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="demo_4.mp4"
     title="Quatrième demo"
+    show_legend="yes"
     gallery="video"
 %}
+{%- endmedia_cartridge -%}

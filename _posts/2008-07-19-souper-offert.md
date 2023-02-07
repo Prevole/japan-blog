@@ -2,7 +2,7 @@
 layout:     post
 title:      Souper offert
 date:       2008-07-19 05:02:37 +0200
-categories: ["Balades", "Nourriture & Cuisine"]
+categories: ["Balades", "Nourriture"]
 ---
 
 Après ma journée de promenade, j'avais rendez-vous avec mon professeur responsable sur place - Michael Lyons. Il m'a 
@@ -15,7 +15,7 @@ Avant cela, il m'a fallu l'attendre et j'en ai donc profité pour visiter un peu
 rendez-vous avec lui. J'ai également pris quelques photos et si vous êtes perspicaces vous ferez le lien avec celle du
 Gion Matsuri.
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00275.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00275.jpg"
     type="landscape"
@@ -23,7 +23,6 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00276.jpg -->
 {% include img.html
     image="dsc00276.jpg"
     type="landscape"
@@ -31,7 +30,6 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00277.jpg -->
 {% include img.html
     image="dsc00277.jpg"
     type="landscape"
@@ -39,7 +37,6 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00278.jpg -->
 {% include img.html
     image="dsc00278.jpg"
     type="landscape"
@@ -47,24 +44,24 @@ Gion Matsuri.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00279.jpg -->
 {% include img.html
     image="dsc00279.jpg"
     type="landscape"
     title="Une autre vue des lampions."
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Durant mon parcours de la rue commerçante je suis tombé sur un temple en plein millieu avec une divinité à l'intérieur.
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00280.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00280.jpg"
     type="landscape"
     title="Un temple avec une divinité en plein millieu de la rue commerçante."
     gallery="g"
 %}
-
+{%- endmedia_cartridge -%}
 
 J'ai retrouvé mon prof au lieu de rendez-vous, mais j'ai dû l'attendre une heure et demie. En fait, j'en ai profité 
 pour observer les japonais et leur habillement. Y a vraiment de tout et je me sens pas spécialement différent au niveau 
@@ -98,7 +95,7 @@ Michael a pris une glace à l'orange directement servi dans une vraie orange.
 Après le repas - qu'il m'a payé - nous sommes allés nous promener dans le jardin du restaurant. J'ai tenté de prendre 
 quelques photos et le résultat est pas super, mais c'est mieux que rien. Certaines parties du jardin ont plus de 100ans.
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00281.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00281.jpg"
     type="landscape"
@@ -106,7 +103,6 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00282.jpg -->
 {% include img.html
     image="dsc00282.jpg"
     type="landscape"
@@ -114,7 +110,6 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00283.jpg -->
 {% include img.html
     image="dsc00283.jpg"
     type="landscape"
@@ -122,26 +117,26 @@ quelques photos et le résultat est pas super, mais c'est mieux que rien. Certai
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00284.jpg -->
 {% include img.html
     image="dsc00284.jpg"
     type="landscape"
     title="Une dernière vue un peu floue."
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Nous avons quitté ensuite le restaurant et Michael m'a montré quelques endroits où sortir boire un verre avec des 
 chances de faire des rencontres internationales. Nous avons pris un verre dans un de ces endroits et j'ai trouvé une 
 petite photo insolite à faire.
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00285.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00285.jpg"
     type="portrait"
     title="Mêmes les poissons aiment la Vodka."
     gallery="g"
 %}
-
+{%- endmedia_cartridge -%}
 
 Même les poissons aiment la Vodka :stuck_out_tongue_closed_eyes:
 
@@ -149,7 +144,7 @@ Pour finir, je suis rentré. J'ai pris un bus qui me rapprochait de mon chez moi
 demi-heure pour arriver jusqu'à mon chez moi. Au final, ce fut une très chouette journée de promenade mais le résultat 
 de ma journée est le suivant.
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00287.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00287.jpg"
     type="landscape"
@@ -157,12 +152,12 @@ de ma journée est le suivant.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-19-souper-offert/dsc00286.jpg -->
 {% include img.html
     image="dsc00286.jpg"
     type="landscape"
     title="Résultat d'une journée de marche - verso."
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Vous comprendrez pourquoi je dis que je transpire beaucoup et que c'est facile de choper la crève :laughing:

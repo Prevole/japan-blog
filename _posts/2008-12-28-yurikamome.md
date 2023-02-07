@@ -17,7 +17,5 @@ bâtiment de Bandai (où est préparé le planning des Myth Cloth :smiling_imp:)
 balade et surtout bien reposant pour les pieds. Les ponts sont très différents et très colorés, mais pas visibles
 sur mes photos.
 
------
-
 {% include gallery.html gallery="yurikamome" %}
 

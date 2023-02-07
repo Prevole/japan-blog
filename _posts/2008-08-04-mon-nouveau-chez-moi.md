@@ -33,7 +33,7 @@ plus sur mon projet que lorsque j'étais à Yurakuso. Travailler par terre c'est
 
 Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir les photos de mon nouveau chez moi.
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00719.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00719.jpg"
     type="portrait"
@@ -41,7 +41,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00720.jpg -->
 {% include img.html
     image="dsc00720.jpg"
     type="portrait"
@@ -49,7 +48,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00721.jpg -->
 {% include img.html
     image="dsc00721.jpg"
     type="portrait"
@@ -57,7 +55,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00722.jpg -->
 {% include img.html
     image="dsc00722.jpg"
     type="portrait"
@@ -65,7 +62,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00723.jpg -->
 {% include img.html
     image="dsc00723.jpg"
     type="portrait"
@@ -73,7 +69,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00724.jpg -->
 {% include img.html
     image="dsc00724.jpg"
     type="portrait"
@@ -81,7 +76,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00726.jpg -->
 {% include img.html
     image="dsc00726.jpg"
     type="portrait"
@@ -89,7 +83,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00727.jpg -->
 {% include img.html
     image="dsc00727.jpg"
     type="portrait"
@@ -97,7 +90,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00729.jpg -->
 {% include img.html
     image="dsc00729.jpg"
     type="portrait"
@@ -105,7 +97,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00725.jpg -->
 {% include img.html
     image="dsc00725.jpg"
     type="landscape"
@@ -113,7 +104,6 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00728.jpg -->
 {% include img.html
     image="dsc00728.jpg"
     type="landscape"
@@ -121,19 +111,19 @@ Avec toute cette description, il ne me reste plus qu'à vous laisser découvrir 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00730.jpg -->
 {% include img.html
     image="dsc00730.jpg"
     type="landscape"
     title="Vue depuis le fond de la chambre."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et pour finir, je vous laisse découvrir les quelques photos que j'ai prises de la vue que j'ai depuis mon balcon.
 Pour une ville si grande, c'est pas mal du tout je dois dire. En tout, cas c'est déjà 1000 fois mieux que là où
 j'étais avant :laughing:
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00731.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00731.jpg"
     type="landscape"
@@ -141,7 +131,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00732.jpg -->
 {% include img.html
     image="dsc00732.jpg"
     type="landscape"
@@ -149,7 +138,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00733.jpg -->
 {% include img.html
     image="dsc00733.jpg"
     type="landscape"
@@ -157,7 +145,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00734.jpg -->
 {% include img.html
     image="dsc00734.jpg"
     type="landscape"
@@ -165,7 +152,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00735.jpg -->
 {% include img.html
     image="dsc00735.jpg"
     type="landscape"
@@ -173,7 +159,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00736.jpg -->
 {% include img.html
     image="dsc00736.jpg"
     type="landscape"
@@ -181,7 +166,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00737.jpg -->
 {% include img.html
     image="dsc00737.jpg"
     type="landscape"
@@ -189,7 +173,6 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00738.jpg -->
 {% include img.html
     image="dsc00738.jpg"
     type="landscape"
@@ -197,18 +180,18 @@ j'étais avant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00744.jpg -->
 {% include img.html
     image="dsc00744.jpg"
     type="landscape"
     title="Vue, prise 9."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Voici ce qui se trouve juste en dessous de mon balcon. Il s'agit de la petite place directement devant l'entrée du
 bâtiment. Il faut savoir qu'à l'emplacement du store jaune se trouve un café.
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00739.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00739.jpg"
     type="landscape"
@@ -216,7 +199,6 @@ bâtiment. Il faut savoir qu'à l'emplacement du store jaune se trouve un café.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00740.jpg -->
 {% include img.html
     image="dsc00740.jpg"
     type="landscape"
@@ -224,19 +206,19 @@ bâtiment. Il faut savoir qu'à l'emplacement du store jaune se trouve un café.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00741.jpg -->
 {% include img.html
     image="dsc00741.jpg"
     type="landscape"
     title="En bas de chez moi, prise 3."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et finalement, voici l'allée commerciale vue également depuis mon balcon. C'est tout de suite moins sympathique que
 depuis en bas. Mais sachant que finalement, je ne fais quasiment que dormir dans mon logement. C'est vraiment un
 chouette logement. Je sens que je vais vite m'y plaire.
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00742.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00742.jpg"
     type="landscape"
@@ -244,11 +226,10 @@ chouette logement. Je sens que je vais vite m'y plaire.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00743.jpg -->
 {% include img.html
     image="dsc00743.jpg"
     type="landscape"
     title="Allée commerçante vue du haut, prise 2."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

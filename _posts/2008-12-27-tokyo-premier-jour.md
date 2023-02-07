@@ -18,7 +18,7 @@ tranquillement. J'ai eu aussi la chance d'avoir un shinkansen flambant neuf pour
 résines, colles, plastiques neufs. Le truc intéressant c'est qu'à chaque rangée de sièges y a une prise 110v. Un
 petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01380.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01380.jpg"
     type="landscape"
@@ -27,7 +27,6 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01422.jpg -->
 {% include img.html
     image="dsc01422.jpg"
     type="landscape"
@@ -36,7 +35,6 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01423.jpg -->
 {% include img.html
     image="dsc01423.jpg"
     type="landscape"
@@ -45,7 +43,6 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01424.jpg -->
 {% include img.html
     image="dsc01424.jpg"
     type="landscape"
@@ -54,7 +51,6 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01425.jpg -->
 {% include img.html
     image="dsc01425.jpg"
     type="landscape"
@@ -63,7 +59,6 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01426.jpg -->
 {% include img.html
     image="dsc01426.jpg"
     type="landscape"
@@ -71,6 +66,7 @@ petit plus qui est vraiment très sympa pour les gamers et workers :laughing:
     title="Shinkansen retour, prise 5."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Une fois à Tokyo, j'ai été prendre possession de ma chambre, me défaire du poids inutile de mon sac, me rafraichir
 et je suis parti en piste. Objectif de l'après-midi : SHOPPING :laughing: Le but est pleinement atteint. Je ne
@@ -82,7 +78,7 @@ achats. Cid, tu ne trouves pas que le fait d'avoir une Myth Cloth provenant d'ak
 petit quelque chose de vraiment pas comme les autres ? :laughing: En fait, c'est le seul achat que je peux vous
 montrer. Le reste n'est pas pour moi. :wink: Me réjouis de voir la tête de certains de mes lecteurs :smiling_imp:
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/img_2744.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2744.jpg"
     type="landscape"
@@ -91,7 +87,6 @@ montrer. Le reste n'est pas pour moi. :wink: Me réjouis de voir la tête de cer
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/img_2745.jpg -->
 {% include img.html
     image="img_2745.jpg"
     type="landscape"
@@ -99,6 +94,7 @@ montrer. Le reste n'est pas pour moi. :wink: Me réjouis de voir la tête de cer
     title="Hypnos, boite ouverte."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Petite anectdote amusante: Lors de l'attente du passage à la caisse (juste 20 personnes avant moi et 6 caisses à
 plein régime). Un japonais prenait chaque boite de la montagne de boites présentes (environ 50 boites) et les
@@ -111,7 +107,7 @@ Après mes petits achats, j'ai été reprendre mon train depuis Akiba pour retou
 achats. Sur le chemin, j'ai vu mes premiers cosplayers (si on peut appeler ça comme ça). J'ai pris des photos de
 manière relativement discrète. J'en connais un qui va être tout content de voir ces photos :smiling_imp:
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01381.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01381.jpg"
     type="landscape"
@@ -120,7 +116,6 @@ manière relativement discrète. J'en connais un qui va être tout content de vo
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01382.jpg -->
 {% include img.html
     image="dsc01382.jpg"
     type="landscape"
@@ -129,7 +124,6 @@ manière relativement discrète. J'en connais un qui va être tout content de vo
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01385.jpg -->
 {% include img.html
     image="dsc01385.jpg"
     type="landscape"
@@ -138,7 +132,6 @@ manière relativement discrète. J'en connais un qui va être tout content de vo
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01386.jpg -->
 {% include img.html
     image="dsc01386.jpg"
     type="landscape"
@@ -146,6 +139,7 @@ manière relativement discrète. J'en connais un qui va être tout content de vo
     title="Cosplayer, prise 4."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est tout ce que j'ai fait de la journée. Le soir je suis sorti manger des tempuras et des sashimis. Un petit
 repas tout ce qu'il y avait de bon et de sympa. Faut dire que j'étais un peu fatigué de la veille, et le lendemain
@@ -154,7 +148,5 @@ content de pas avoir su ce qui m'attendait en terme de déplacement à pieds (me
 
 Je suis sympa, je vous offre quand même quelques photos que j'ai prises à mon arrivée à l'hôtel et à mon retour
 d'Akiba.
-
------
 
 {% include gallery.html gallery="tokyo-maranouchi" %}

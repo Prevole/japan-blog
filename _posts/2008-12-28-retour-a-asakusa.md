@@ -15,7 +15,5 @@ Cette visite n'était qu'une petite étape dans notre périple pour aller prendr
 La marche pour rejoindre le tramway a été bien longue mais très sympa. Avant cette petite balade, je vous laisse
 admirer les quelques photos prises à Asakusa.
 
------
-
 {% include gallery.html gallery="asakusa-return" %}
 

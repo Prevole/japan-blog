@@ -2,7 +2,7 @@
 layout:     post
 title:      Dernier repas dans mon domicile actuel
 date:       2008-08-03 14:18:51 +0200
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 Quelle joie c'est de prendre son dernier repas dans un endroit que l'on apprécie que très moyennement. Dès demain,
@@ -17,7 +17,7 @@ terre et du maïs, un morceau de poisson pané avec mayonnaise et pour finir, du
 mangé le gigembre. J'ai trouvé une technique pour m'y habituer en douceur. Je prends un petit morceau que je mange
 avec un autre aliment. Je dois dire que de cette manière c'est sympa :laughing: Sans plus attendre les photos.
 
-<!-- /assets/images/posts/2008-08-03-dernier-repas-dans-mon-domicile-actuel/dsc00710.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00710.jpg"
     type="landscape"
@@ -25,13 +25,13 @@ avec un autre aliment. Je dois dire que de cette manière c'est sympa :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-03-dernier-repas-dans-mon-domicile-actuel/dsc00711.jpg -->
 {% include img.html
     image="dsc00711.jpg"
     type="landscape"
     title="Dernier bentô à Yurakuso avec flash."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Sans oublier deux petites bières pour accompagner le tout. Et oui, ça se fête un départ de ce genre d'endroit. Et
 puis ça fait partie des expériences que je mène sur les différents produits disponibles ici :laughing: La première bière

@@ -1,8 +1,26 @@
 {%- assign date_format = site.minima.date_format | default: "%d.%m.%Y" -%}
 {%- assign time_format = site.minima.date_format | default: "%H:%M" -%}
-{%- for comment in site.data.comments[include.comments_file] -%}
-<div>Par {{ comment.author }} le {{ comment.date | date: date_format }} à {{ comment.date | date: time_format }}</div>
-<div class="post-content e-content" itemprop="articleBody">
-    {{ comment.text | markdownify }}
-</div>
-{%- endfor -%}
+{%- if site.data.comments[include.comments_file] -%}
+<section class="comments">
+    <header>
+        <h1 class="post-title"><span class="icon-bubbles"></span><span>Commentaires</span></h1>
+    </header>
+
+    {%- for comment in site.data.comments[include.comments_file] -%}
+    <section class="comment">
+        <div class="{{ comment | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
+            <div class="comment-meta-icon">
+                <span class="icon-bubble"></span>
+            </div>
+            <div class="comment-meta">
+                <p class="comment-author">{{ comment.author }}</p>
+                <p class="comment-date">{{ comment.date | format_dt }}</p>
+            </div>
+        </div>
+        <div class="{{ comment | comment_class_author: "comment-content", "comment-owner-right" }}">
+            {{ comment.text | markdownify | comment_reply_to }}
+        </div>
+    </section>
+    {%- endfor -%}
+</section>
+{%- endif -%}

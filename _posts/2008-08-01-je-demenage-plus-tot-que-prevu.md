@@ -23,7 +23,7 @@ droit à une petite visite. Enfin, au moment de me lever du lit, j'ai vu un truc
 me suis dit, qu'est-ce que c'est encore que ça. Et bien, voici ce que c'est en photo :laughing: En mots ça donne pour le
 français : Cafard et pour l'anglais : Cockroach.
 
-<!-- /assets/images/posts/2008-08-01-je-demenage-plus-tot-que-prevu/dsc00520.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00520.jpg"
     type="landscape"
@@ -31,13 +31,13 @@ français : Cafard et pour l'anglais : Cockroach.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-01-je-demenage-plus-tot-que-prevu/dsc00521.jpg -->
 {% include img.html
     image="dsc00521.jpg"
     type="landscape"
     title="Cafard de plus près."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'en ai parlé avec mon prof et il m'a dit que c'était pas inhabituel de voir ça dans les maisons de Kyoto car c'est
 une vielle ville avec beaucoup de vieux bâtiments. Je veux bien le croire, mais le matin au réveil c'est quand même
@@ -49,12 +49,13 @@ prendre autre chose en photo. Ca fait quelques jours que j'observe ce bidule tru
 tout. Je vous laisse me faire des propositions pour ce que c'est. :laughing: J'ai oublié de préciser qu'il s'agit d'une
 vitre située juste en face de la porte de ma chambre.
 
-<!-- /assets/images/posts/2008-08-01-je-demenage-plus-tot-que-prevu/dsc00519.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00519.jpg"
     type="landscape"
     title="Devinette."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après tout ça, vous comprendrez aisément ma hâte pour changer de lieu de villégiature. :laughing:

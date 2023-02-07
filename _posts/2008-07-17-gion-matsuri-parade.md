@@ -22,33 +22,31 @@ pouvait bouger. Mais c’est très impressionnant à voir en live.
 A ce propos, je vous recommande de regarder d’abord les photos, puis les vidéos ensuite. Les photos se trouvent à la 
 fin de l’article.
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri-parade/mov00130.mpg -->
+{%- media_cartridge -%}
 {% include media.html
     media="mov00130.mp4"
     title="Un char et de la musique"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri-parade/mov00133.mpg -->
 {% include media.html
     media="mov00133.mp4"
     title="Tourne le char, tourne"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri-parade/mov00134.mpg -->
 {% include media.html
     media="mov00134.mp4"
     title="Tourne le char, tourne 2"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-07-17-gion-matsuri-parade/mov00134.mpg -->
 {% include media.html
     media="mov00134.mp4"
     title=" Pars le char, pars"
     gallery="video"
 %}
+{%- endmedia_cartridge -%}
 
 -----
 

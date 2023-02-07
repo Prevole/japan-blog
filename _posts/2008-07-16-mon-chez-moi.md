@@ -15,13 +15,14 @@ fait chaud et humide. Je suis tout le temps trempé. La douche me sert à me lav
 Cette porte n’a pas l’air très solide, et ne l’est vraiment pas selon moi. Une simple serrure à un seul tour. De plus, 
 elle donne sur un couloir directement terminé par un escalier qui donne sur le dehors.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="room_1.jpg"
     type="portrait"
     title="L'entrée de ma tanière"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Il faut aussi prendre note que le tapis vert est fait de manière "fausse herbe". Cet endroit dans l’entrée sert au dépôt 
 de mes chaussures. Pas question d’entrer avec des chaussures sur les tatami (sol de ma chambre).
@@ -32,13 +33,14 @@ Comme dit précédemment, mon lit est à même le sol. La commode dans l’armoi
 chambre) contient que des outils pour faire la cuisine. Désolé pour le duvet en bordel mais je viens d’arriver faut 
 me comprendre :wink:
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_2.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="room_2.jpg"
     type="landscape"
     title="Mon lit à même le sol"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Les cartons près du frigo viennent du déballage de la literie que j’ai dû acheter au bailleur de mon logement. C’est 
 bien utile pour le duvet justement. Le drap-housse vient de moi, ainsi que la taie d’oreiller jaune (visible sur la 
@@ -46,25 +48,27 @@ photo précédente). Le frigo semble ne pas fonctionner, mais je préfère pense
 service :wink: La petite table est très basse et me sert de bureau comme vous pouvez le constater. J’ai internet 
 directement dans ma chambre et gratuitement, heureusement d’ailleurs. Je paie deja assez pour tout ça :confused:
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_3.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="room_3.jpg"
     type="landscape"
     title="Le coin frigo et un bout du bureau"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Pour finir, la petite commode qui va me servir à y fourrer toutes mes affaires électriques/électroniques. On voit le 
 bout du matelas dépasser. Celui-ci ne fait pas plus de deux mètres. Je vous laisse vous faire un avis sur la taille 
 de ma chambre.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/room_4.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="room_4.jpg"
     type="landscape"
     title="La petite commode fourre tout"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Je mettrais à jour cet article avec d’autres photos de l’endroit où je vis, comme les toilettes et la douche. C’est 
 tout une aventure à chaque fois. Les encadrements des portes sont très bas et je me cogne tout le temps. Pareil dans 
@@ -73,7 +77,7 @@ les bus :laughing: Je confirme, je suis bien au Japon :laughing:
 Comme promis, voici une petite mise à jour de mon chez moi. Quelques photos, pour bien vous faire comprendre que je 
 déprime dans ce logis.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="house_1.jpg"
     type="portrait"
@@ -81,18 +85,18 @@ déprime dans ce logis.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_2.jpg -->
 {% include img.html
     image="house_2.jpg"
     type="portrait"
     title="Vue du bâtiment"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 A présent, quelques photos de l’intérieur, et pour commencer du couloir de la mort. Les photos sont prises en direction 
 des toilettes et de la sortie depuis le pas de ma porte.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_3.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="house_3.jpg"
     type="portrait"
@@ -100,19 +104,19 @@ des toilettes et de la sortie depuis le pas de ma porte.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_4.jpg -->
 {% include img.html
     image="house_4.jpg"
     type="portrait"
     title="Couloir de la mort vers la sortie"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Après ce petit couloir, mais très long, je vous propose de découvrir le coin lavabo et toilettes. Il a le mérite d’être 
 propre et fonctionnel. A noter que les toilettes sont automatiques pour le couvercle. Lorsqu’on s’approche, le couvercle 
 s’ouvre. La chasse d’eau est électrique.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_5.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="house_5.jpg"
     type="landscape"
@@ -120,18 +124,18 @@ s’ouvre. La chasse d’eau est électrique.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_6.jpg -->
 {% include img.html
     image="house_6.jpg"
     type="landscape"
     title="Toilettes"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Ensuite vient le coin douche, cuisine et laverie. Trois en un pour mon plus grand malheur. On peut également voir qu’il 
 y a du linge de suspendu dehors.
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_7.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="house_7.jpg"
     type="landscape"
@@ -139,7 +143,6 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_8.jpg -->
 {% include img.html
     image="house_8.jpg"
     type="landscape"
@@ -147,7 +150,6 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_9.jpg -->
 {% include img.html
     image="house_9.jpg"
     type="landscape"
@@ -155,10 +157,10 @@ y a du linge de suspendu dehors.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-mon-chez-moi/house_10.jpg -->
 {% include img.html
     image="house_10.jpg"
     type="landscape"
     title="Laverie (machine à laver et séchoir)"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}

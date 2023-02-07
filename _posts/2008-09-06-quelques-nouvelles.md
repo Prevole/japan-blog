@@ -2,7 +2,7 @@
 layout:     post
 title:      Quelques nouvelles
 date:       2008-09-06 13:11:41 +0200
-categories: ["Nourriture & Cuisine", "Divers"]
+categories: ["Nourriture", "Divers"]
 ---
 
 Oui oui, je sais, les nouvelles s'espacent un peu. Mais après tout c'est assez logique. Pourquoi ça ? Bah tout
@@ -22,7 +22,7 @@ En dehors de ça, je me suis laissé aller à bien me nourrir ce soir. Je vous p
 sashimi de thon, de bâtonnets de carottes, d'un steak haché frais avec assaisonnement maison et une salade. Sans
 plus attendre les photos :laughing:
 
-<!-- /assets/images/posts/2008-09-06-quelques-nouvelles/dsc01198.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01198.jpg"
     type="landscape"
@@ -30,7 +30,6 @@ plus attendre les photos :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-06-quelques-nouvelles/dsc01199.jpg -->
 {% include img.html
     image="dsc01199.jpg"
     type="landscape"
@@ -38,7 +37,6 @@ plus attendre les photos :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-06-quelques-nouvelles/dsc01200.jpg -->
 {% include img.html
     image="dsc01200.jpg"
     type="landscape"
@@ -46,11 +44,10 @@ plus attendre les photos :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-06-quelques-nouvelles/dsc01201.jpg -->
 {% include img.html
     image="dsc01201.jpg"
     type="landscape"
     title="La salade."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

@@ -23,7 +23,7 @@ avec le SDK). Pour un premier jet, je me retrouve avec un écran de bienvenue o�
 résultat obtenu ci-dessous (seulement pour la partie cliente). Il faut savoir que la base de données se met
 correctement à jour par l'intermédiaire du serveur applicatif (EJB, Servlets, etc...)
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="proto_1.jpg"
     type="portrait"
@@ -31,7 +31,6 @@ correctement à jour par l'intermédiaire du serveur applicatif (EJB, Servlets, 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_2.jpg -->
 {% include img.html
     image="proto_2.jpg"
     type="portrait"
@@ -39,13 +38,13 @@ correctement à jour par l'intermédiaire du serveur applicatif (EJB, Servlets, 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_3.jpg -->
 {% include img.html
     image="proto_3.jpg"
     type="portrait"
     title="Résultat de l'enregistrement dans une boîte de dialogue prédéfinie."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Comme on peut le constater, le rendu graphique n'est pas terrible. Pour un jeu, même éloigné des jeux habituels,
 c'est désolant de ne pas avoir une interface plus colorée. Ceci dit, l'avantage ici c'est que je définis mes
@@ -66,7 +65,7 @@ gérer toute la notion de navigation. C'est à dire que quand j'appuie sur le bo
 suis dans l'interface et où ça va me mener. Ce qui fait que tout le travail qui était fait précédemment ne l'est
 plus et que c'est à moi de pallier aux manquements.
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_4.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="proto_4.jpg"
     type="portrait"
@@ -74,13 +73,13 @@ plus et que c'est à moi de pallier aux manquements.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_5.jpg -->
 {% include img.html
     image="proto_5.jpg"
     type="portrait"
     title="Choix de l'avatar page suivante première version."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 La partie du changement/choix d'avatar me satisfait déjà pas mal. Ceci dit, il faut que je mette en oeuvre un moyen
 plus efficace de gérer le changement de sélection et de gérer les événements des utilisateurs. Ca sera pour la
@@ -93,7 +92,7 @@ High Level. Et finalement je ne suis pas très convaincu par ce que j'ai fait. L
 très sommaire et pas très facile à faire. Je vous laisse admirer le résultat des deux écrans précédents pour cette
 nouvelle mouture.
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_6.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="proto_6.jpg"
     type="portrait"
@@ -101,13 +100,13 @@ nouvelle mouture.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_7.jpg -->
 {% include img.html
     image="proto_7.jpg"
     type="portrait"
     title="Ecran d'enregistrement version API High Level."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Comment on peut le voir c'est pas trop mal mais pour arriver, là il m'a fallu batailler pas mal de temps. Et comme
 on le voit sur le deuxième écran, ce n'est pas encore au point. Il reste encore du travail à faire si tant est que
@@ -121,7 +120,7 @@ moi- même, mais au moins je matrise tout. Je veux quelque chose, je le dessine 
 éditable, je le dessine, je dessine le texte et je le rends éditable par un moyen quelconque. Ceci complique la
 chose c'est vrai, mais au moins je fais comme je veux, mon interface.
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_8.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="proto_8.jpg"
     type="portrait"
@@ -129,13 +128,13 @@ chose c'est vrai, mais au moins je fais comme je veux, mon interface.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_9.jpg -->
 {% include img.html
     image="proto_9.jpg"
     type="portrait"
     title="Ecran d'enregistrement du troisième prototype."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Le premier écran donne bien (selon moi, après les goûts et les couleurs :laughing:) et le second est pas encore tout à
 fait au point. Ceci dit, on voit qu'à présent un titre peut être apparent sur l'écran et que le look &amp; feel
@@ -159,11 +158,11 @@ moment que l'on configure quelques petits trucs. C'est vraiment intéressant mai
 &amp; feel général. Toutefois, impossible de voir comment modifier ça. Je suis obligé de faire un compromis pour
 cette partie là. Ca reste acceptable :wink:
 
-<!-- /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_10.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="proto_10.jpg"
     type="portrait"
     title="Ecran de saisie gérée nativement par le mobile."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

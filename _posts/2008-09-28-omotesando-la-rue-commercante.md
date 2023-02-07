@@ -32,6 +32,4 @@ J'ai fini de parcourir la rue et j'ai vu la plus grande spatule de riz au monde.
 mais elle a pas dû servir souvent à mon avis. Les géants capables de l'utiliser doivent plus trop être dans le
 coin.
 
------
-
 {% include gallery.html gallery="miyajima-omotesando" %}

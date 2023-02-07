@@ -2,7 +2,7 @@
 layout:     post
 title:      Hiroshima - Jour du retour
 date:       2008-09-29 17:59:59 +0200
-categories: ["Balades", "Visites", "Nourriture & Cuisine"]
+categories: ["Balades", "Visites", "Nourriture"]
 ---
 
 Et oui, toutes les bonnes choses ont une fin, c'est bien connu. Mais autant finir correctement ce petit séjour
@@ -16,7 +16,7 @@ une méchante ampoule au pied gauche. Une fois fait, j'ai attendu quelques minut
 à l'heure. Le petit déjeuner était composé d'oeufs au plat, de jambon, d'une salade, de taost, de confiture, de
 beurre, de jus d'orange, d'eau et de café. Tout de suite les images du plateau petit déj.
 
-<!-- /assets/images/posts/2008-09-29-hiroshima-jour-du-retour/img_1500.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1500.jpg"
     type="landscape"
@@ -25,7 +25,6 @@ beurre, de jus d'orange, d'eau et de café. Tout de suite les images du plateau 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-29-hiroshima-jour-du-retour/img_1501.jpg -->
 {% include img.html
     image="img_1501.jpg"
     type="landscape"
@@ -34,7 +33,6 @@ beurre, de jus d'orange, d'eau et de café. Tout de suite les images du plateau 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-29-hiroshima-jour-du-retour/img_1502.jpg -->
 {% include img.html
     image="img_1502.jpg"
     type="landscape"
@@ -42,6 +40,7 @@ beurre, de jus d'orange, d'eau et de café. Tout de suite les images du plateau 
     title="Petit déjeuner, prise 3."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après le petit déjeuner, j'ai décidé de flemmer un peu. Je me suis posé dans mon fauteuil et j'ai observé les
 chantiers. C'est très amusant de voir la mise en route d'un chantier. Les ouvriers arrivent, se mettent autour du
@@ -74,11 +73,7 @@ Je l'ai parcourue ainsi que quelques ruelles alentour. J'ai même été dans un 
 ne pas m'acheter quelques trucs d'ailleurs :laughing: Je vous propose une petite galerie de photos pour cette
 partie de ma journée.
 
------
-
 {% include gallery.html gallery="hiroshima-hondori" %}
-
------
 
 Après cette balade, je suis retourné à la gare à pied. En chemin, j'ai encore pris quelques photos que vous pourrez
 voir en fin d'article. Je dois dire que j'étais très fatigué et j'en avais un peu marre de visiter.
@@ -107,7 +102,4 @@ Donc un parcours bref et rapide et bien plus pratique que le bus.
 Me voilà au terme du week end. Je dois dire que j'en garderais des précieux souvenir. C'est vraiment un séjour qui
 m'a marqué et que je suis pas prêt d'oublier. C'était juste génial. Pas d'autres mot à dire.
 
------
-
 {% include gallery.html gallery="hiroshima-retour" %}
-

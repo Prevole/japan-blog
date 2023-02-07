@@ -14,7 +14,7 @@ Chez nous, jour férié équivaut à congé pour le plus grand nombre, et tous l
 du shopping. Ici c'est tout le contraire, y a quasi tout d'ouvert et donc beaucoup de shopping possible. C'est vraiment
 très pratique.
 
-<span style="color: #3366ff;"><strong>Les magasins</strong></span>
+#### Les magasins
 
 Ici les magasins sont de toutes sortes mais toujours relativement spécialisés. Chaque magasin a son domaine particulier. 
 Le magasin de "souvenirs" pour les kimono, un pour le thé, un pour les baguettes, etc... Après y a les 
@@ -26,7 +26,7 @@ l'on trouverait dans un Aperto ou un Coop Pronto. Pleins de petits produits de d
 on rentre d'aller boire un verre, et qu'après 2km de marche on crève de soif et qu'on cherche un petit rafraichissement 
 avant de rentrer.
 
-<span style="color: #3366ff;"><strong>Les restaurants</strong></span>
+#### Les restaurants
 
 Pour les restaurants c'est pareil. Ils sont tous spécialisés. Ramen d'un côté, sushis de l'autre et autres diverses 
 choses par-ci, par-là. Dans tous les cas, on trouve de tout. J'ai même vu des pizzerias. Faut dire que je suis dans une 
@@ -34,7 +34,7 @@ ville relativement importante :wink: Dans tous les cas, y en a pour tous les go�
 autres concurrents. Y a aussi plein de coffee shops partout dont les Starbucks. C'est pas les seuls, mais c'est les plus 
 marquants :laughing:
 
-<strong><span style="color: #3366ff;">Les bus</span></strong>
+#### Les bus
 
 Je ne sais pas si je vous en ai déjà parlé, mais tant pis si je me répète. Les bus ici sont pas trop mal développés mais 
 ils ne roulent pas très tard. Les derniers, et ça dépend des lignes, sont vers 0h00. Ce qui n'est pas très pratique 
@@ -43,7 +43,7 @@ a en suffisance et qui couvrent quasi toute la ville. Les chauffeurs ont un micr
 tout le temps. Ils annoncent les arrêts et arrêtent pas de dire au revoir et merci aux usagers lorsque ceux-ci 
 descendent. On monte dans le bus derrière ou au milieu et on descend devant pour payer le bus ou montrer son ticket.
 
-<span style="color: #3366ff;"><strong>La circulation</strong></span>
+#### La circulation
 
 C'est un poil différent d'ici. Lorsque vous avez le feu vert, vous entendez une petite alarme retentir pour vous avertir
 que vous pouvez traverser. Toutefois, il faut rester vigilant, car des voitures peuvent encore passer à ce moment là. 
@@ -51,7 +51,7 @@ Mais les japonais sont très disciplinés et laissent bien la priorité aux pié
 lorsqu'il y a plusieurs directions. Du coup, c'est pour ça qu'il y a des voitures qui peuvent passer là où l'on 
 traverse.
 
-<strong><span style="color: #3366ff;">La propreté des rues</span></strong>
+#### La propreté des rues
 
 On pourrait croire que la Suisse est un pays propre pour ces rues, mais je vous garantis qu'ici il est très très rare 
 de voir un mégot de cigarette par terre (y'a des cendriers aux arrêts de bus, et certains endroits sont non-fumeurs 

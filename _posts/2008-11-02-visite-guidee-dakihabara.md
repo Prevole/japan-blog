@@ -61,7 +61,5 @@ développeurs forcément :laughing:). Il m'a aussi dit que la team de Konami ét
 parce que c'est les développeurs de Metal Gear Solid 4. Je pense que c'est pas impossible qu'il y ait un rapport
 :smiling_imp:
 
------
-
 {% include gallery.html gallery="akihabara-by-day" %}
 

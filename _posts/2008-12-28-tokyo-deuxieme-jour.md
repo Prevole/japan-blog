@@ -20,7 +20,7 @@ Waseda et Shinjuku. Je peux vous dire que ça fait une petite trotte. Malheureus
 tracé précis des passages à pied, mais je peux vous montrer sur la carte un parcours approximatif de ce que
 j'estime avoir parcouru :laughing:
 
-<!-- /assets/images/posts/2008-12-27-tokyo-premier-jour/tokyo.png -->
+{%- media_cartridge -%}
 {% include img.html
     image="tokyo.png"
     type="landscape"
@@ -30,8 +30,9 @@ j'estime avoir parcouru :laughing:
     thumb_use_original="yes"
     title="Tokyo guided tour."
     gallery="img"
+    show_legend="yes"
 %}
-
+{%- endmedia_cartridge -%}
 
 Les prochains articles détailleront à chaque fois les étapes et les points importants. Pour le moment c'était un
 amuse-bouche.

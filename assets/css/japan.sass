@@ -1,0 +1,357 @@
+---
+---
+
+$site-bg-color: #282828
+$site-header-color: #1f1f1f
+
+$font-title-color: #ccc
+$font-title-color-hover: lighten(yellow, 40%)
+
+$post-bg-color: #222
+$post-font-color: lighten($font-title-color, 5%)
+
+$comment-bg-color: #eaeaea
+$comment-font-color: lighten(#111, 20%)
+
+$site-font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji
+$title-font-family: Comfortaa,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+
+body
+  font-family: $site-font-family
+  background-color: $site-bg-color
+
+.site-header
+  background-color: $site-header-color
+  padding-bottom: .5em
+  border: none
+
+  .header-title
+    display: flex
+    align-items: center
+    font-family: $title-font-family
+    color: $font-title-color
+
+    .site-title
+      color: $font-title-color
+
+    .site-title:hover
+      text-decoration: none
+      color: $font-title-color-hover
+
+    img
+      width: 40px
+      margin-right: 1.5em
+
+    span
+      margin-left: 1em
+
+.wrapper
+  max-width: calc(1000px - (30px * 2))
+
+  nav.categories
+    display: flex
+
+    .category-tab
+      flex: 1
+      padding: .5em
+      margin: 0 .2em
+      font-size: .75em
+      font-weight: 400
+
+    .category-tab:first-child
+      margin-left: 0
+
+    .category-tab:last-child
+      margin-right: 0
+
+    a
+      display: flex
+      align-items: center
+      color: $font-title-color
+
+    a:hover
+      text-decoration: none
+      color: $font-title-color-hover
+
+    a > span
+      font-size: 1.5em
+      margin-right: .4em
+
+.page-content
+  padding-top: 1em
+
+.post-card-list
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.post-card
+  flex: 0 1 48%
+  box-sizing: border-box
+  margin: 1rem .25em
+  background-color: gray
+  display: flex
+  flex-direction: column
+
+  p
+    text-align: justify
+
+.post-card-header
+  $background-icon-size: 2em
+
+  font-family: $title-font-family
+  padding: .5rem 1rem
+  background-size: $background-icon-size
+  background-repeat: no-repeat
+  background-position-x: right
+  background-position-y: center
+  background-origin: content-box
+
+  &.balades
+    background-color: mediumseagreen
+    background-image: url("/assets/icons/walking.svg")
+
+  &.comparaisons
+    background-color: mediumaquamarine
+    background-image: url("/assets/icons/compare.svg")
+
+  &.divers
+    background-color: lightpink
+    background-image: url("/assets/icons/other.svg")
+
+  &.general
+    background-color: cornflowerblue
+    background-image: url("/assets/icons/general.svg")
+
+  &.nourriture
+    background-color: indianred
+    background-image: url("/assets/icons/food.svg")
+
+  &.projet
+    background-color: coral
+    background-image: url("/assets/icons/project.svg")
+
+  &.tuiles
+    background-color: yellowgreen
+    background-image: url("/assets/icons/hospital.svg")
+
+  &.visites
+    background-color: lightyellow
+    background-image: url("/assets/icons/visit.svg")
+
+  time, span
+    font-size: .75em
+
+  h1
+    margin-bottom: 0
+    line-height: 1
+    font-weight: 700
+    padding-right: $background-icon-size
+
+    a, a:visited, a:hover
+      color: black
+      text-decoration: none
+
+.post-card-categories
+  padding: .25em 1em
+  background-color: lightgray
+
+  span::before
+    content: ", "
+    text-decoration: none
+
+  span:first-child::before
+    content: ""
+
+.post-card-excerpt
+  flex: 0 1 100%
+  padding: 1em
+
+.post-card-footer
+  text-align: right
+  padding: .5em 1em 1em
+
+$post-left-right-padding: 30px
+
+.post
+  .post-header
+    margin-bottom: 0
+
+    .post-title
+      background-color: $post-bg-color
+      font-family: $title-font-family
+      color: $font-title-color
+      padding: 30px $post-left-right-padding 20px $post-left-right-padding
+      border-top-left-radius: 20px
+      border-top-right-radius: 20px
+      margin: 0
+
+      span:last-child
+        margin-left: .5em
+
+    .post-meta
+      background-color: lighten($post-bg-color, 5%)
+      margin-bottom: 0
+      padding: 10px $post-left-right-padding
+      font-family: $title-font-family
+      color: darken($font-title-color, 10%)
+
+  .post-content
+    text-align: justify
+    background-color: lighten($post-bg-color, 10%)
+    padding: 20px $post-left-right-padding
+    color: $post-font-color
+    font-size: 1.1em
+    line-height: 1.6em
+
+    ul:last-child
+      margin-bottom: -($post-left-right-padding - 10px)
+
+    p
+      margin-bottom: 1.5em
+
+    p:last-child
+      margin-bottom: .5em
+
+    hr
+      border-top: .15em dashed darkgray
+      border-bottom: 0
+      margin: 1em 0
+
+    .post-media-cartridge
+      display: flex
+      justify-content: center
+      align-items: center
+      flex-wrap: wrap
+      gap: 1em
+      margin: 20px ($post-left-right-padding * -1)
+      background: $post-bg-color
+      padding: $post-left-right-padding
+
+      figure
+        margin: .4em
+        display: flex
+        justify-content: center
+        flex-direction: column
+
+      figcaption
+        padding: 10px 15px
+        background-color: darken(lightgray, 50%)
+        font-weight: 500
+
+    .post-media-cartridge:last-child
+      margin-bottom: -$post-left-right-padding
+
+.image-gallery
+  overflow: auto
+  display: flex
+  flex-flow: row wrap
+  gap: 10px
+  margin: 0 ($post-left-right-padding * -1) 20px ($post-left-right-padding * -1)
+  padding: 40px $post-left-right-padding
+  background-color: $post-bg-color
+  justify-content: center
+
+  li
+    display: block
+
+    a
+      text-align: center
+      text-decoration: none !important
+      color: #777
+
+      span
+        display: block
+        text-overflow: ellipsis
+        overflow: hidden
+        white-space: nowrap
+        padding: 3px 0
+
+  &:last-child
+    margin-bottom: 0
+
+ul.pager
+  text-align: center
+  list-style: none
+
+  li
+    display: inline
+    border: 1px solid black
+    padding: 10px
+    margin: 5px
+
+.comments
+  header > h1
+    background-color: $post-bg-color
+    font-family: $title-font-family
+    color: $font-title-color
+    padding: 20px 20px 10px 20px
+    border-top-left-radius: 20px
+    border-top-right-radius: 20px
+    margin: 0
+
+    span:last-child
+      margin-left: .5em
+
+$comment-padding: 20px
+$comment-radius: 10px
+
+.comment
+  color: $comment-font-color
+  padding: $comment-padding 0
+  display: flex
+  align-items: flex-start
+  gap: 1em
+
+  .comment-meta-outer
+    display: flex
+    align-items: center
+    border-radius: 0 $comment-radius $comment-radius 0
+    background-color: $comment-bg-color
+    padding: $comment-padding
+    width: 40%
+
+    .comment-meta-icon
+      margin-top: 3px
+      margin-right: .5em
+      font-size: 1.5em
+
+    .comment-meta
+      display: flex
+      flex-wrap: wrap
+
+      p
+        margin: 0
+
+      .comment-author
+        text-transform: capitalize
+        width: 100%
+
+      .comment-date
+        font-size: .75em
+
+  .comment-content
+    background-color: $comment-bg-color
+    padding: $comment-padding
+    border-radius: $comment-radius 0 0 $comment-radius
+    flex: 0 0 60%
+
+    p
+      margin-bottom: .5em
+
+    p:last-child
+      margin-bottom: 0
+
+  .comment-owner-left
+    background-image: linear-gradient(-15deg, #fff, rgba(255, 122, 24, .25))
+
+  .comment-owner-right
+    background-image: linear-gradient(-15deg, rgba(255, 122, 24, .25), #fff)
+
+  .comment-reply-to
+    padding: 5px 10px
+    background-color: darken(lightgoldenrodyellow, 10%)
+    font-weight: 600
+    border-radius: 10px
+
+

@@ -14,11 +14,11 @@ de mettre en avant l'interaction entre deux joueurs pour la partie des quêtes p
 Cette vidéo représente également une de mes dernières activités sur mon projet, réalisées au Japon. Les prochaines
 activités seront certainement conduites depuis la Suisse.
 
------
-
-<!-- /assets/media/posts/2009-01-01-une-video-de-plus/demo5.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="demo5.mp4"
     title="Une vidéo de plus"
     gallery="video"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}

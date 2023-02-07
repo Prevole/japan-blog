@@ -2,7 +2,7 @@
 layout:     post
 title:      Osaka Nipponbashi
 date:       2008-09-01 15:39:14 +0200
-categories: ["Balades", "Visites", "Nourriture & Cuisine"]
+categories: ["Balades", "Visites", "Nourriture"]
 ---
 
 Aujourd'hui, je suis allé à Osaka avec l'assistant et un ami à lui qui voulait absolument me rencontrer et qui
@@ -42,7 +42,7 @@ Voici les photos prises au moment de ce repas. Vous avez droit en prime à Masah
 Tatsuhiko. Pour finir, me voici également en pleine action (je sais que certain(e)s diront que c'est pas trop de me
 voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:).
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01141.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01141.jpg"
     type="landscape"
@@ -50,7 +50,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01142.jpg -->
 {% include img.html
     image="dsc01142.jpg"
     type="landscape"
@@ -58,7 +57,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/r0014031.jpg -->
 {% include img.html
     image="r0014031.jpg"
     type="landscape"
@@ -66,7 +64,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01143.jpg -->
 {% include img.html
     image="dsc01143.jpg"
     type="landscape"
@@ -74,7 +71,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01144.jpg -->
 {% include img.html
     image="dsc01144.jpg"
     type="landscape"
@@ -82,7 +78,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/r0014030.jpg -->
 {% include img.html
     image="r0014030.jpg"
     type="landscape"
@@ -90,7 +85,6 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/r0014029.jpg -->
 {% include img.html
     image="r0014029.jpg"
     type="landscape"
@@ -98,13 +92,13 @@ voir en photo, mais c'est pas simple de faire des photos de soi-même :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/r0014028.jpg -->
 {% include img.html
     image="r0014028.jpg"
     type="landscape"
     title="Et hop, c'est parti. Mais y a pas la suite :laughing:"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après, nous sommes partis en direction du quartier Nipponbashi, c'est à dire le quartier à Geek (ou Otaku). Sur le
 chemin, j'ai pris quelques photos également visibles dans la galerie avec des magasins dédiés aux restaurants avec
@@ -132,13 +126,14 @@ Nous nous sommes accordé une petite pause dans le paradis des donuts. Une chain
 part, je n'ai consommé qu'un jus d'orange et mes acolytes du café. Voici tout de même une petite photo de la
 vitrine à Donuts.
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01168.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01168.jpg"
     type="landscape"
     title="Mister Donuts."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Durant cette petite pause qui a probablement durée pas loin d'une heure, nous avons parlé de mon projet. Tatsuhiko
 voulait savoir pas mal de détails et m'a posé beaucoup de questions par l'intermédiaire de Masahiro. Il faut savoir
@@ -170,7 +165,7 @@ mangé des raviolis frits (chinois donc) et des ramen. C'était sympa. Il y avai
 raviolis qui était vraiment piquante :laughing: Nous avons fini la soirée par une ou deux photos. La première montre
 Masahiro et Tatsuhiko et la seconde c'est moi (enfin me direz-vous) et Tatsuhiko.
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01192.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01192.jpg"
     type="landscape"
@@ -178,7 +173,6 @@ Masahiro et Tatsuhiko et la seconde c'est moi (enfin me direz-vous) et Tatsuhiko
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01193.jpg -->
 {% include img.html
     image="dsc01193.jpg"
     type="landscape"
@@ -186,13 +180,14 @@ Masahiro et Tatsuhiko et la seconde c'est moi (enfin me direz-vous) et Tatsuhiko
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-01-osaka-nipponbashi/r0014032.jpg -->
 {% include img.html
     image="r0014032.jpg"
     type="landscape"
     title="Moi et Tatsuhiko juste au moment de rentrer chez moi."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 -----
+
 {% include gallery.html gallery="osaka-nipponbashi" %}

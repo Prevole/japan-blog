@@ -56,7 +56,7 @@ En repartant j'ai pris des photos de ce qui se trouve derrière l'arrêt du bus 
 l'université. Ce n'est pas bien passionnant je vous l'accorde mais c'est joli et ça ajoute des couleurs à mon
 sujet. Je ferais plus de photos de l'uni dans les jours à venir, sûrement la semaine prochaine.
 
-<!-- /assets/images/posts/2008-07-22-premier-jour-a-luniversite-de-ritsumeikan/dsc00313.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00313.jpg"
     type="landscape"
@@ -64,7 +64,6 @@ sujet. Je ferais plus de photos de l'uni dans les jours à venir, sûrement la s
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-22-premier-jour-a-luniversite-de-ritsumeikan/dsc00310.jpg -->
 {% include img.html
     image="dsc00310.jpg"
     type="landscape"
@@ -72,7 +71,6 @@ sujet. Je ferais plus de photos de l'uni dans les jours à venir, sûrement la s
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-22-premier-jour-a-luniversite-de-ritsumeikan/dsc00311.jpg -->
 {% include img.html
     image="dsc00311.jpg"
     type="landscape"
@@ -80,11 +78,10 @@ sujet. Je ferais plus de photos de l'uni dans les jours à venir, sûrement la s
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-22-premier-jour-a-luniversite-de-ritsumeikan/dsc00312.jpg -->
 {% include img.html
     image="dsc00312.jpg"
     type="landscape"
     title="Un joli mur ter."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

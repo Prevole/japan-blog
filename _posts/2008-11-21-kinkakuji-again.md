@@ -27,6 +27,4 @@ arbres qu'il a été donné de voir, sont tout simplement génialissime. J'ai fr
 des couleurs. Mais alors, qu'est-ce qu'il commence à faire frais par ici. C'est un réel changement entre l'été et
 l'hiver. Quitte à choisir, je préfère l'été :laughing: Sans plus attendre la galerie.
 
------
-
 {% include gallery.html gallery="kinkakuji-again" %}

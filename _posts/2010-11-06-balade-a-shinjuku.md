@@ -18,11 +18,7 @@ Pèlerinage ça vous dit quelque chose ? Qu'importe, j'ai eu l'occasion de voir 
 jamais croisé. Du coup j'ai fait une bonne promenade, ce qui m'a valu de me remettre en forme, de m'ouvrir
 l'appétit et de me sentir ressourcé.
 
------
-
 {% include gallery.html gallery="perdu-dans-shinjuku" %}
-
------
 
 Peut être que dans le tas de photos vous aurez reconnu un des bâtiments (bon, mis à part la mairie avec ces deux
 tours sur fond de nuage de nuit) et sans lire les commentaires sur les photos. Oui, oui, je parle du bâtiment qui
@@ -35,11 +31,7 @@ Comme vous le savez à présent, j'ai été faire un tour au Square Enix Showcas
 photos. Bah oui, faut bien ramener un petit souvenir ou deux. Dommage que j'ai pas un camion et une paie de super
 ministre :smiling_imp: Bon, sans plus attendre, quelques images:
 
------
-
 {% include gallery.html gallery="square-enix-showcase" %}
-
------
 
 Après ça, je suis parti pour la Tokyo Station pour retrouver mes amis japonais. Une fois réunis, nous sommes partis
 manger dans un restaurant indien. Bah oui, après tout pourquoi pas, eux ils mangent tous les jours leur nourriture

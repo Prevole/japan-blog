@@ -11,6 +11,4 @@ on y voit bien les couleurs de la fin de l'année je trouve.
 
 <!--more-->
 
------
-
 {% include gallery.html gallery="november" %}

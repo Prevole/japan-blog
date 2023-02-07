@@ -2,7 +2,7 @@
 layout:     post
 title:      Un repas de plus
 date:       2008-08-12 12:37:45 +0200
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 Ce soir, je me suis dit que je pouvais varier mon repas et me faire une omelette ou quelque chose dans ce goût là
@@ -29,7 +29,7 @@ regarderais plus en détail le conditionnement, mais c'est pas tout le temps fac
 Pour finir je me suis fait une bonne salade avec mes oeufs manière brouillée par dessus. Le résultat a donné
 quelque chose de très sympa.
 
-<!-- /assets/images/posts/2008-08-12-un-repas-de-plus/dsc00901.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00901.jpg"
     type="landscape"
@@ -37,11 +37,10 @@ quelque chose de très sympa.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-12-un-repas-de-plus/dsc00902.jpg -->
 {% include img.html
     image="dsc00902.jpg"
     type="landscape"
     title="Salade saupoudré d'œufs brouillés (avec flash)."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

@@ -22,7 +22,7 @@ sur ça sûrement bien plus tard :laughing:).
 Sans plus attendre, je vais vous montrer quelques images que j'ai pris en rentrant. Tout d'abord le petit cornet
 NTT Docomo et son contenu en vrac.
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01042.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01042.jpg"
     type="portrait"
@@ -30,13 +30,13 @@ NTT Docomo et son contenu en vrac.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01043.jpg -->
 {% include img.html
     image="dsc01043.jpg"
     type="portrait"
     title="Le contenu en vrac."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 On peut aisément voir en haut de la photo le carton bleu de l'appareil. Son petit nom c'est Red Aurora (du moins
 c'est le nom de la couleur :wink:). Les trois petits cartons blancs sont les accessoires (j'y viens après). A côté des
@@ -49,7 +49,7 @@ blancs, ceux-ci contiennent le chargeur secteur (vendu séparément), le câble 
 pour poser le téléphone (vendu séparément). Vous l'aurez compris, quelque que soit l'accessoire, ceux-ci sont
 toujours vendus à part. Le carton du téléphone ne contient uniquement le téléphone et sa batterie.
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01044.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01044.jpg"
     type="landscape"
@@ -57,20 +57,20 @@ toujours vendus à part. Le carton du téléphone ne contient uniquement le tél
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01047.jpg -->
 {% include img.html
     image="dsc01047.jpg"
     type="landscape"
     title="Les accessoires."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Vient ensuite la carte SIM et les différents documents officiels que mon professeur a dû signer pour le contrat.
 Vous constaterez que la carte SIM a le même format que chez nous et c'est probablement pour ça que je fais cet abus
 de langage en parlant de carte SIM car je ne crois pas que le nom soit le même ici :laughing: . Nan, vous n'avez pas bu !
 Le flou sur la paperasse est voulu.
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01045.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01045.jpg"
     type="landscape"
@@ -78,13 +78,13 @@ Le flou sur la paperasse est voulu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01046.jpg -->
 {% include img.html
     image="dsc01046.jpg"
     type="landscape"
     title="La paperasse."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 A présent, passons aux choses sérieuses. Enfin voici le téléphone mobile choisi. Tout d'abord je vous présente
 l'avant et l'arrière de l'appareil. Vient ensuite, l'appareil ouvert, puis l'écran retourné et refermé. C'est à
@@ -93,7 +93,7 @@ dire que l'écran est à présent vers l'extérieur. Vient après ça le menu pr
 :laughing: Pour finir, le mobile au repos en train de reprendre des forces sur sa station de base. La lumière vient 
 du mobile et pas de la base :sunglasses:
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01048.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01048.jpg"
     type="portrait"
@@ -101,7 +101,6 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01049.jpg -->
 {% include img.html
     image="dsc01049.jpg"
     type="portrait"
@@ -109,7 +108,6 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01050.jpg -->
 {% include img.html
     image="dsc01050.jpg"
     type="portrait"
@@ -117,7 +115,6 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01051.jpg -->
 {% include img.html
     image="dsc01051.jpg"
     type="landscape"
@@ -125,7 +122,6 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01052.jpg -->
 {% include img.html
     image="dsc01052.jpg"
     type="portrait"
@@ -133,7 +129,6 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01053.jpg -->
 {% include img.html
     image="dsc01053.jpg"
     type="portrait"
@@ -141,13 +136,13 @@ du mobile et pas de la base :sunglasses:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01055.jpg -->
 {% include img.html
     image="dsc01055.jpg"
     type="landscape"
     title="Le mobile au repos."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Je posterai ultérieurement d'autres images quand j'aurais de quoi vous montrer mon projet directement sur le
 téléphone mobile.

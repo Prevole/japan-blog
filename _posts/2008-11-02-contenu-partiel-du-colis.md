@@ -14,7 +14,7 @@ une partie du contenu, car les destinataires ont reçu certains de ces objets.
 Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughing: Je ne les mettrai qu'après Noël
 :laughing: Sans plus attendre, les photos.
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01302.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01302.jpg"
     type="landscape"
@@ -23,7 +23,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01303.jpg -->
 {% include img.html
     image="dsc01303.jpg"
     type="landscape"
@@ -32,7 +31,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01304.jpg -->
 {% include img.html
     image="dsc01304.jpg"
     type="landscape"
@@ -41,7 +39,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01305.jpg -->
 {% include img.html
     image="dsc01305.jpg"
     type="landscape"
@@ -50,7 +47,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01306.jpg -->
 {% include img.html
     image="dsc01306.jpg"
     type="landscape"
@@ -59,7 +55,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01311.jpg -->
 {% include img.html
     image="dsc01311.jpg"
     type="landscape"
@@ -68,7 +63,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01312.jpg -->
 {% include img.html
     image="dsc01312.jpg"
     type="landscape"
@@ -77,7 +71,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01313.jpg -->
 {% include img.html
     image="dsc01313.jpg"
     type="landscape"
@@ -86,7 +79,6 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-02-contenu_partier_du_colis/dsc01317.jpg -->
 {% include img.html
     image="dsc01317.jpg"
     type="portrait"
@@ -94,6 +86,7 @@ Toutefois, il reste encore quelques objets qui ne sont pas affichés ici :laughi
     title="Wood block printing (pour ma belle soeur)."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Tous ces objets, je les ai trouvé au Kyoto Handicraft Center, il y a de ça quatre semaines à présent. Et je peux
 vous dire que le choix est encore vaste :laughing: Je vais d'ailleurs sûrement y retourner pour trouver quelques

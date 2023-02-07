@@ -2,7 +2,7 @@
 layout:     post
 title:      Une journée de repos
 date:       2008-08-09 13:29:10 +0200
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 Aujourd'hui, je me suis accordé une journée de repos. Pas de sortie, pas de visite, pas de balade. Enfin si, il
@@ -23,7 +23,7 @@ la place pour ranger mais pas d'étagères pour bien ranger. Enfin, je me plains
 Après ces réjouissances, j'ai eu l'occasion d'assister à un joli coucher de soleil. Je vous laisse d'ailleurs
 admirer les quelques prises de vue.
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00771.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00771.jpg"
     type="landscape"
@@ -31,7 +31,6 @@ admirer les quelques prises de vue.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00772.jpg -->
 {% include img.html
     image="dsc00772.jpg"
     type="landscape"
@@ -39,7 +38,6 @@ admirer les quelques prises de vue.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00773.jpg -->
 {% include img.html
     image="dsc00773.jpg"
     type="landscape"
@@ -47,7 +45,6 @@ admirer les quelques prises de vue.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00775.jpg -->
 {% include img.html
     image="dsc00775.jpg"
     type="landscape"
@@ -55,23 +52,24 @@ admirer les quelques prises de vue.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00776.jpg -->
 {% include img.html
     image="dsc00776.jpg"
     type="landscape"
     title="Coucher de soleil, prise 5."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et une petite image de l'autre côté avec les couleurs du coucher de soleil.
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00774.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00774.jpg"
     type="landscape"
     title="Couleurs du coucher de soleil sur les bâtiments."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Pour finir, je vais vous livrer ma liste de commission de la journée (enfin c'est la liste pour toute la semaine).
 Mon panier comportait les choses suivantes pour un total de 5'002¥ (50.02 CHF).
@@ -96,7 +94,7 @@ Mon panier comportait les choses suivantes pour un total de 5'002¥ (50.02 CHF).
 Et comme la tradition le veut, je vous livre ici les images de mon repas de ce soir. Oui, c'est encore une salade,
 accompagné de beignets de légumes et autres joyeusetés du genre, très bonnes.
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00777.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00777.jpg"
     type="landscape"
@@ -104,7 +102,6 @@ accompagné de beignets de légumes et autres joyeusetés du genre, très bonnes
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00778.jpg -->
 {% include img.html
     image="dsc00778.jpg"
     type="landscape"
@@ -112,7 +109,6 @@ accompagné de beignets de légumes et autres joyeusetés du genre, très bonnes
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00779.jpg -->
 {% include img.html
     image="dsc00779.jpg"
     type="landscape"
@@ -120,10 +116,10 @@ accompagné de beignets de légumes et autres joyeusetés du genre, très bonnes
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00780.jpg -->
 {% include img.html
     image="dsc00780.jpg"
     type="landscape"
     title="Nouvelle salade avec flash."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}

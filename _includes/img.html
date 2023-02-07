@@ -29,13 +29,16 @@
 {%- capture thumb_path -%}/assets/images/posts/{{ folder_path }}/{{ name}}-{{ thumb }}.{{ format }}{%- endcapture -%}
 {%- endif -%}
 
-<a href="{{ img_path }}"
-   class="glightbox-gallery"
-   data-gallery="{{ include.gallery }}"
-   data-description="{{ include.title }}">
-    <img
-        class="image"
-        src="{{ thumb_path }}"
-        alt="{{ include.title }}"
-        {{ thumb_attributes }} >
-</a>
+<figure>
+    <a href="{{ img_path }}"
+       class="glightbox-gallery"
+       data-gallery="{{ include.gallery }}"
+       data-description="{{ include.title }}">
+        <img
+            class="image"
+            src="{{ thumb_path }}"
+            alt="{{ include.title }}"
+            {{ thumb_attributes }} >
+    </a>
+    {%- if include.show_legend -%}<figcaption>{{ include.title }}</figcaption>{%- endif -%}
+</figure>

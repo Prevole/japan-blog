@@ -23,7 +23,7 @@ Je tiens à remercier ma mère pour les emballages cadeaux. Ça m'aurait été d
 pour faire des emballages cadeaux. Ce qui me fait penser, que je n'ai pas vu de telles choses à l'achat dans les
 magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :laughing:
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1973.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1973.jpg"
     type="landscape"
@@ -32,7 +32,6 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1974.jpg -->
 {% include img.html
     image="img_1974.jpg"
     type="landscape"
@@ -41,7 +40,6 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1975.jpg -->
 {% include img.html
     image="img_1975.jpg"
     type="landscape"
@@ -50,7 +48,6 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1976.jpg -->
 {% include img.html
     image="img_1976.jpg"
     type="landscape"
@@ -59,7 +56,6 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1977.jpg -->
 {% include img.html
     image="img_1977.jpg"
     type="landscape"
@@ -68,7 +64,6 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-11-14-noel-avant-lheure/img_1978.jpg -->
 {% include img.html
     image="img_1978.jpg"
     type="landscape"
@@ -76,4 +71,4 @@ magasins, où j'ai été mais j'ai pas spécifiquement cherché ça non plus :la
     title="Truffes à la liqueur."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

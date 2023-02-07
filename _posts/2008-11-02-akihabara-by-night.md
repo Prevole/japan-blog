@@ -38,7 +38,7 @@ me suis mis à l'oeuvre pour soigner mon p***** de genou qui me faisait souffrir
 
 La carte montre l'itinéraire du soir pour le trajet Tokyo Station vers Akihabara et retour.
 
-<!-- /assets/images/posts/2008-11-02-akihabara-by-night/tokyometromap2.png -->
+{%- media_cartridge -%}
 {% include img.html
     image="tokyometromap2.png"
     type="landscape"
@@ -48,11 +48,11 @@ La carte montre l'itinéraire du soir pour le trajet Tokyo Station vers Akihabar
     thumb_use_original="yes"
     title="Itinéraire."
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Sans plus attendre, la galerie de photos.
-
------
 
 {% include gallery.html gallery="akihabara-by-night" %}
 

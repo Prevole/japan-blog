@@ -31,7 +31,7 @@ je me suis baladé tranquillement en direction de mon hôtel et j'ai fait quelqu
 En rentrant, j'ai encore fait quelques photos de ma chambre et de la vue que j'ai depuis mes fenêtres. C'est pas
 terrible la vue mais la chambre est tout ce qu'il y a de confortable.
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3359.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_3359.jpg"
     type="landscape"
@@ -40,7 +40,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3360.jpg -->
 {% include img.html
     image="img_3360.jpg"
     type="landscape"
@@ -49,7 +48,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3361.jpg -->
 {% include img.html
     image="img_3361.jpg"
     type="landscape"
@@ -58,7 +56,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3362.jpg -->
 {% include img.html
     image="img_3362.jpg"
     type="landscape"
@@ -67,7 +64,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3363.jpg -->
 {% include img.html
     image="img_3363.jpg"
     type="landscape"
@@ -76,7 +72,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3364.jpg -->
 {% include img.html
     image="img_3364.jpg"
     type="landscape"
@@ -85,7 +80,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3365.jpg -->
 {% include img.html
     image="img_3365.jpg"
     type="portrait"
@@ -94,7 +88,6 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-06-23-intetain-amsterdam-day-two/img_3366.jpg -->
 {% include img.html
     image="img_3366.jpg"
     type="portrait"
@@ -102,4 +95,4 @@ terrible la vue mais la chambre est tout ce qu'il y a de confortable.
     title="La douche."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

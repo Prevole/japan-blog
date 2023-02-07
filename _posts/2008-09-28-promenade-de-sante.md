@@ -12,7 +12,7 @@ J'avais prévu de tout faire à pied, ce que j'ai fait. Quelle marche ! Le soir 
 
 Je vous présente ci-dessous l'itinéraire à pied que j'ai effectué ce premier jour à Hiroshima.
 
-<!-- /assets/images/posts/2008-09-28-promenade-de-sante/hiroshima_jour_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="hiroshima_jour_1.jpg"
     type="landscape"
@@ -23,6 +23,7 @@ Je vous présente ci-dessous l'itinéraire à pied que j'ai effectué ce premier
     title="Itinéraire premier jour."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Je ne m'étais pas rendu compte de la distance parcourue. Ce n'est que lorsque j'ai préparé cette carte que je me
 suis aperçu que j'ai fait une bonne petite promenade. D'ailleurs, il est intéressant de noter que sur les

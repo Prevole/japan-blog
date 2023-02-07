@@ -2,7 +2,7 @@
 layout:     post
 title:      Contenu du paquet vers la Suisse
 date:       2008-11-21 17:41:16 +0100
-categories: ["Comparaisons", "Nourriture & Cuisine"]
+categories: ["Comparaisons", "Nourriture"]
 ---
 
 J'ai oublié de poster les photos des quelques aliments que j'ai envoyés pour la Suisse. Comme je le disais, il
@@ -13,7 +13,7 @@ s'agit principalement de nourriture pour l'apéritif. J'ai également envoyé qu
 Premier produit, je sais pas du tout le nom de ces trucs, mais c'est bon. C'est comme caramélisé (sans sucre je
 précise) et ça croustille sous la dent.
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1982.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1982.jpg"
     type="landscape"
@@ -21,11 +21,12 @@ précise) et ça croustille sous la dent.
     title="Sais pas ce que c'est mais c'est bon :laughing:"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Sticks de fromage. C'est original et pas mauvais. C'est pas juste du fromage faut dire, y a deux bandes blanches en
 haut et en bas du fromage. J'en connais qui vont pouvoir tester ça :wink:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1983.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1983.jpg"
     type="landscape"
@@ -33,10 +34,11 @@ haut et en bas du fromage. J'en connais qui vont pouvoir tester ça :wink:
     title="Stick de fromage."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est des chips aux pois. C'est spécial et agréable. Enfin, ça n'engage que moi hein :laughing:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1984.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1984.jpg"
     type="landscape"
@@ -44,11 +46,12 @@ C'est des chips aux pois. C'est spécial et agréable. Enfin, ça n'engage que m
     title="Chips aux poids."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 C'est la même chose qu'au début, mais avec des cahouètes en plus. Il est possible que le goût diffère un tout petit
 peu. Pas la même marque. C'est un peu comparer Zweifel et les chips de la Migros. :smiling_imp:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1985.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1985.jpg"
     type="landscape"
@@ -56,11 +59,12 @@ peu. Pas la même marque. C'est un peu comparer Zweifel et les chips de la Migro
     title="La même chose qu'avant mais avec des cahouètes."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Ça c'est assez spécial. C'est pas mauvais et c'est ce que je considère comme rebibes de poisson. Faut faire
 attention aux dents parce que ça à une tendance à faire glisser les dents dessus et provoquer quelques douleurs.
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1986.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1986.jpg"
     type="landscape"
@@ -68,10 +72,11 @@ attention aux dents parce que ça à une tendance à faire glisser les dents des
     title="Rebibes de poisson."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Un assortiment avec quelques trucs bien bizarres. Je laisserai découvrir les testeurs suisses :laughing:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1987.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1987.jpg"
     type="landscape"
@@ -79,11 +84,12 @@ Un assortiment avec quelques trucs bien bizarres. Je laisserai découvrir les te
     title="Assortiment en tout genre."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Bonite séchée (enfin je crois que c'est ça :laughing:). Ça c'est pas pour l'apéro mais c'est chouette à mettre sur
 le tofu ou sur la salade. C'est une sorte de condiment.
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1988.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1988.jpg"
     type="landscape"
@@ -91,12 +97,13 @@ le tofu ou sur la salade. C'est une sorte de condiment.
     title="Bonite séchée."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Un petit clin d'oeil à Michael (le suisse :laughing:) qui m'en avait envoyé, mais celui-ci ne contient pas de
 petits poissons séchés :laughing: Le goût est d'abord salé puis finit sur une touche sucrée avec la cahouète à
 l'intérieur. C'est le M&amp;Ms local :laughing:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1989.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1989.jpg"
     type="landscape"
@@ -104,11 +111,12 @@ l'intérieur. C'est le M&amp;Ms local :laughing:
     title="Bouboules de couleurs."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 De nouveau pas pour l'apéro, c'est des sachets de soupe. C'est juste un petit souvenir comme ça en passant
 :laughing: Vous remarquerez le Great Value sur l'emballage. Ça doit correspondre au M-Budget local :laughing:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1990.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1990.jpg"
     type="landscape"
@@ -116,12 +124,13 @@ De nouveau pas pour l'apéro, c'est des sachets de soupe. C'est juste un petit s
     title="Sachets de soupe."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Rebibes de fromage. Je préviens tout de suite, j'y ai pas goûté :laughing: Je ne sais pas ce que ça vaut. Y avait
 un échantillon du même genre dans l'assortiment vu précédement. J'en ai déduit que ça pouvait être pareil. Mes
 testeurs me diront ce qu'ils en pensent hein :wink:
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1991.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1991.jpg"
     type="landscape"
@@ -129,12 +138,13 @@ testeurs me diront ce qu'ils en pensent hein :wink:
     title="Rebibes de fromage."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Biscuits apéritifs. On voit pas forcément bien, mais il y a une algue, comme pour les maki ou ce genre de plats,
 autour des biscuits. C'est pour tenir le biscuit car il est un peu collant à cause du glaçage qu'il y a dessus.
 L'algue se mange et c'est même plutôt bon. J'aime bien en tout cas.
 
-<!-- /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1992.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_1992.jpg"
     type="landscape"
@@ -142,6 +152,7 @@ L'algue se mange et c'est même plutôt bon. J'aime bien en tout cas.
     title="Biscuit de riz."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Et voilà, nous avons fini de faire le tour. C'est déjà pas si mal pour quelques produits exotiques inhabituels,
 dans notre si belle contrée.

@@ -2,7 +2,7 @@
 layout:     post
 title:      Pas grand chose de neuf
 date:       2008-08-15 13:25:48 +0200
-categories: ["Général", "Nourriture & Cuisine"]
+categories: ["Général", "Nourriture"]
 ---
 
 La routine s'installe. Aujourd'hui, j'ai de nouveau travaillé depuis la maison vu que l'uni est fermée. Ceci dit,
@@ -17,7 +17,7 @@ filets de poulet. Alors je me suis dit que j'allais faire ça en omelette. J'ai 
 composée de : poulet, thon, oeuf, oignons, ciboule, beurre pour la cuisson, sel, sauce soja, paprika et poivre. Le
 résultat est vraiment super sympa. Et puis pour accompagner le tout, ma petite salade habituelle. Voici les images.
 
-<!-- /assets/images/posts/2008-08-15-pas-grand-chose-de-neuf/dsc00908.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00908.jpg"
     type="landscape"
@@ -25,7 +25,6 @@ résultat est vraiment super sympa. Et puis pour accompagner le tout, ma petite 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-15-pas-grand-chose-de-neuf/dsc00909.jpg -->
 {% include img.html
     image="dsc00909.jpg"
     type="landscape"
@@ -33,7 +32,6 @@ résultat est vraiment super sympa. Et puis pour accompagner le tout, ma petite 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-15-pas-grand-chose-de-neuf/dsc00910.jpg -->
 {% include img.html
     image="dsc00910.jpg"
     type="landscape"
@@ -41,11 +39,10 @@ résultat est vraiment super sympa. Et puis pour accompagner le tout, ma petite 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-15-pas-grand-chose-de-neuf/dsc00911.jpg -->
 {% include img.html
     image="dsc00911.jpg"
     type="landscape"
     title="L'omelette à la lueur du flash."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

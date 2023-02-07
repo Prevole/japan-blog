@@ -2,7 +2,7 @@
 layout:     post
 title:      Un nouveau bentô
 date:       2008-08-08 15:46:34 +0200
-categories: ["Nourriture & Cuisine", "Projet"]
+categories: ["Nourriture", "Projet"]
 ---
 
 Ce soir je suis rentré tard à la maison après un après-midi de magasins. Du moins de visites de magasins de
@@ -28,7 +28,7 @@ n'avais plus trop envie de me faire quelque chose à manger. Mon bentô était c
 panés pas mauvais du tout, de riz, de gingembre, de salade de légumes et purée de légumes. C'était vraiment bon je
 dois dire.
 
-<!-- /assets/images/posts/2008-08-08-un-nouveau-bento/dsc00769.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00769.jpg"
     type="landscape"
@@ -36,11 +36,10 @@ dois dire.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-08-un-nouveau-bento/dsc00770.jpg -->
 {% include img.html
     image="dsc00770.jpg"
     type="landscape"
     title="Nouveau bentô avec flash."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

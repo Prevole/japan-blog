@@ -20,9 +20,11 @@ autre serveur, dont je ne suis pas maitre. De ce fait, pour le moment, je ne peu
 J'espère que dès demain ça avancera (c'est ce qui est prévu :laughing:). Sans plus attendre, voici la vidéo
 (Remarquez l'effort, vous pouvez la visionner directement en streaming, plus besoin de télécharger).
 
-<!-- /assets/media/posts/2008-09-22-premiere-demo/demo_1.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="demo_1.mp4"
     title="Première demo"
     gallery="video"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}

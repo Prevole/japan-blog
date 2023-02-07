@@ -16,9 +16,11 @@ des commentaires constructifs sur l'ensemble de ce qui est présenté. Merci de 
 qui ne servent à rien. J'attends de voir si quelques-uns d'entre vous remarqueront les petits soucis qui se cachent
 dans la vidéo au niveau du jeu. Je vous l'accorde, ça ne sera pas facile à détecter (prononciation à la JER).
 
-<!-- /assets/media/posts/2008-12-07-test-grandeur-nature/demo_3.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="demo_3.mp4"
     title="Troisième demo"
     gallery="video"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}

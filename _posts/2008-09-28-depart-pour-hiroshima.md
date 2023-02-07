@@ -27,19 +27,19 @@ durées différentes pour le faire. Dans tous les cas, faut bien être attentif 
 Je vous laisse découvrir les photos des Shinkansen dans la galerie prévue à cet effet en fin d'article. Mais avant
 cela, voici deux petites vidéos de l'arrivée de mon Shinkansen.
 
-<!-- /assets/media/posts/2008-09-28-depart-pour-hiroshima/shinkansen_2b.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="shinkansen_2b.mp4"
     title="Entrée en gare"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-09-28-depart-pour-hiroshima/shinkansen_1b.mp4 -->
 {% include media.html
     media="shinkansen_1b.mp4"
     title="Entrée en gare bis"
     gallery="video"
 %}
+{%- endmedia_cartridge -%}
 
 Une fois dans le Shinkansen, je me suis mélangé les pinceaux et j'ai pris la place <strong>8A</strong>. Une
 personne montée au même arrêt était presque en train de s'assoir quand j'ai fait signe que c'était ma place. Mais

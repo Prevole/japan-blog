@@ -535,7 +535,7 @@ Je vous propose un petit diagramme de classe pour résumer l'architecture de ce 
 liens avec des flèches fermées et vides sont des liens d'héritage, les flèches trétillées sont des liens
 d'implémentation (interface) et les liens bleus sont simplement une utilisation de classe (association).
 
-<!-- /assets/images/posts/2008-09-20-probleme-de-conception/rendering.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="rendering.jpg"
     type="landscape"
@@ -545,7 +545,9 @@ d'implémentation (interface) et les liens bleus sont simplement une utilisation
     thumb_use_original="yes"
     title="Architecture"
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Nous sommes au terme de cet article technique qui je l'espère vous aura plu. Je l'avoue, il est purement technique
 et j'ai tenté de rester le plus simple possible, mais c'est guère possible quand on fait appel à autant de notions,

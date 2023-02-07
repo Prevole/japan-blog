@@ -29,7 +29,4 @@ Ah oui, petit détail, j'ai réussi à me choper une monstrueuse cloque en plein
 le bon endroit (enfin pour ces choses là c'est jamais le bon endroit faut dire :laughing:) J'ai soigné comme j'ai
 pu, en prévision du lendemain, et c'était pas trop mal du tout comme soin.
 
------
-
 {% include gallery.html gallery="miyajima-retour" %}
-

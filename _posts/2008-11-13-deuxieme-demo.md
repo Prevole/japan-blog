@@ -84,11 +84,11 @@ je fais tourner un Windows XP dans une machine virtuelle, et que par conséquent
 comme l'absence de curseur quand je fais une capture vidéo. Le début de la vidéo est un peu lent, le temps de
 trouver les boutons. C'est plus difficile quand on ne voit pas son curseur :laughing:
 
------
-
-<!-- /assets/media/posts/2008-11-13-deuxieme-demo/demo_2.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="demo_2.mp4"
     title="Seconde demo"
     gallery="video"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}

@@ -18,7 +18,7 @@ en partant à l'opposé de là où je devais aller :laughing: C'est pas facile d
 Sur le chemin, j'ai croisé quelques musées que j'ai pris en photo ci-dessous. Ne me demandez pas les noms exacts de ces
 musées car je n'en ai aucune idée. Je sais juste que sur la même zone il y en a quelques uns.
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00159.jpg -->
+{%- media_cartridge -%}
 {% include img.html
    image="dsc00159.jpg"
    type="landscape"
@@ -26,17 +26,17 @@ musées car je n'en ai aucune idée. Je sais juste que sur la même zone il y en
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00163.jpg -->
 {% include img.html
    image="dsc00163.jpg"
    type="landscape"
    title="Musée d'art de Kyoto"
    gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pourrait appeler une porte je pense :laughing:
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00160.jpg -->
+{%- media_cartridge -%}
 {% include img.html
    image="dsc00160.jpg"
    type="landscape"
@@ -44,7 +44,6 @@ Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pour
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00161.jpg -->
 {% include img.html
    image="dsc00161.jpg"
    type="landscape"
@@ -52,7 +51,6 @@ Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pour
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00162.jpg -->
 {% include img.html
    image="dsc00162.jpg"
    type="landscape"
@@ -60,7 +58,6 @@ Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pour
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00164.jpg -->
 {% include img.html
    image="dsc00164.jpg"
    type="landscape"
@@ -68,7 +65,6 @@ Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pour
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00165.jpg -->
 {% include img.html
    image="dsc00165.jpg"
    type="landscape"
@@ -76,18 +72,18 @@ Après avoir retrouvé mon chemin, j'ai aperçu ce qui suit. C'est ce qu'on pour
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00166.jpg -->
 {% include img.html
    image="dsc00166.jpg"
    type="landscape"
    title="Une dernière pour la route."
    gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Sur mon chemin après cette porte, j'ai rencontré quelques petites choses sympas. Un Charles-Guillaume (spéciale
 dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00167.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00167.jpg"
     type="landscape"
@@ -95,7 +91,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00171.jpg -->
 {% include img.html 
     image="dsc00171.jpg"
     type="landscape"
@@ -103,7 +98,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00168.jpg -->
 {% include img.html
    image="dsc00168.jpg"
    type="landscape"
@@ -111,7 +105,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00169.jpg -->
 {% include img.html
    image="dsc00169.jpg"
    type="landscape"
@@ -119,7 +112,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00170.jpg -->
 {% include img.html
    image="dsc00170.jpg"
    type="landscape"
@@ -127,7 +119,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
    gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00172.jpg -->
 {% include img.html
     image="dsc00172.jpg"
     type="landscape"
@@ -135,7 +126,6 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00173.jpg -->
 {% include img.html
     image="dsc00173.jpg"
     type="landscape"
@@ -143,21 +133,22 @@ dédicace), un héron, une fontaine au milieu d'un "lac" et une statue.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00174.jpg -->
 {% include img.html
     image="dsc00174.jpg"
     type="landscape"
     title="Vue de plus près."
     gallery="g"
 %}
+{%- endmedia_cartridge -%}
 
 Pour finir, voici le bâtiment dans lequel je me suis rendu et où j'ai reçu un accueil très chaleureux. J'ai parlé un bon
 moment avec les gens qui sont à l'office d'information de cette institution d'aide aux étrangers nouvellement arrivés.
 
-<!-- /assets/images/posts/2008-07-18-kyoto-international-house/dsc00176.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00176.jpg"
     type="landscape"
     title="Kyoto International House."
     gallery="g"
 %}
+{%- endmedia_cartridge -%}

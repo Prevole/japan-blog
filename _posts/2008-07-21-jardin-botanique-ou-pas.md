@@ -14,7 +14,7 @@ suis arrivé à 15h et le jardin fermait ses portes à 15h30. Du coup, j'ai fait
 En allant au jardin, j'ai longé la rivière Kamo. J'ai pris en photo quelques volatiles et un poisson qui trainaient
 par là.
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00293.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00293.jpg"
     type="landscape"
@@ -22,7 +22,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00294.jpg -->
 {% include img.html
     image="dsc00294.jpg"
     type="landscape"
@@ -30,7 +29,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00295.jpg -->
 {% include img.html
     image="dsc00295.jpg"
     type="landscape"
@@ -38,7 +36,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00298.jpg -->
 {% include img.html
     image="dsc00298.jpg"
     type="landscape"
@@ -46,7 +43,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00300.jpg -->
 {% include img.html
     image="dsc00300.jpg"
     type="landscape"
@@ -54,7 +50,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00301.jpg -->
 {% include img.html
     image="dsc00301.jpg"
     type="landscape"
@@ -62,7 +57,6 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00296.jpg -->
 {% include img.html
     image="dsc00296.jpg"
     type="landscape"
@@ -70,29 +64,30 @@ par là.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00297.jpg -->
 {% include img.html
     image="dsc00297.jpg"
     type="landscape"
     title="Le poisson deuxième vue."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Durant ma marche, j'ai également vu des gens en congé. Ils profitaient pleinement de la rivière pour y faire
 barboter leurs pieds.
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00299.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00299.jpg"
     type="landscape"
     title="Des gens en congé qui profitent bien de l'eau."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 J'ai également fait deux petites photos de la rivière Kamo depuis un pont plus en avant de ma dernière balade au
 bord de la rivière. Elle est vraiment plaisante. Elle remplacerait presque mon petit lac léman :wink:
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00302.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00302.jpg"
     type="landscape"
@@ -100,18 +95,18 @@ bord de la rivière. Elle est vraiment plaisante. Elle remplacerait presque mon 
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00303.jpg -->
 {% include img.html
     image="dsc00303.jpg"
     type="landscape"
     title="Autre vue plus en aval."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après cela, j'ai rejoint le jardin botanique par une jolie allée ombragée et très agréable pour éviter de marcher
 au soleil.
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00304.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00304.jpg"
     type="landscape"
@@ -119,24 +114,25 @@ au soleil.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00305.jpg -->
 {% include img.html
     image="dsc00305.jpg"
     type="landscape"
     title="L'allée des piétons pour le même endroit."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Malheureusement, à mon arrivée j'ai vu le panneau des horaires et des prix. Pour le prix, y a pas à se plaindre
 mais les horaires c'est pas pratique :laughing: J'ai qu'à moins faire la grasse matinée c'est vrai :laughing:
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00307.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00307.jpg"
     type="landscape"
     title="Les horaires et les prix."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après avoir vu le panneau et avoir tenté de me renseigner (les pauvres caissiers m'ont pas bien compris et moi de
 même :laughing:), je me suis dis qu'il valait mieux revenir un autre jour plutôt que de stresser pour voir tout en 30
@@ -145,13 +141,14 @@ minutes.
 J'ai suivi une allée ombragée le long de l'autre berge de la rivière lorsque je suis reparti pour ma promenade. Vu
 que je n'avais plus rien à visiter, je me suis dit que j'allais marcher et regarder un peu les rues.
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00306.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00306.jpg"
     type="landscape"
     title="Une allée à côté de la rivière."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Lorsque je me suis décidé de retourner à la maison, j'ai croisé des insectes bizares sur ma route. J'en ai déduit
 que c'est ceux qui faisaient du raffut dans les arbres comme dans les mangas animés lorsque les protagonistes se
@@ -159,7 +156,7 @@ baladent à la campagne en été. Ils font beaucoup de bruit ces machins. Mon pr
 le sol avant d'aller dans les arbres et de mourrir deux jours plus tard. D'ailleurs ceux en photo avaient pas l'air
 trop vivant :laughing:
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00308.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00308.jpg"
     type="landscape"
@@ -167,19 +164,20 @@ trop vivant :laughing:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00309.jpg -->
 {% include img.html
     image="dsc00309.jpg"
     type="landscape"
     title="En fait y'en a deux et ils ont l'air mort."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Pour finir, une petite vidéo pour vous faire entendre le bruit de ces bestiolles.
 
-<!-- /assets/media/2008-07-21-jardin-botanique-ou-pas/mov00175.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="mov00175.mp4"
     title="Bruit des gros insectes comme dans les mangas"
     gallery="video"
 %}
+{%- endmedia_cartridge -%}

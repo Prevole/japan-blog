@@ -14,7 +14,7 @@ commencé à prévoir un peu plus mon parcours dans l'ile.
 Je vous propose une petite carte des déplacements que j'ai effectués dans la journée. Le périple m'aura fait
 parcourir presque 12Km dont 3.2Km en télécabine/téléférique.
 
-<!-- /assets/images/posts/2008-09-28-promenade-de-remise-en-forme/hiroshima_jour_2.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="hiroshima_jour_2.jpg"
     type="landscape"
@@ -25,6 +25,7 @@ parcourir presque 12Km dont 3.2Km en télécabine/téléférique.
     title="Promenade de remise en forme."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Du coup, avec tous ces petits moments de marche, j'ai pu voir pas mal de paysage et pas mal de petites choses. Je
 vous propose une galerie en ce sens.

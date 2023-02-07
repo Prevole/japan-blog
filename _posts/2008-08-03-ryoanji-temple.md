@@ -13,7 +13,7 @@ l'uni et depuis là, je suis parti à pied pour le temple le plus proche. Il s'a
 Sur le chemin, j'ai pris quelques photos. Premièrement, je voulais montrer que ça grimpe un petit peu (pas des
 masses, mais c'est pas tout plat). Et ensuite, j'ai vu une formation rocheuse sympa à regarder.
 
-<!-- /assets/images/posts/2008-08-03-ryoanji-temple/dsc00611.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc00611.jpg"
     type="landscape"
@@ -21,7 +21,6 @@ masses, mais c'est pas tout plat). Et ensuite, j'ai vu une formation rocheuse sy
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-03-ryoanji-temple/dsc00612.jpg -->
 {% include img.html
     image="dsc00612.jpg"
     type="landscape"
@@ -29,13 +28,13 @@ masses, mais c'est pas tout plat). Et ensuite, j'ai vu une formation rocheuse sy
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-03-ryoanji-temple/dsc00613.jpg -->
 {% include img.html
     image="dsc00613.jpg"
     type="portrait"
     title="Formation rocheuse sympa bis."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après quoi je suis arrivé au temple Ryoanji. J'ai été surpris car il ne paie pas de mine, mais le cadre est
 vraiment sympa. Avec la chaleur qu'il fait, déambuler à l'ombre de la végétation fait un bien fou. Il faut aussi

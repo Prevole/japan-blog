@@ -2,7 +2,7 @@
 layout:     post
 title:      Un peu de tout
 date:       2008-10-10 16:41:57 +0200
-categories: ["Tuiles", "Balades", "Nourriture & Cuisine", "Quotidien", "Projet", "Divers"]
+categories: ["Tuiles", "Balades", "Nourriture", "Projet", "Divers"]
 ---
 
 Ces temps, je n'ai rien de nouveau à raconter. Je vais donc faire un petit résumé de la semaine et mes dernières
@@ -83,7 +83,7 @@ Le soir, je me suis fait de la bolognaise. Mais je crois que j'ai vu un peu gros
 voulais faire de la réserve. Je vous propose une petite n'image pour les yeux et le ventre. Et sur ces bonnes
 paroles je vous laisse jusqu'à la prochaine fois :laughing:
 
-<!-- /assets/images/posts/2008-10-10-un-peu-de-tout/dsc01300.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01300.jpg"
     type="landscape"
@@ -91,3 +91,4 @@ paroles je vous laisse jusqu'à la prochaine fois :laughing:
     title="Bolo"
     gallery="img"
 %}
+{%- endmedia_cartridge -%}

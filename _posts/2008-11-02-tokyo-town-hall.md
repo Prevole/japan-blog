@@ -69,7 +69,7 @@ Après ces réjouissances, nous sommes retournés à la gare de Shinjuku, prendr
 métro jusqu'à Tawaramshi. Je vous laisse découvrir l'itinairaire ci-dessous, ainsi que la galerie de photos
 relative à la mairie de Tokyo. la suite fera partie d'un autre article :wink:
 
-<!-- /assets/images/posts/2008-11-02-tokyo-town-hall/tokyometromap.png -->
+{%- media_cartridge -%}
 {% include img.html
     image="tokyometromap.png"
     type="landscape"
@@ -79,10 +79,10 @@ relative à la mairie de Tokyo. la suite fera partie d'un autre article :wink:
     thumb_use_original="yes"
     title="Tokyo Metro Map"
     gallery="img"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}
 
 Sans plus attendre, place à la galerie de photos.
-
------
 
 {% include gallery.html gallery="tokyo-town-hall" %}

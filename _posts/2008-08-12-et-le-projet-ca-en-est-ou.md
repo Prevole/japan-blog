@@ -40,7 +40,7 @@ World !" (c'est un classique du genre d'ailleurs :laughing:). Je vous laisse dé
 dans l'émulateur fourni avec l'environnement de développement. C'est pas fantastique mais deja arriver à ce
 résultat c'est bien satisfaisant.
 
-<!-- /assets/images/posts/2008-08-12-et-le-projet-ca-en-est-ou/screen_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="screen_1.jpg"
     type="portrait"
@@ -48,7 +48,6 @@ résultat c'est bien satisfaisant.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-12-et-le-projet-ca-en-est-ou/screen_2.jpg -->
 {% include img.html
     image="screen_2.jpg"
     type="portrait"
@@ -56,13 +55,13 @@ résultat c'est bien satisfaisant.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-12-et-le-projet-ca-en-est-ou/screen_3.jpg -->
 {% include img.html
     image="screen_3.jpg"
     type="portrait"
     title="Clic sur le bouton quitter."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 # Partie serveur et explications sur le jeu
 

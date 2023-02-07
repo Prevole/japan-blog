@@ -29,7 +29,5 @@ points de repères emblématiques comme les fameuses portes oranges. C'est d'ail
 du jour. J'ai visité un petit sanctuaire se nommant "Ikuta". Modeste mais sympa. Je dois dire que sans trop en
 connaitre sur ces choses là, j'apprécie tout simplement la quiétude qui se dégage de ces lieux.
 
------
-
 {% include gallery.html gallery="kobe-by-day" %}
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      Bentô de veille de Noël
 date:       2008-12-25 03:43:03 +0100
-categories: ["Nourriture & Cuisine"]
+categories: ["Nourriture"]
 ---
 
 J'en connais un qui sera tout content de revoir le traditionnel bentô du jour :laughing: Je me sentais obligé de le
@@ -11,7 +11,7 @@ forcément très saines mais sympas :smiling_imp:
 
 <!--more-->
 
-<!-- /assets/images/posts/2008-12-25-bento-de-veille-de-noel/img_2518.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2518.jpg"
     type="landscape"
@@ -20,7 +20,6 @@ forcément très saines mais sympas :smiling_imp:
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-25-bento-de-veille-de-noel/img_2519.jpg -->
 {% include img.html
     image="img_2519.jpg"
     type="landscape"
@@ -28,4 +27,4 @@ forcément très saines mais sympas :smiling_imp:
     title="Bentô de veille de Noël"
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

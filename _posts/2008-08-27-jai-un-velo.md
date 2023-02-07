@@ -17,7 +17,7 @@ donne des coups de pédale. On dirait pas comme ça mais pour aller à l'uni c'e
 au retour j'avais beaucoup moins besoin de pédaler et le roue-libre convenait parfaitement :laughing: Sans plus attendre
 les quelques photos.
 
-<!-- /assets/images/posts/2008-08-27-jai-un-velo/dsc01123.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01123.jpg"
     type="landscape"
@@ -25,7 +25,6 @@ les quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-27-jai-un-velo/dsc01125.jpg -->
 {% include img.html
     image="dsc01125.jpg"
     type="landscape"
@@ -33,7 +32,6 @@ les quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-27-jai-un-velo/dsc01124.jpg -->
 {% include img.html
     image="dsc01124.jpg"
     type="landscape"
@@ -41,7 +39,6 @@ les quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-27-jai-un-velo/dsc01126.jpg -->
 {% include img.html
     image="dsc01126.jpg"
     type="landscape"
@@ -49,11 +46,10 @@ les quelques photos.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-08-27-jai-un-velo/dsc01127.jpg -->
 {% include img.html
     image="dsc01127.jpg"
     type="landscape"
     title="La chaine et ce qui va avec."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

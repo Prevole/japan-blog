@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
+    {%- include head.html -%}
 
-{%- include head.html -%}
-{%- include custom-head.html -%}
+    <body>
+        {%- include header.html -%}
 
-<body>
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </main>
 
-{%- include header.html -%}
+        {%- include footer.html -%}
 
-<main class="page-content" aria-label="Content">
-    <div class="wrapper">
-        {{ content }}
-    </div>
-</main>
+        <script src="/assets/js/glightbox.min.js"></script>
+        <script>
+            const mediaBox = GLightbox({
+                selector:  '.glightbox-media',
+                touchNavigation: true,
+                loop: false,
+                autoplayVideos: false
+            });
 
-{%- include footer.html -%}
-
-<script src="/assets/js/glightbox.min.js"></script>
-<script>
-    const mediaBox = GLightbox({
-        selector:  '.glightbox-media',
-        touchNavigation: true,
-        loop: false,
-        autoplayVideos: false
-    });
-
-    const galleryBox = GLightbox({
-        selector:  '.glightbox-gallery',
-        touchNavigation: true,
-        loop: false
-    });
-</script>
-</body>
-
+            const galleryBox = GLightbox({
+                selector:  '.glightbox-gallery',
+                touchNavigation: true,
+                loop: false
+            });
+        </script>
+    </body>
 </html>

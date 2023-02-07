@@ -10,7 +10,7 @@ laisse découvrir le résultat dans les photos qui suivent.
 
 <!--more-->
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3001.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_3001.jpg"
     type="landscape"
@@ -19,7 +19,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3002.jpg -->
 {% include img.html
     image="img_3002.jpg"
     type="landscape"
@@ -28,7 +27,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3003.jpg -->
 {% include img.html
     image="img_3003.jpg"
     type="landscape"
@@ -37,7 +35,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3004.jpg -->
 {% include img.html
     image="img_3004.jpg"
     type="landscape"
@@ -46,7 +43,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3005.jpg -->
 {% include img.html
     image="img_3005.jpg"
     type="landscape"
@@ -55,7 +51,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3006.jpg -->
 {% include img.html
     image="img_3006.jpg"
     type="landscape"
@@ -64,7 +59,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3007.jpg -->
 {% include img.html
     image="img_3007.jpg"
     type="landscape"
@@ -73,7 +67,6 @@ laisse découvrir le résultat dans les photos qui suivent.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2009-03-15-chambre-decoree/img_3008.jpg -->
 {% include img.html
     image="img_3008.jpg"
     type="landscape"
@@ -81,4 +74,4 @@ laisse découvrir le résultat dans les photos qui suivent.
     title="Dernière vue d'ensemble."
     gallery="img"
 %}
-
+{%- endmedia_cartridge -%}

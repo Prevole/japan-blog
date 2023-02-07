@@ -11,6 +11,8 @@ commune et normale ici. Le professeur Lyons m'a dit de surtout cliquer sur rien.
 conserve en espérant pouvoir montrer ses spécimens en rentrant :wink: Bien sûr, toutes ces pubs sont en jap only
 :laughing:
 
+<!--more-->
+
 Mais le plus gros problème, enfin si on peut appler ça comme ça, ce sont les faux numéros qui arrivent de plus en
 plus souvent. Forcément, à chaque fois que je décroche, je parle anglais. Du coup, j'ai tout le temps droit à un
 "sumimasen" qui est l'équivalent de notre "excusez-moi" ou encore "désolé". J'ai aussi droit à un "moshi-moshi" qui

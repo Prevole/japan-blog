@@ -34,7 +34,7 @@ bien fait et hop, suffisament joyeux mais pas suffisament, pour ne plus voir l'�
 chanter même si c'est faux :laughing: Voilà ce que j'ai bu à deux reprises. Le premier en même pas 5 minutes le
 second en 20 minutes :laughing:
 
-<!-- /assets/images/posts/2008-12-26-soiree-de-fin-dannee/dsc01366.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="dsc01366.jpg"
     type="portrait"
@@ -42,108 +42,92 @@ second en 20 minutes :laughing:
     title="Whisky."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Voici ce que donne le Karaoke en vidéo. Attention aux yeux et surtout aux oreilles. Les vidéos ne sont pas
 terribles mais le son est juste, humm comment dire, "amusant" ? :smiling_imp:
 
------
-
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K1.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="K1.mp4"
     title="K1"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K2.mp4 -->
 {% include media.html
     media="K2.mp4"
     title="K2"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K3.mp4 -->
 {% include media.html
     media="K3.mp4"
     title="K3"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K4.mp4 -->
 {% include media.html
     media="K4.mp4"
     title="K4"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K5.mp4 -->
 {% include media.html
     media="K5.mp4"
     title="K5"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K6.mp4 -->
 {% include media.html
     media="K6.mp4"
     title="K6"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K7.mp4 -->
 {% include media.html
     media="K7.mp4"
     title="K7"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K8.mp4 -->
 {% include media.html
     media="K8.mp4"
     title="K8"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K9.mp4 -->
 {% include media.html
     media="K9.mp4"
     title="K9"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K10.mp4 -->
 {% include media.html
     media="K10.mp4"
     title="K10"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K11.mp4 -->
 {% include media.html
     media="K11.mp4"
     title="K11"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K12.mp4 -->
 {% include media.html
     media="K12.mp4"
     title="K12"
     gallery="video"
 %}
 
-<!-- /assets/media/posts/2008-12-26-soiree-de-fin-dannee/K13.mp4 -->
 {% include media.html
     media="K13.mp4"
     title="K13"
     gallery="video"
 %}
-
------
+{%- endmedia_cartridge -%}
 
 Sans plus attendre, la gallerie de photo correspondant à la soirée Karaoke :smiling_imp: J'avoue que je voyais
 encore mes pieds mais que je les sentais plus. Mouahaha.
-
------
 
 {% include gallery.html gallery="karaoke" %}

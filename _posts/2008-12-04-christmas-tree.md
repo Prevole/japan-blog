@@ -11,9 +11,11 @@ commentaire :smiling_imp:
 
 <!--more-->
 
-<!-- /assets/media/posts/2008-12-04-christmas-tree/christmastree.mp4 -->
+{%- media_cartridge -%}
 {% include media.html
     media="christmastree.mp4"
     title="Christmas Tree"
     gallery="video"
+    show_legend="yes"
 %}
+{%- endmedia_cartridge -%}

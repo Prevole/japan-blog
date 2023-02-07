@@ -107,7 +107,7 @@ Une petite mise à jour pour poster deux photos de ma collection de billets de b
 
 Tout d’abord une vue d’ensemble suvi des billets du Qatar en gros plan.
 
-<!-- /assets/images/posts/2008-07-16-kyoto-me-voici/money_1.jpg -->
+{%- media_cartridge -%}
 {% include img.html 
     image="money_1.jpg" 
     type="landscape"
@@ -115,10 +115,10 @@ Tout d’abord une vue d’ensemble suvi des billets du Qatar en gros plan.
     gallery="g"
 %}
 
-<!-- /assets/images/posts/2008-07-16-kyoto-me-voici/money_2.jpg -->
 {% include img.html 
     image="money_2.jpg"
     type="portrait"
     title="Billets du Qatar"
     gallery="g"
 %}
+{%- endmedia_cartridge -%}

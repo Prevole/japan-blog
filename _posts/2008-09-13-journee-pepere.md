@@ -27,7 +27,7 @@ pas trouvé quelque chose allant à la perfection, j'ai opté pour un sac de tra
 manière à pouvoir stocker mon appareil à l'abri des éléments et de la poussière. Pour un usage quotidien, je me dis
 que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0139.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_0139.jpg"
     type="landscape"
@@ -36,7 +36,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0140.jpg -->
 {% include img.html
     image="img_0140.jpg"
     type="landscape"
@@ -45,7 +44,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0141.jpg -->
 {% include img.html
     image="img_0141.jpg"
     type="landscape"
@@ -54,7 +52,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0142.jpg -->
 {% include img.html
     image="img_0142.jpg"
     type="landscape"
@@ -63,7 +60,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0143.jpg -->
 {% include img.html
     image="img_0143.jpg"
     type="landscape"
@@ -72,7 +68,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0144.jpg -->
 {% include img.html
     image="img_0144.jpg"
     type="landscape"
@@ -81,7 +76,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0145.jpg -->
 {% include img.html
     image="img_0145.jpg"
     type="landscape"
@@ -90,7 +84,6 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-09-13-journee-pepere/img_0146.jpg -->
 {% include img.html
     image="img_0146.jpg"
     type="landscape"
@@ -98,6 +91,7 @@ que mon sac-à-dos fera l'affaire. Voilà finalement le sac que j'ai retenu.
     title="Un mini sac à accessoires."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après mon achat, je suis allé en haut de la gare pour prendre quelques photos avec mon Canon. Malheureusement, tout
 est entouré de vitres, et donc les photos sont parfois un peu terne ou mal prises, du fait de ces vitres, mais je

@@ -66,7 +66,6 @@ def create_image_file(paths, short_date, name, img_name, extension, title, width
   files = %W[#{img_name}#{extension} #{img_name}-#{thumb}#{extension}]
 
   replacement = """
-<!-- /assets/images/posts/#{short_date}-#{name}/#{img_name}#{extension} -->
 {% include img.html
     image=\"#{img_name}#{extension}\"
     type=\"#{orientation}\"
@@ -102,7 +101,6 @@ def create_media_file(paths, short_date, name, media_name, extension, title)
   files = ["#{media_name}#{extension}"]
 
   replacement = """
-<!-- /assets/media/posts/#{short_date}-#{name}/#{media_name}.mp4 -->
 {% include media.html
     media=\"#{media_name}.mp4\"
     title=\"#{title}\"

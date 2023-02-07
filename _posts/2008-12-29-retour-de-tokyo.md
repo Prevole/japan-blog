@@ -16,7 +16,7 @@ nécessaires et réparatrices. Fallait soigner le genou, la gorge, les muscles, 
 bu mon café dans ma chambre et pour ça je vous propose quelques photos. Les seules de la journée. J'étais trop
 raide pour en faire plus.
 
-<!-- /assets/images/posts/2008-12-29-retour-de-tokyo/img_2735.jpg -->
+{%- media_cartridge -%}
 {% include img.html
     image="img_2735.jpg"
     type="landscape"
@@ -25,7 +25,6 @@ raide pour en faire plus.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-29-retour-de-tokyo/img_2736.jpg -->
 {% include img.html
     image="img_2736.jpg"
     type="landscape"
@@ -34,7 +33,6 @@ raide pour en faire plus.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-29-retour-de-tokyo/img_2737.jpg -->
 {% include img.html
     image="img_2737.jpg"
     type="landscape"
@@ -43,7 +41,6 @@ raide pour en faire plus.
     gallery="img"
 %}
 
-<!-- /assets/images/posts/2008-12-29-retour-de-tokyo/img_2738.jpg -->
 {% include img.html
     image="img_2738.jpg"
     type="landscape"
@@ -51,6 +48,7 @@ raide pour en faire plus.
     title="Le sucre et la crème."
     gallery="img"
 %}
+{%- endmedia_cartridge -%}
 
 Après le petit déjeuner, je ne me suis pas stressé. Je suis sorti vers 10h après avoir fait le check-out. Je suis
 retourné à Akihabara faire du shopping, mais j'ai rien acheté cette fois. J'ai surtout contemplé. Après, j'ai pris

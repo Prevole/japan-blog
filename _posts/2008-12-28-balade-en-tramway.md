@@ -24,6 +24,4 @@ bâtiments d'intérêt (voir les commentaires de mes photos). Nous avons ensuite
 à Shinjuku. La journée commençait à être bien avancée, et il restait ce que j'appelle le point culminant de mon
 séjour à Tokyo :smiling_imp: mais avant celà, quelques photos.
 
------
-
 {% include gallery.html gallery="tokyo-tramway" %}
