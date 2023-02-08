@@ -23,7 +23,5 @@ raconter. J'ai été très content de ma visite en dehors des p****** de groupes
 permis, font du bruit et embêtent lorsqu'on veut faire une petite visite tranquille. J'aime pas les gens ! Bref,
 passons aux photos.
 
------
-
 {% include gallery.html gallery="chateau-dhiroshima" %}
 

@@ -30,7 +30,5 @@ parcourir presque 12Km dont 3.2Km en télécabine/téléférique.
 Du coup, avec tous ces petits moments de marche, j'ai pu voir pas mal de paysage et pas mal de petites choses. Je
 vous propose une galerie en ce sens.
 
------
-
 {% include gallery.html gallery="miyajima-promenade" %}
 

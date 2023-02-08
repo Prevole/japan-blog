@@ -19,6 +19,4 @@ personnes qui ne sont pas de la partie et qui ne savent pas forcément ce qui es
 l'esprit deux facteurs importants. Le premier c'est que c'est un jeu avec service de localisation et le second
 c'est que je mêle réalité et virtuel.
 
------
-
 {% include gallery.html gallery="hirano-temple" %}

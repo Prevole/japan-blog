@@ -14,6 +14,4 @@ Ne sachant rien sur le lieu, j'ai pas grand chose à en dire. Il n'y avait pas p
 anglais. Déjà qu'il y avait des panneaux de direction en japonais et anglais, j'étais tout content. Ca m'a bien
 facilité la vie :laughing: Allez, quelques photos de la pagode pour la route.
 
------
-
 {% include gallery.html gallery="miyajima-pagode-2f" %}

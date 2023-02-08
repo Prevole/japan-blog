@@ -24,7 +24,7 @@ exemple. Bien entendu, quand je vais vouloir créer mes différentes pièces, ch
 attributs couleur et poids. Ca ne serait pas très pratique, que toutes les pièces soient de même poids et de même
 couleur si le but est justement de les différencier. En java, ça donnerait le code suivant:
 
-```java
+{% highlight java %}
 public class Piece {
   private Color couleur;
   private int poids;
@@ -36,15 +36,15 @@ public class Piece {
 
   ... // Code supplémentaire
 }
-```
+{% endhighlight %}
 
 Pour faire simple, il s'agit de la définiton de notre classe qui va nous permettre d'instancier nos objets. Chacun
 de nos objets aura son propre poids et sa propre couleur. Pour instancier (le fait de construire un objet) une
 pièce, nous écrirons le code suivant:
 
-```java
+{% highlight java %}
 Piece maPiece = new Piece(maCouleur, monPoids);
-```
+{% endhighlight %}
 
 Dans ce contexte, maPiece représente mon objet de classe (on peut voir ça comme un type) Piece et maCouleur et mon
 Poids sont des variables préalablement définies, permettant la création de notre objet de type pièce. Si je veux
@@ -61,13 +61,13 @@ Cela permet de stocker des données de différents types. Un attribut peut très
 comme l'exemple ci-dessous le montre. En effet, l'attribut suivant déclare un attribut de type tableau de pièce
 Piece dans une classe CollectionLego.
 
-```java
+{% highlight java %}
 public class CollectionLego {
   private Piece[] pieces;
   
   ... // Code supplémentaire
 }
-```
+{% endhighlight %}
 
 #### Méthode
 
@@ -75,7 +75,7 @@ Une méthode peut être vue comme une fonction. Elle permet d'effectuer une acti
 appelle la méthode. Par exemple, nous avons deux collections de pièces différentes comme ci-dessous, et nous
 voulons afficher le contenu de chacune de celles-ci. Le code ci-dessous va permettre de faire cela.
 
-```java
+{% highlight java %}
 CollectionLego c1 = new Collection(...);
 CollectionLego c2 = new Collection(...);
 
@@ -89,7 +89,7 @@ public void show() {
     System.out.println(maPiece);
   }
 }
-```
+{% endhighlight %}
 
 Sans entrer trop dans les détails, imaginez que la méthode show se trouve dans la classe CollectionLego. Ainsi,
 lorsque je l'appelerai sur mes objets de classe CollectionLego, la liste des pièces apparaitra. Mais l'appel de la
@@ -106,7 +106,7 @@ défini. Pourtant que ce soit l'un ou l'autre des types, les deux ont une couleu
 les langages objets, ils existent l'héritage. Ca permet de définir une sous-classe qui peut profiter des attributs
 de sa classe parente. Ainsi, je vais définir mes deux sous-classes de la manière suivante:
 
-```java
+{% highlight java %}
 public class BriqueCarree extends Piece {
   private int cote;
 
@@ -126,18 +126,18 @@ public class BriqueRonde extends Piece {
     this.rayon = rayon;
   }
 }
-```
+{% endhighlight %}
 
 Nous avons à présent deux sous-classes qui nous permettent de créer des pièces de type différents mais qui
 partagent des caractéristiques communes. Ainsi, le code suivant est permis:
 
-```java
+{% highlight java %}
 BriqueCarree bc = new BriqueCarree(maCouleur, monPoids, monCote);
 BriqueRonde br = new BriqueRonde(monAutreCouleur, monAutrePoids, monRayon);
 
 maCollection.addPiece(bc);
 maCollection.addPiece(br);
-```
+{% endhighlight %}
 
 Il faut savoir que ma classe CollectionLego dispose d'une méthode addPiece(Piece unePiece); qui permet d'ajouter
 une pièce à la collection. Comme mes deux sous-classes ont comme super-classe la classe Piece, elles peuvent sans
@@ -156,11 +156,11 @@ c'est bien adapté :laughing:).
 Imaginons que nous ayons nos différentes pièces Lego et que nous voulions les assembler. Pour ça, il faudrait être
 sûr que chaque pièce Lego possède une méthode permettant l'assamblage. Définissons pour commencer notre interface.
 
-```java
+{% highlight java %}
 public interface Assemblable {
   public void assemble(Assemblable piece);
 }
-```
+{% endhighlight %}
 
 J'avoue que cet exemple est tordu :laughing: Tout simplement que la méthode d'assemblage prend en paramètre un
 objet de type Assemblable qui n'est autre que l'interface que l'on est en train de définir. Pourquoi faire ça, tout
@@ -171,13 +171,13 @@ que les pièces à assembler puissent l'être.
 Afin d'obliger toutes nos pièces à pouvoir s'assembler, nous allons modifier notre classe Piece pour lui ajouter le
 contrat à respecter. Ainsi, notre classe se voit changer comme ci-dessous:
 
-```java
+{% highlight java %}
 public abstract Piece implements Assemblable {
   private Color couleur;
   private int poids;
   ... // Code supplémentaire
 }
-```
+{% endhighlight %}
 
 A présent, toutes les sous-classes devront implémenter la méthode assembler pour pouvoir être compilée. Tant que le
 contrat ne sera pas respecté, alors il ne sera pas possible de compiler correctement les différentes classes. Du
@@ -190,7 +190,7 @@ ajouter une nouvelle classe qui n'a rien à voir avec une pièce. Par exemple, p
 Lego. Ce n'est pas vraiment des pièces mais pourtant elles peuvent être emboitées avec les pièces. dans ce cas, je
 définirais le code suivant.
 
-```java
+{% highlight java %}
 public class MiniFig implements Assemblable {
   ... // Attributs
 
@@ -199,7 +199,7 @@ public class MiniFig implements Assemblable {
   }
   ... // Code supplémentaire
 }
-```
+{% endhighlight %}
 
 Cette fois, cette classe implémente directement la méthode définie dans l'interface et devient alors manipulable en
 tant qu'objet de type Assemblable. Mais elle ne peut pas être manipulée en tant que Pièce car elle ne partage pas
@@ -207,27 +207,27 @@ les mêmes propriétés. Ainsi, il ne sera pas possible de stocker les minis per
 pièces dans la classe CollectionLego. Dans ce cas de figure nous serons obligés de modifier la classe en question
 comme suit.
 
-```java
+{% highlight java %}
 public class CollectionLego {
   Pieces[] pieces;
   MiniFig[] minifigs;
   ... // Code supplémentaire
 }
-```
+{% endhighlight %}
 
 Nous avons à présent dans notre collection des pièces et des minis personnages. Essayons à présent d'assembler un
 personnage avec une pièce. Imaginez que j'ai défini deux méthodes dans la classe CollectionLego qui sont
 getFirstPiece(); et getFirstMiniFig(); qui retourne chacune respectivement le premier mini personnage et la
 première pièce de la collection. Le code d'assemblage donnerait ceci.
 
-```java
+{% highlight java %}
 // Récupération de la pièce et du personnage
 Piece maPiece = maCollection.getFirstPiece();
 MiniFig maFig = maCollection.getFirstMiniFig();
 
 // Assemblage
 maPiece.assemble(maFig);
-```
+{% endhighlight %}
 
 Ceci dit, j'aurais très bien pu écrire maFig.assemble(maPiece); mais le résultat ne serait pas le même car
 l'assemblage ne se ferait pas de la même manière. Lorsque j'écris cette ligne de code (ainsi que l'autre), je ne
@@ -278,7 +278,7 @@ parfaite.
 En Java, il existe un opérateur nommé "instanceof". Cet opérateur permet de savoir si un objet est une instance
 d'une classe. Alors avec cet opérateur je pourrais écrire ceci :
 
-```java
+{% highlight java %}
 // Récupère le dialogue dont on ne sait rien
 AbstractDialog dialog = retrieveDialog(...); 
 
@@ -300,7 +300,7 @@ else if (dialog instanceof DialogQuestion) {
 else {
   ... // ERREUR : Type de dialogue inconnu
 }
-```
+{% endhighlight %}
 
 Ok, pour trois ça va, mais imaginez que demain, j'ai 15 nouveaus types de dialogues à ajouter. C'est galère à gérer
 parce que faut modifier ce test. C'est pas pratique. En POO (Programmation Orientée Objet) on dit que lorsqu'on
@@ -319,7 +319,7 @@ sous-classes. Je peux mettre en place un protocole qui me permet de générer le
 la classe retrouvée. Seulement voilà, dès que je voudrais faire du renommage de classes, je serais dans les ennuis
 car je devrais modifier également mon protocole. Prenons le code suivant :
 
-```java
+{% highlight java %}
 public interface IFormater {
   public void render(AbstractDialog dialog);
 }
@@ -346,7 +346,7 @@ IFormater formater = (IFormater)classRetrieved.newInstace();
 
 // Applique le rendu graphique
 formater.render(dialog);
-```
+{% endhighlight %}
 
 Comme on peut le voir, cette solution peut sembler plus compliquée de demander plus de code mais en fait elle est
 assez simple. Mais le défaut majeur c'est que si je décide de renommer mon DialogTextFormater en
@@ -367,7 +367,7 @@ très bien)).
 
 D'abord, je rappelle la structure de classe qui contient mes données à afficher:
 
-```java
+{% highlight java %}
 public abstract class AbstractDialog {
   ... // Je fais grâce des détails inutiles ici
 }
@@ -383,14 +383,14 @@ public class DialogQuest extends AbstractDialog {
 public class DialogQuestion extends AbstractDialog {
   ... // Idem
 }
-```
+{% endhighlight %}
 
 Voilà, ça c'est mes classes de données. A présent, je me dis que je veux que ces classes me retournent de quoi
 générer du graphisme mais sans savoir quel type de graphisme. Le but est, qu'elles en sachent le moins possible.
 Alors, je vais définir deux interfaces. La première permet de créer des classes affectuant le rendu graphique et la
 seconde de pouvoir construire des objets implémentant la première. Voici ce que celà donne:
 
-```java
+{% highlight java %}
 public interface IFormater {
   public void apply(); // Applique le rendu graphique
 }
@@ -402,7 +402,7 @@ public interface IDialogFormaterFactory {
 
   public IFormater createDialogQuestionFormater(DialogQuestion dialogQuestion);
 }
-```
+{% endhighlight %}
 
 Comme nous pouvons le voir, la première interface oblige la présence d'une méthode d'application (pour le rendu
 graphique) et la seconde propose trois méthodes pour créer spécifiquement chaque type de formateur graphique.
@@ -410,7 +410,7 @@ graphique) et la seconde propose trois méthodes pour créer spécifiquement cha
 A présent, nous allons créer nos classes permettant le formatage. Tout d'abord, nous allons partir du principe
 qu'il y a une partie commune. Voici le code que celà donnerait:
 
-```java
+{% highlight java %}
 public abstract AbstractDialogFormaterImpl implements IFormater {
   ... // Code commun
 }
@@ -453,13 +453,13 @@ public DialogQuestionFormaterImpl extends AbstractDialogFormaterImpl {
     ... // Code spécifique
   }
 }
-```
+{% endhighlight %}
 
 Nos classes de rendus graphiques sont prêtes, mais pour le moment nous ne sommes toujours pas capable d'appliquer
 ce rendu graphique, car nous n'avons pas encore de quoi construire des rendus graphiques. Il nous faut pour celà
 implémenter l'interface IDialogFormaterFactory. Voici cette implémentation:
 
-```java
+{% highlight java %}
 public class DialogFormaterFactoryImpl implements IDialogFormaterFactory {
   public IFormater createDialogQuestFormater(DialogQuest quest) {
     return new DialogQuestFormaterImpl(quest);
@@ -473,7 +473,7 @@ public class DialogFormaterFactoryImpl implements IDialogFormaterFactory {
     return new DialogTextFormaterImpl(text);
   }
 }
-```
+{% endhighlight %}
 
 Voilà, à présent nous sommes presque en mesure de créer nos rendus grpahiques, il ne nous manque plus que le moyen
 d'obtenir le bon en fonction du type de dialogue. Pour ce faire, il nous faut modifier les classes Dialog pour
@@ -481,8 +481,8 @@ qu'elles puissent nous fournir le bon rendu graphique en fonction de la fabrique
 pour une voie par méthode abstraite à redéfinir par les sous-classes. J'aurais pu opter pour une autre interface,
 c'est un choix et je ne vois pas de justifications particulières pour le moment. Voici le code ajouté uniquement:
 
-```java
-/ Classe AbstractDialog
+{% highlight java %}
+// Classe AbstractDialog
 public abstract IFormater getFormater(IDialogFormaterFactory factory);
 
 // Classe DialogText
@@ -502,13 +502,13 @@ public IFormater getFormater(IDialofFormaterFactory factory) {
   // Crée un rendu question avec référence sur ce dialogue
   return factory.createDialogQuestionFormater(this);
 }
-```
+{% endhighlight %}
 
 Voilà, à présent nous sommes prêts pour effectuer la mise en place finale. Avec tout ce que nous avons défini
 jusqu'à présent, nous pouvons enfin obtenir un rendu graphique spécifique, sans savoir ce que nous manipulons en
 aval. La démonstration tout de suite:
 
-```java
+{% highlight java %}
 // Récupère le dialogue dont on ne sait rien
 AbstractDialog dialog = retrievedDialog(...); 
 
@@ -517,7 +517,7 @@ IFormater formater = dialog.getFormater(new DialogFormaterFactoryImpl());
 
 // Applique le rendu graphique
 formater.apply();
-```
+{% endhighlight %}
 
 Et voilà, le tour est joué. Cette fois, je peux faire un rendu graphique sans me préocuper de quoi que ce soit, car
 je sais que forcément j'aurai le bon. Il me suffira de créer mes rendus graphiques spécifiques. La seule contrainte

@@ -14,6 +14,4 @@ Durant ma visite du sanctuaire, j'ai eu droit de voir un couple de mariés se fa
 pas si c'est ça mais c'est ce que j'en ai déduit. Disons que c'était un peu les seuls à pas être habillés
 normalement comme les autres touristes :laughing: Vous pourrez les voir dans la galerie photo qui suit.
 
------
-
 {% include gallery.html gallery="miyajima-itsukushima-shrine" %}

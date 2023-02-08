@@ -242,6 +242,19 @@ $post-left-right-padding: 30px
     .post-media-cartridge:last-child
       margin-bottom: -$post-left-right-padding
 
+  figure.highlight
+    margin-left: -$post-left-right-padding
+    margin-right: -$post-left-right-padding
+
+    pre
+      border: none
+      border-radius: 0
+      font-size: 1.1em
+      padding: ($post-left-right-padding / 2) $post-left-right-padding
+
+      code
+        background-color: transparent
+
 .image-gallery
   overflow: auto
   display: flex
@@ -353,5 +366,3 @@ $comment-radius: 10px
     background-color: darken(lightgoldenrodyellow, 10%)
     font-weight: 600
     border-radius: 10px
-
-

@@ -23,7 +23,5 @@ Dans tous les cas, c'est un endroit qui vaut la peine d'être vu, ne serait-ce q
 un peu partout. Vous verrez quelques plaques avec des inscriptions en anglais, expliquant certaines choses. Je vous
 laisse admirer les quelques photos prises du dôme. J'ai tourné autour et pris ce bâtiment sous toutes les coutures.
 
------
-
 {% include gallery.html gallery="dome-de-la-bombe-atomique" %}
 

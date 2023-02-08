@@ -28,7 +28,5 @@ que je sais appuyer sur un bouton et pis vala :laughing: :laughing: Enfin, c'ét
 Finalement, au bout de dix minutes de trajet, je débarque sur l'ile. J'ai pris quelques photos en débarquant et
 depuis le Ferry.
 
------
-
 {% include gallery.html gallery="miyajima-arrivee" %}
 

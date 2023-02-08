@@ -186,8 +186,7 @@ Masahiro et Tatsuhiko et la seconde c'est moi (enfin me direz-vous) et Tatsuhiko
     title="Moi et Tatsuhiko juste au moment de rentrer chez moi."
     gallery="img"
 %}
-{%- endmedia_cartridge -%}
-
------
 
 {% include gallery.html gallery="osaka-nipponbashi" %}
+
+{%- endmedia_cartridge -%}

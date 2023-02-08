@@ -27,7 +27,5 @@ de la route à faire sur le chemin de la photographie mais que certaines photos 
 pris 197 photos juste en 2h00 de temps :laughing: On voit que c'est tout neuf :laughing: Sans plus attendre la
 galerie.
 
------
-
 {% include gallery.html gallery="kamo-river-le-retour-2" %}
 

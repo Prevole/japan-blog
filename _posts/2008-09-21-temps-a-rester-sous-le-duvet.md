@@ -44,7 +44,5 @@ Indice : La boîte est en métal et quand on secoue ça fait du bruit :wink: (fo
 Durant l'après-midi, j'ai fait quelques photos depuis mon balcon, parce que je trouvais que ça en valait la peine.
 A vous d'en juger.
 
------
-
 {% include gallery.html gallery="arc-en-ciel" %}
 

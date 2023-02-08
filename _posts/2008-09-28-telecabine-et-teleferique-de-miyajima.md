@@ -37,7 +37,5 @@ restais. C'était super sympa. Ca faisait du bien de parler à qqn en français 
 Après la télécabine est venu le tour du téléférique. La vue était grandiose malgré le fait qu'il faisait tout gris
 et qu'il y avait un voile partout. J'ai aussi mis les photos de la descente en télécabine et téléférique.
 
------
-
 {% include gallery.html gallery="miyajima-telecabine-teleferique" %}
 

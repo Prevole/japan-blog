@@ -21,7 +21,5 @@ d'étudiants/élèves anglais (ou américains, j'ai pas fait attention à l'acce
 photo. Ils étaient tous en uniforme. C'était amusant :laughing: Vous pourrez les voir sur les dernières photos de
 la galerie.
 
------
-
 {% include gallery.html gallery="musee-de-la-paix" %}
 

@@ -17,7 +17,7 @@ comprenez le principe :laughing:) de mon achat. Ce qui représente tout de même
 Finalement, j'ai suivi les conseils d'un ami de mon frère qui m'avait recommandé l'EOS 450D de Canon. Son petit nom
 local c'est "EOS Kiss X2". J'ai opté pour le kit avec deux objectifs. Un appareil sans objectif ne sert à rien et
 la différence de prix entre le kit un objectif et le kit deux objectifs était de l'ordre de 20'000¥ (200CHF)
-donc pas grand chose pour ce que c'est. Le kit m'a coûté 119'800¥ (1'198CHF) moins un rabais de 20'00¥ (20CHF)
+donc pas grand chose pour ce que c'est. Le kit m'a coûté 119'800¥ (1'198CHF) moins un rabais de 2'000¥ (20CHF)
 environ. A celà, j'ai ajouté une carte mémoire 4Go avec connecteur USB intégré (très pratique) qui m'est revenu à
 5'400¥ environ (54CHF). Et à celà, j'ai encore eu droit à un monopod (trépied à un pied :laughing:) en cadeau.
 Finalement, c'est pas mal du tout. Sûrement dans les mêmes prix qu'en Suisse ou pas très loin. A noter que le CD

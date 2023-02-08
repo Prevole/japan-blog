@@ -17,7 +17,5 @@ le temps de prendre mes photos. De plus, c'est bien dommage, mais je ne trouvais
 anglais ce qui fait que ma visite a été très rapide :laughing: Pas de lecture, juste du visionnage d'aquarium
 :wink:
 
------
-
 {% include gallery.html gallery="miyajima-aquarium" %}
 

@@ -42,7 +42,5 @@ Autrement, on voit bien que la ville a été reconstruite parce qu'il me semble 
 comme j'ai pu le voir sans cesse à Kyoto. J'ai un peu joué à Google Street pour la visite d'Hiroshima. J'ai pris
 plein de bâtiments en photo durant mon parcours.
 
------
-
 {% include gallery.html gallery="hiroshima" %}
 

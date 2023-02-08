@@ -14,6 +14,4 @@ a plein de petites choses à voir :laughing:
 En plus, le cadre naturel autour du temple est tout bonnement superbe. Vous vous souvenez des photos de la chute
 d'eau et de la rivière au lit refait. Et bien ça vient de là.
 
------
-
 {% include gallery.html gallery="miyajima-daishoin-temple" %}

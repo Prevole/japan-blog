@@ -15,6 +15,10 @@ permalink: '/:year/:month/:day/:title.html'
 
 excerpt_separator: <!--more-->
 
+kramdown:
+  highlighter: rouge
+  input: GFM
+
 pagination:
   enabled: true
   per_page: 10

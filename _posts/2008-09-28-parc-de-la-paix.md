@@ -22,6 +22,4 @@ trop fort et attendre que les vibrations soient finis entre deux coups. Bah soit
 s'enfichaient :laughing: Parce qu'ils s'y donnaient à cœur joie sur cette pauvre cloche. Après quoi, un employé est
 venu cadenasser la cloche :wink: S'en était fini pour la journée :laughing:
 
------
-
 {% include gallery.html gallery="parc-de-la-paix" %}

@@ -30,7 +30,5 @@ A présent, je vous laisse découvrir les vues depuis ma chambre d'hôtel que j'
 rentrant le soir. Vous pourrez aussi apercevoir la chambre dont je disposais, et en prime deux petites photos me
 contenant. C'est pas souvent hein ? Mais je suis pas là pour poser sur des photos !!!
 
------
-
 {% include gallery.html gallery="hiroshima-granvia-hotel" %}
 

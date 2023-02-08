@@ -46,7 +46,5 @@ avec 1h40 de retard sur mon planning. Mais ceci est une autre histoire.
 Je profite de cet article pour poster les quelques photos de petites bestioles en tout genre que j'ai prises durant
 mes balades et visites du jour.
 
------
-
 {% include gallery.html gallery="animaux-dhiroshima" %}
 

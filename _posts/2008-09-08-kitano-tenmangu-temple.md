@@ -16,7 +16,5 @@ Certains commentaires vous paraîtront bizarre mais c'est des points de repères
 :laughing: Nan, j'en démords pas de ces quêtes mais c'est mon job après tout. C'est cool de faire des visites dans
 le cadre de ses projets. C'est bien une vie qui pourrait me plaire ça :wink: Sans plus attendre, la galerie.
 
------
-
 {% include gallery.html gallery="kitano-tenmangu-temple" %}
 

@@ -84,6 +84,4 @@ problèmes pour faire le check-in. J'ai dû remplir un petit formulaire et autor
 train-train habituel pour ces choses là. Après quoi, je suis allé prendre possession de ma chambre. Mais ceci est
 une autre histoire.
 
------
-
 {% include gallery.html gallery="shinkansen" %}

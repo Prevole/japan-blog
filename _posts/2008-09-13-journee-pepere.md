@@ -112,7 +112,5 @@ Après ça, je suis rentré et j'ai fait mes courses. Fallait faire le plein de 
 après-demain. Lundi est un jour férié, mais j'ai aucune idée si les magasins sont ouverts ou pas, alors je préfère
 être prévoyant. C'est le jour des personnes âgées. Je sais pas plus que ça sur la signification de ce jour.
 
------
-
 {% include gallery.html gallery="kyoto-station-le-retour" %}
 

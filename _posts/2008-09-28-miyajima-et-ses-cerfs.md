@@ -16,6 +16,4 @@ Par contre, ils acceptent très volontiers que l'on s'occupe d'eux. C'est même 
 japonais(e)s. Je vous propose quelques spécimens dans la galerie qui suit. Ils se trouvent vraiment partout sur
 l'ile. J'en ai vu autant en bas qu'en haut.
 
------
-
 {% include gallery.html gallery="miyajima-cerfs" %}

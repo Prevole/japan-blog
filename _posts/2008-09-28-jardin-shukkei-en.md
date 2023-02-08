@@ -20,7 +20,5 @@ Au final, ce jardin est plus à contempler qu'à expliquer. Voilà le fond de ma
 qu'il a été détruit, puis reconstruit etc... Mais ça tombe sous le sens en fait. Alors autant passer à la galerie
 de photos.
 
------
-
 {% include gallery.html gallery="shukkei-en" %}
 
