@@ -49,11 +49,7 @@ pour lui. Il a bien voulu prendre la pose pour moi.
 
 Sans plus attendre, mes quelques photos de verdure du Palais Imperial. (L'article continue après la galerie.)
 
------
-
 {% include gallery.html gallery="imperial-palace" %}
-
------
 
 Et pour finir, voici un nouveau coucher de soleil vu depuis chez moi. Il faut avouer que j'ai de la chance d'avoir 
 cette vue, car j'aurais très bien pu rester dans l'autre logement, sans vue du tout :laughing:

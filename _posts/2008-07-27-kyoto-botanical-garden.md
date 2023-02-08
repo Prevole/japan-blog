@@ -110,6 +110,4 @@ occasion.
 Pour finir, je vous laisse admirer la pléthore d'images que j'ai prise dans le jardin botanique, la serre et la
 partie consacrée aux bonzaï.
 
------
-
 {% include gallery.html gallery="kyoto-botanical-garden" %}

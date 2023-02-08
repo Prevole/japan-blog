@@ -69,6 +69,4 @@ les pauses photos et pluie.
 
 Et pour finir la galerie de photos que j'ai prises en cours de balade le long de la rivière.
 
------
-
 {% include gallery.html gallery="kamo-river-le-retour" %}

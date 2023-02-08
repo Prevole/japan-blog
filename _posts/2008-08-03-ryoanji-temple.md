@@ -42,6 +42,4 @@ reconnaitre que le jardin des pierres est quelque chose de particulier et sympa 
 les photos du lieu. Comme vous le savez à présent : " une image vaut mieux que 1000 mots ". La visite m'a coûté
 500¥ (5 CHF).
 
------
-
 {% include gallery.html gallery="ryoanji-temple" %}

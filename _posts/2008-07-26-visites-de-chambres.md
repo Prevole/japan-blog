@@ -195,7 +195,7 @@ artère et ce n'est pas la pire :wink:
 
 {% include img.html
     image="dsc00341.jpg"
-    type="landscape"
+    type="portrait"
     title="Meilleure vue du grand building."
     gallery="img"
 %}

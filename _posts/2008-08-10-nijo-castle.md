@@ -28,7 +28,5 @@ nécessaire pour me faire un petit déj' correct vis-à-vis de nos habitudes :la
 Et à présent je vous laisse découvrir la galerie des photos que j'ai prises durant ma visite du château. Pour les
 notions d'histoire etc... on verra ça une autre fois.
 
------
-
 {% include gallery.html gallery="nijo-castle" %}
 

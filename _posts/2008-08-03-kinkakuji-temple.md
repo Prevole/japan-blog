@@ -23,6 +23,4 @@ quelques photos que j'ai prises. C'est beaucoup mieux qu'un long discours je cro
 professeures dont je ne citerais pas le nom, nous a dit : " Une image vaut mieux que 1000 mots ". Malheureusement
 pour nous, ça comptait pas pour les rapports, labo et autre :laughing:
 
------
-
 {% include gallery.html gallery="kinkakuji-temple" %}

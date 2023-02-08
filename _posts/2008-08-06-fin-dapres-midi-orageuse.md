@@ -20,9 +20,7 @@ Je vous propose de découvrir quelques photos que j'ai prises depuis mon balcon 
     title="Reste d'un orage de fin d'après-midi, prise 1."
     gallery="img"
 %}
-{%- endmedia_cartridge -%}
 
-{%- media_cartridge -%}
 {% include img.html
     image="dsc00750.jpg"
     type="landscape"

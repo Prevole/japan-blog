@@ -21,6 +21,4 @@ vu qu'on pouvait faire des réglages sur le sucre et ce genre de choses.
 Deuxièmement, j'ai pris une eau dans le distributeur d'à côté. Du moins c'est ce que je croyais, mais en réalité il 
 s'agissait d'une sorte de boisson énergisante au citron. Elle a fini dans le caniveau :laughing:
 
------
-
 {% include gallery.html gallery="zoo-de-kyoto" %}

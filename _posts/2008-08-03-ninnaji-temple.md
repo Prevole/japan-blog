@@ -45,11 +45,7 @@ traversé et une voiture qui m'a l'air de ne pas avoir été utilisée récemmen
 Ensuite de quoi, je suis arrivé au temple. Les photos des différents emplacements seront plus parlant qu'un long
 discours. Vous connaissez la suite maintenant. La visite m'a coûté 500¥ (5 CHF).
 
------
-
 {% include gallery.html gallery="ninnaji-temple" %}
-
------
 
 Après ma visite, je suis retourné prendre le bus que je prends tous les jours pour rentrer de l'université. C'est
 le bus numéro 12. Ca vous dira surement rien je l'avoue, mais je vais publier un article sur ça prochainement alors

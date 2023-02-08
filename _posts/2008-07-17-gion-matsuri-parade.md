@@ -46,8 +46,8 @@ fin de l’article.
     title=" Pars le char, pars"
     gallery="video"
 %}
-{%- endmedia_cartridge -%}
-
------
 
 {% include gallery.html gallery="gion-matsuri-parade" %}
+
+{%- endmedia_cartridge -%}
+

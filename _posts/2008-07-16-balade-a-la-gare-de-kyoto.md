@@ -56,6 +56,4 @@ goût et m’a coûté 700¥ (7 CHF).
 A présent, je vous laisse découvrir les quelques photos de la gare de Kyoto et de ses environs. Les photos ne sont pas 
 toutes de bonnes qualité car je bougeais en fonction des circonstances :laughing:
 
------
-
 {% include gallery.html gallery="kyoto-station" %}

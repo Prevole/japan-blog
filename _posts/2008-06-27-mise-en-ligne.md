@@ -12,13 +12,13 @@ d’études. Je me réjouis de vous faire part de ma vie de tous les jours que j
 départ pour le Japon est agendé au 14 juillet à 11h45 de Genève. Mon arrivée est prévue le 15 juillet à 16h55 heure 
 locale. Il me restera encore 3h00 de voyage avant d’arriver à mon logement que j’occuperais durant six mois.
 
+<!--more-->
+
 Au départ, je comptais tenir mon blog en anglais, histoire de me faire la main avec la langue de Shakespeare mais j’y ai
 renoncé pour de bonnes raisons. Réaliser mon blog en français me permettra de garder un peu de ma langue dans mon 
 quotidien. De plus, il me sera plus facile d’écrire souvent et beaucoup. Comme l’a souligné mon ami Jean-Philippe : "Il 
 est plus facile de faire part de ses émotions dans sa langue maternelle". J’avoue que cette simple phrase a fini de me 
 convaincre pour la tenue de mon blog en français.
-
-<!--more-->
 
 {%- comment -%}
 # Généralités

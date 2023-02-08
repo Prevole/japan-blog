@@ -12,6 +12,4 @@ J’en ai profité pour faire quelques photos que vous pourrez retrouver à la f
 
 <!--more-->
 
------
-
 {% include gallery.html gallery="kamo-river" %}

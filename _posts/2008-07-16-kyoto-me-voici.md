@@ -101,8 +101,6 @@ autre sujet.
 
 Voilà, ça y’est ! Je suis au Japon pour six mois. Je n’arrive pas encore à y croire.
 
------
-
 Une petite mise à jour pour poster deux photos de ma collection de billets de banque :laughing:
 
 Tout d’abord une vue d’ensemble suvi des billets du Qatar en gros plan.

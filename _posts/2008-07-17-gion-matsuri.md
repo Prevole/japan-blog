@@ -42,6 +42,4 @@ du folklore local.
 Y a également des policiers partout. Ils sont très sympas et serviables. Ils rigolent même avec les jeunes. Ce que l’on 
 voit pas trop chez nous. Les policiers ici sont vraiment respectés.
 
------
-
 {% include gallery.html gallery="gion-matsuri" %}
