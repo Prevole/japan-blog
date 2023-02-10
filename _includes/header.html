@@ -1,18 +1,26 @@
 <header class="site-header">
-    <div class="wrapper header-title">
-        <img src="/assets/images/japan.png">
-        <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-        <span>-</span>
-        <span>{{ site.description | escape }}</span>
-    </div>
-    <div class="wrapper">
-        <nav class="categories">
-            {%- for category in site.categories -%}
-            {%- assign category_slug = category | first | slugify: "latin" -%}
-            <div class="category-tab">
-                <a href="/category/{{ category | first }}"><span class="icon-{{ category_slug }}"></span><span>{{ category | first }}<span></span></a>
-            </div>
-            {%- endfor -%}
-        </nav>
-    </div>
+  <div class="wrapper header-title">
+    <img src="/assets/images/japan.png">
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <span>-</span>
+    <span>{{ site.description | escape }}</span>
+  </div>
+  <div class="wrapper">
+    <nav class="categories">
+      {%- for category in site.categories -%}
+      {%- assign category_slug = category | first | slugify: "latin" -%}
+      <div class="category-tab">
+        <a href="/category/{{ category | first }}">
+          <span class="icon">
+            <svg class="icon icon-{{ category_slug }}">
+              <use xlink:href="#icon-{{ category_slug }}"></use>
+            </svg>
+          </span>
+          <!--<span class="icon-{{ category_slug }}"></span>-->
+          <span>{{ category | first }}<span>
+        </a>
+      </div>
+      {%- endfor -%}
+    </nav>
+  </div>
 </header>

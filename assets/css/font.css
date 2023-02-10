@@ -46,7 +46,7 @@
 .icon-hospital:before, .icon-tuiles:before {
   content: "\e906";
 }
-.icon-general:before {
+.icon--home:before, .icon-general:before {
   content: "\e907";
 }
 .icon-quill:before {
@@ -135,6 +135,15 @@
 }
 .icon-cancel-circle:before {
   content: "\ea0d";
+}
+.icon-arrow-right2:before {
+  content: "\ea3c";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-appleinc:before {
+  content: "\eabe";
 }
 .icon-svg:before {
   content: "\eae9";

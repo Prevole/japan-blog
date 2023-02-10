@@ -20,6 +20,14 @@ body
   font-family: $site-font-family
   background-color: $site-bg-color
 
+.icon
+  display: inline-block
+  width: 1em
+  height: 1em
+  stroke-width: 0
+  stroke: currentColor
+  fill: currentColor
+
 .site-header
   background-color: $site-header-color
   padding-bottom: .5em
@@ -89,7 +97,7 @@ body
   flex: 0 1 48%
   box-sizing: border-box
   margin: 1rem .25em
-  background-color: gray
+  //background-color: gray
   display: flex
   flex-direction: column
 
@@ -100,44 +108,22 @@ body
   $background-icon-size: 2em
 
   font-family: $title-font-family
-  padding: .5rem 1rem
-  background-size: $background-icon-size
-  background-repeat: no-repeat
-  background-position-x: right
-  background-position-y: center
-  background-origin: content-box
+  padding: 10px 20px
+  border-top-left-radius: 20px
+  border-top-right-radius: 20px
 
-  &.balades
-    background-color: mediumseagreen
-    background-image: url("/assets/icons/walking.svg")
+  @mixin category_header($cls, $color)
+    &.#{$cls}
+      background-image: linear-gradient(-5deg, darken($color, 10%), lighten($color, 20%))
 
-  &.comparaisons
-    background-color: mediumaquamarine
-    background-image: url("/assets/icons/compare.svg")
-
-  &.divers
-    background-color: lightpink
-    background-image: url("/assets/icons/other.svg")
-
-  &.general
-    background-color: cornflowerblue
-    background-image: url("/assets/icons/general.svg")
-
-  &.nourriture
-    background-color: indianred
-    background-image: url("/assets/icons/food.svg")
-
-  &.projet
-    background-color: coral
-    background-image: url("/assets/icons/project.svg")
-
-  &.tuiles
-    background-color: yellowgreen
-    background-image: url("/assets/icons/hospital.svg")
-
-  &.visites
-    background-color: lightyellow
-    background-image: url("/assets/icons/visit.svg")
+  @include category_header("balades", mediumseagreen)
+  @include category_header("comparaisons", mediumaquamarine)
+  @include category_header("divers", lightpink)
+  @include category_header("general", cornflowerblue)
+  @include category_header("nourriture", indianred)
+  @include category_header("projet", coral)
+  @include category_header("tuiles", yellowgreen)
+  @include category_header("visites", lightyellow)
 
   time, span
     font-size: .75em
@@ -153,23 +139,56 @@ body
       text-decoration: none
 
 .post-card-categories
-  padding: .25em 1em
-  background-color: lightgray
+  $icon-size: 26px
 
-  span::before
-    content: ", "
-    text-decoration: none
+  padding: 5px 20px
+  background-color: darken(lightgray, 10%)
+  display: flex
+  max-height: $icon-size
+  min-height: $icon-size
 
-  span:first-child::before
-    content: ""
+  .post-card-category
+    background-color: darken(lightgray, 40%)
+    flex: 0 1 auto
+    padding-right: 10px
+    border-radius: 20px
+    margin-right: 5px
+
+    a
+      display: flex
+      align-items: center
+
+    a:hover
+      text-decoration: none
+
+    a > span.post-card-category-icon
+      background-color: darken(lightgray, 60%)
+      color: darkgray
+      border-radius: 50%
+      padding: 5px 0
+      display: flex
+      justify-content: center
+      align-items: center
+      max-width: $icon-size
+      min-width: $icon-size
+      margin-right: 5px
+
+    a > span.post-card-category-text
+      color: darken(darkgray, 60%)
+      line-height: 1
+
+    a:hover > span
+      color: lighten(yellow, 40%)
 
 .post-card-excerpt
   flex: 0 1 100%
   padding: 1em
+  background-color: gray
 
 .post-card-footer
   text-align: right
   padding: .5em 1em 1em
+  background-color: gray
 
 $post-left-right-padding: 30px
 
