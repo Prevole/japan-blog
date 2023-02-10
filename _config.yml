@@ -43,16 +43,8 @@ autopages:
     title: ":cat"
     permalink: "/category/:cat"
 
-#jekyll-archives:
-#  enabled:
-#    - categories
-#  layouts:
-#    category: category
-#  permalinks:
-#    category: '/category/:name/'
-
 plugins:
-  - jekyll-archives
+#  - jekyll-archives
   - jekyll-feed
   - jekyll-paginate-v2
 
@@ -64,3 +56,5 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _plugins/**
+  - scripts/
+  - utils/
