@@ -1,11 +1,11 @@
 <div class="post-card-category">
-    <a href="/category/{{ include.category }}">
-        <span class="post-card-category-icon">
-            {%- assign category_icon = include.category | slugify: "latin" -%}
-            <svg class="icon icon-{{ category_icon }}">
-                <use xlink:href="#icon-{{ category_icon }}"></use>
-            </svg>
-        </span>
-        <span class="post-card-category-text">{{ include.category }}</span>
-    </a>
+  <a href="/category/{{ include.category | slugify: "latin" }}">
+    <span class="post-card-category-icon">
+      {%- assign category_icon = include.category | slugify: "latin" -%}
+      <svg class="icon icon-{{ category_icon }}">
+        <use xlink:href="#icon-{{ category_icon }}"></use>
+      </svg>
+    </span>
+    <span class="post-card-category-text">{{ include.category }}</span>
+  </a>
 </div>

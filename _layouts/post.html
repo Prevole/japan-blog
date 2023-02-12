@@ -6,29 +6,40 @@ layout: default
 {%- assign category = page.categories | first | slugify: "latin" -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
-    <header class="post-header">
-        <h1 class="post-title p-name" itemprop="name headline"><span class="icon-{{ category }}"></span><span>{{ page.title | escape }}</span></h1>
-        <p class="post-meta">
-            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | format_dt }}</time>
-            {%- if page.modified_date -%}, <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}</time>{%- endif -%}
-        </p>
-    </header>
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">
+      <span class="post-title-icon">
+        <svg class="icon icon-{{ category }}">
+          <use xlink:href="#icon-{{ category }}"></use>
+        </svg>
+      </span>
+      <span class="post-title-text">{{ page.title | escape }}</span>
+    </h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | format_dt }}
+      </time>
+      {%- if page.modified_date -%},
+      <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}
+      </time>
+      {%- endif -%}
+    </p>
+  </header>
 
-    <div class="post-content e-content" itemprop="articleBody">
-        {{ content }}
-    </div>
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
 
-    {% for staff_member in site.staff_members %}
-    <h2>
-        <a href="{{ staff_member.url }}">
-            {{ staff_member.name }} - {{ staff_member.position }}
-        </a>
-    </h2>
-    <p>{{ staff_member.content | markdownify }}</p>
-    {% endfor %}
+  {% for staff_member in site.staff_members %}
+  <h2>
+    <a href="{{ staff_member.url }}">
+      {{ staff_member.name }} - {{ staff_member.position }}
+    </a>
+  </h2>
+  <p>{{ staff_member.content | markdownify }}</p>
+  {% endfor %}
 
-    {%- assign comment_file = page.name | remove: '.md' -%}
-    {% include comments.html comments_file=comment_file %}
+  {%- assign comment_file = page.name | remove: '.md' -%}
+  {% include comments.html comments_file=comment_file %}
 
-    <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

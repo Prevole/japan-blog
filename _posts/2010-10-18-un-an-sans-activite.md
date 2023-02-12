@@ -10,5 +10,7 @@ dernier sujet posté. Un an, le dernier remonte à tout juste un an. C'est pas r
 au Japon n'est pas très motivant pour écrire sur le Japon. C'est pas comme si je suivais avec assiduité tout ce
 qu'il s'y passe.
 
+<!--more-->
+
 Toutefois, je continue de nourrir l'espoir d'y retourner au plus vite mais en vacances cette fois. C'est bien joli
 d'y travailler mais les vacances, qu'est-ce que c'est plaisant :laughing:

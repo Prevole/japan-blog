@@ -2,25 +2,37 @@
 {%- assign time_format = site.minima.date_format | default: "%H:%M" -%}
 {%- if site.data.comments[include.comments_file] -%}
 <section class="comments">
-    <header>
-        <h1 class="post-title"><span class="icon-bubbles"></span><span>Commentaires</span></h1>
-    </header>
+  <a id="comments"></a>
+  <header>
+    <h1 class="post-title">
+      <span class="post-title-icon">
+        <svg class="icon icon-bubbles">
+          <use xlink:href="#icon-bubbles"></use>
+        </svg>
+      </span>
+      <span class="post-title-text">Commentaires</span>
+    </h1>
+  </header>
 
-    {%- for comment in site.data.comments[include.comments_file] -%}
-    <section class="comment">
-        <div class="{{ comment | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
-            <div class="comment-meta-icon">
-                <span class="icon-bubble"></span>
-            </div>
-            <div class="comment-meta">
-                <p class="comment-author">{{ comment.author }}</p>
-                <p class="comment-date">{{ comment.date | format_dt }}</p>
-            </div>
-        </div>
-        <div class="{{ comment | comment_class_author: "comment-content", "comment-owner-right" }}">
-            {{ comment.text | markdownify | comment_reply_to }}
-        </div>
-    </section>
-    {%- endfor -%}
+  {%- for comment in site.data.comments[include.comments_file] -%}
+  <section class="comment">
+    <div class="{{ comment | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
+    <div class="comment-meta-icon">
+      <span>
+        <svg class="icon icon-bubble">
+          <use xlink:href="#icon-bubble"></use>
+        </svg>
+      </span>
+    </div>
+    <div class="comment-meta">
+      <p class="comment-author">{{ comment.author }}</p>
+      <p class="comment-date">{{ comment.date | format_dt }}</p>
+    </div>
+    </div>
+    <div class="{{ comment | comment_class_author: "comment-content", "comment-owner-right" }}">
+    {{ comment.text | markdownify | comment_reply_to }}
+    </div>
+  </section>
+  {%- endfor -%}
 </section>
 {%- endif -%}

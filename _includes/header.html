@@ -10,14 +10,13 @@
       {%- for category in site.categories -%}
       {%- assign category_slug = category | first | slugify: "latin" -%}
       <div class="category-tab">
-        <a href="/category/{{ category | first }}">
-          <span class="icon">
+        <a href="/category/{{ category_slug }}" class="category-tab-link">
+          <span class="category-tab-icon">
             <svg class="icon icon-{{ category_slug }}">
               <use xlink:href="#icon-{{ category_slug }}"></use>
             </svg>
           </span>
-          <!--<span class="icon-{{ category_slug }}"></span>-->
-          <span>{{ category | first }}<span>
+          <span class="category-tab-text">{{ category | first }}</span>
         </a>
       </div>
       {%- endfor -%}

@@ -42,6 +42,9 @@ autopages:
       - category.html
     title: ":cat"
     permalink: "/category/:cat"
+    slugify:
+      mode: 'latin'
+      case: true
 
 plugins:
 #  - jekyll-archives
@@ -57,4 +60,4 @@ exclude:
   - Gemfile.lock
   - _plugins/**
   - scripts/
-  - utils/
+  - resources/

@@ -7,8 +7,11 @@ module Jekyll
     def format_dt(input, front_word = "Posté")
       input = Time.parse(input) if input.is_a? String
 
+      day = input.strftime("%-d")
+      formatted_day = day == "1" ? "1er" : day
+
       (
-        "#{front_word} le #{input.strftime("%-d")} #{MONTHS[input.strftime("%m").to_i - 1]} #{input.strftime("%Y")} à " +
+        "#{front_word} le #{formatted_day} #{MONTHS[input.strftime("%m").to_i - 1]} #{input.strftime("%Y")} à " +
         "#{input.strftime("%k")}:#{input.strftime("%M")}"
       ).gsub("  ", " ")
     end
