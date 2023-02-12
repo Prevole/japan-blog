@@ -3,6 +3,7 @@ layout:     post
 title:      Enfin un téléphone mobile
 date:       2008-08-22 10:32:19 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-08-22-enfin-un-telephone-mobile/dsc01051.jpg
 ---
 
 Et oui, après 6 semaines, nous avons enfin été choisir et acheter un téléphone portable ainsi que signer le contrat

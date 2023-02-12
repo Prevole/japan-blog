@@ -3,6 +3,7 @@ layout:     post
 title:      Temps à rester sous le duvet
 date:       2008-09-21 14:43:00 +0200
 categories: ["Divers"]
+image:      /assets/images/galleries/arc-en-ciel/IMG_0370.JPG
 ---
 
 Aujourd'hui il a fait un temps bizarre à horrible. Ce matin je me suis levé et il pleuvait des cordes. A midi grand

@@ -3,6 +3,7 @@ layout:     post
 title:      Ritsumeikan Daigaku
 date:       2008-08-18 13:35:37 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-08-18-ritsumeikan-daigaku/dsc01010.jpg
 ---
 
 Je commence à prendre mon rythme de croisière. Aujourd'hui je suis allé à l'uni et j'ai trouvé la bonne porte pour

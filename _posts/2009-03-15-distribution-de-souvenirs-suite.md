@@ -3,6 +3,7 @@ layout:     post
 title:      Distribution de souvenirs suite
 date:       2009-03-15 15:29:08 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2009-03-15-distribution-de-souvenirs-suite/img_2514.jpg
 ---
 
 Depuis que je suis rentré, j'ai eu le loisir de voir certaines personnes et de remettre des souvenirs. Vu la

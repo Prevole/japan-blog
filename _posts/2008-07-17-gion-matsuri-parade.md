@@ -3,6 +3,7 @@ layout:     post
 title:      Gion Matsuri Parade
 date:       2008-07-17 15:34:00 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/gion-matsuri-parade/DSC00105.JPG
 ---
 
 Le lendemain du dernier jour de festival a lieu une parade. Il s’agit de la Gion Matsuri Parade. L’idée est de faire 

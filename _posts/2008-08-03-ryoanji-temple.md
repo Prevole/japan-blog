@@ -3,6 +3,7 @@ layout:     post
 title:      Ryoanji Temple
 date:       2008-08-03 11:46:46 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/ryoanji-temple/DSC00632.JPG
 ---
 
 Après le temple Kinkakuji, j'ai repris le bus que je prends tout les matins pour aller à l'uni. J'ai été jusqu'à

@@ -3,6 +3,7 @@ layout:     post
 title:      Balade dans tout Tokyo
 date:       2010-11-07 16:01:35 +0100
 categories: ["Balades", "Général"]
+image:      /assets/images/galleries/grande-balade-dans-tokyo/IMG_0079.JPG
 ---
 
 Aujourd'hui étant mon dernier jour à Tokyo (avant la prochaine fois), j'ai profité pour faire un maximum de choses.

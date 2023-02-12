@@ -3,6 +3,7 @@ layout:     post
 title:      Nouveau plateau repas
 date:       2008-07-24 15:11:22 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-07-24-nouveau-plateau-repas/dsc00317.jpg
 ---
 
 Comme vous n'êtes pas sans le savoir, pour le moment je ne cuisine pas moi même et m'achête mes plateaux-repas

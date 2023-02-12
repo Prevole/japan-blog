@@ -3,6 +3,7 @@ layout:     post
 title:      Retour à Kyoto
 date:       2008-11-02 18:07:29 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-11-02-retour-a-kyoto/img_1972.jpg
 ---
 
 Après ces quelques aventures, je suis arrivé à Kyoto en un seul morceau, avec presque plus mal à mon genou (je sais

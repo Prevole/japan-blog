@@ -3,6 +3,7 @@ layout:     post
 title:      Remise des diplômes - Photos
 date:       2009-03-15 15:21:43 +0100
 categories: ["Divers"]
+image:      /assets/images/galleries/diploma-ceremony/IMG_2941.JPG
 ---
 
 Ça faisait quelque temps que je voulais mettre ces photos en ligne, mais je n'avais pas le courage de le faire

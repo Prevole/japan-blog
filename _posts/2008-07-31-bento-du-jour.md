@@ -3,6 +3,7 @@ layout:     post
 title:      Bentô du jour
 date:       2008-07-31 14:56:51 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-07-31-bento-du-jour/dsc00517.jpg
 ---
 
 Apparemment, ma petite rubrique du bentô à l'air de plaire à certaines personnes de ma connaissance. Du coup, je me

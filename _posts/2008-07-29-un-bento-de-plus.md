@@ -3,6 +3,7 @@ layout:     post
 title:      Un bentô de plus
 date:       2008-07-29 13:45:51 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-07-29-un-bento-de-plus/dsc00512.jpg
 ---
 
 C'est pas que je ne sais pas quoi mettre sur mon blog, mais je trouve marrant de vous faire partager mes plateaux

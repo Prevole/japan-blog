@@ -3,6 +3,7 @@ layout:     post
 title:      Y a le feu à la montagne
 date:       2008-08-16 13:58:55 +0200
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/posts/2008-08-16-y-a-le-feu-a-la-montagne/dsc00921.jpg
 ---
 
 Et oui, comme je vous le disais dans un article précédent, aujourd'hui est le point culminant de la période Obon.

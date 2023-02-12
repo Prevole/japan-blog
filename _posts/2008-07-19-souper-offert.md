@@ -3,6 +3,7 @@ layout:     post
 title:      Souper offert
 date:       2008-07-19 05:02:37 +0200
 categories: ["Balades", "Nourriture"]
+image:      /assets/images/posts/2008-07-19-souper-offert/dsc00276.jpg
 ---
 
 Après ma journée de promenade, j'avais rendez-vous avec mon professeur responsable sur place - Michael Lyons. Il m'a 

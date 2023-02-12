@@ -3,6 +3,7 @@ layout:     post
 title:      J'ai un vélo
 date:       2008-08-27 10:52:14 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-08-27-jai-un-velo/dsc01123.jpg
 ---
 
 Ca y'est j'ai enfin un vélo. Il est très chouette quoi que vraiment limite pour la taille. Je peux pas le régler

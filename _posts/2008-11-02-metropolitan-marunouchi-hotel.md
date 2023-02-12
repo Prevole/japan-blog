@@ -3,6 +3,7 @@ layout:     post
 title:      Metropolitan Marunouchi Hotel
 date:       2008-11-02 14:03:04 +0100
 categories: ["Divers"]
+image:      /assets/images/galleries/metropolitan-maranouchi-hotel/IMG_1764.JPG
 ---
 
 Pour l'hôtel, je n'avais pas forcément beaucoup de choix, du fait que je m'y suis pris très tardivement pour la

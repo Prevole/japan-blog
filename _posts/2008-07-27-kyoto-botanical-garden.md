@@ -3,6 +3,7 @@ layout:     post
 title:      Kyoto Botanical Garden
 date:       2008-07-27 11:19:29 +0200
 categories: ["Balades", "Visites"]
+image:      /assets/images/galleries/kyoto-botanical-garden/DSC00406.JPG
 ---
 
 Cette fois, je suis arrivé dans les temps pour visiter le jardin botanique de Kyoto. Il est relativement grand.

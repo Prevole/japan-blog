@@ -3,6 +3,7 @@ layout:     post
 title:      Intetain - Amsterdam - Day Two
 date:       2009-06-23 21:59:08 +0200
 categories: ["Balades", "Projet"]
+image:      /assets/images/galleries/amsterdam-day-three/IMG_3282.JPG
 ---
 
 Aujourd'hui, je me suis reveillé un poil tard. C'était 8h50 alors que la conférence débutait à 9h00. Autant dire

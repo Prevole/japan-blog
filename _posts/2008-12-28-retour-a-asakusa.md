@@ -3,6 +3,7 @@ layout:     post
 title:      Retour à Asakusa
 date:       2008-12-28 16:36:10 +0100
 categories: ["Balades", "Visites"]
+image:      /assets/images/galleries/asakusa-return/IMG_2666.JPG
 ---
 
 Après notre tour en bateau, nous sommes allés voir le sanctuaire d'Asakusa et ses fameuses lanternes. Je ne

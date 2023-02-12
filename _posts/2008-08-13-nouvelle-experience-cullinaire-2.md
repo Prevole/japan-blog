@@ -3,6 +3,7 @@ layout:     post
 title:      Nouvelle expérience culinaire
 date:       2008-08-13 13:59:14 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-08-13-nouvelle-experience-cullinaire-2/dsc009031.jpg
 ---
 
 Je sais, je sais, on en sort plus. On dirait que je suis ici que pour ça. Mais faut dire que c'est quand même

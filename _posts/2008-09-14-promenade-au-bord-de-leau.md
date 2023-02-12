@@ -3,6 +3,7 @@ layout:     post
 title:      Promenade au bord de l'eau
 date:       2008-09-14 15:29:55 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/kamo-river-le-retour-2/IMG_0207.JPG
 ---
 
 Ca faisait quelques jours que je n'avais pas vraiment bougé. Oui ces temps, je profite que mon prof local soit en

@@ -3,6 +3,7 @@ layout:     post
 title:      Télécommande et contrôles divers
 date:       2008-08-07 15:15:11 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-08-07-telecommande-et-controles-divers/dsc00767.jpg
 ---
 
 Je voulais vous faire part de quelques-unes de mes difficultés. Comme vous le savez, je ne maitrise pas du tout la

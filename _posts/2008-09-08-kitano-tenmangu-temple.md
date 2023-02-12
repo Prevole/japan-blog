@@ -3,6 +3,7 @@ layout:     post
 title:      Kitano Tenmangu Temple
 date:       2008-09-08 19:01:43 +0200
 categories: ["Visites", "Projet"]
+image:      /assets/images/galleries/kitano-tenmangu-temple/DSC01232.JPG
 ---
 
 Après le temple de Hirano, je me suis rendu au temple de Kitano Tenmangu. Celui-ci se trouve à même pas 300m du

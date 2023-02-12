@@ -3,6 +3,7 @@ layout:     post
 title:      "Suite de la tuile #8"
 date:       2008-10-03 15:27:39 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-10-03-suite-de-la-tuille-8/dsc01289.jpg
 ---
 
 Depuis l'autre jour, les choses ont évolué un peu. Tout d'abord je me suis pris d'envie de bricoler pour voir ce

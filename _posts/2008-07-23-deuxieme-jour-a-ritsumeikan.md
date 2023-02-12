@@ -3,6 +3,7 @@ layout:     post
 title:      Deuxième jour à Ritsumeikan
 date:       2008-07-23 14:09:32 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-07-23-deuxieme-jour-a-ritsumeikan/dsc00314.jpg
 ---
 
 Je pensais avoir vu beaucoup de choses au niveau des ennuis informatiques, mais c'était sans compter la façon de

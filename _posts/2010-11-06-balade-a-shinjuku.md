@@ -3,6 +3,7 @@ layout:     post
 title:      Balade à Shinjuku
 date:       2010-11-06 18:55:31 +0100
 categories: ["Balades"]
+image:      /assets/images/galleries/perdu-dans-shinjuku/IMG_0012.JPG
 ---
 
 Aujourd'hui, en dehors d'avoir rendez-vous avec mes amis japonais, j'avais envie d'aller faire un tour, soit à

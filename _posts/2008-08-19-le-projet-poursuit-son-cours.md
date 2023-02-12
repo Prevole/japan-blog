@@ -3,6 +3,7 @@ layout:     post
 title:      Le projet poursuit son cours
 date:       2008-08-19 15:15:11 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-08-19-le-projet-poursuit-son-cours/proto_8.jpg
 ---
 
 Voilà quelques jours que j'œuvre sur la partie cliente. Cela peut sembler étrange mais j'ai installé le kit de

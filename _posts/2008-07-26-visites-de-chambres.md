@@ -3,6 +3,7 @@ layout:     post
 title:      Visites de chambres
 date:       2008-07-26 12:06:52 +0200
 categories: ["Balades", "Visites"]
+image:      /assets/images/posts/2008-07-26-visites-de-chambres/dsc00332.jpg
 ---
 
 Aujourd'hui, j'ai consacré ma journée pour la visite de deux chambres. L'une située dans un endroit appelé *Duo Inn* et 

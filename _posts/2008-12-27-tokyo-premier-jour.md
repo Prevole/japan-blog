@@ -3,6 +3,7 @@ layout:     post
 title:      Tokyo - Premier jour
 date:       2008-12-27 13:03:06 +0100
 categories: ["Balades"]
+image:      /assets/images/posts/2008-12-27-tokyo-premier-jour/dsc01422.jpg
 ---
 
 Dernière petite virée de 3 jours au pays du soleil levant. Cette fois, c'est de nouveau Tokyo. L'idée est de

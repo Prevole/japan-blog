@@ -3,6 +3,7 @@ layout:     post
 title:      Une vidéo de plus
 date:       2009-01-01 15:03:35 +0100
 categories: ["Projet"]
+image:      /assets/media/posts/2009-01-01-une-video-de-plus/thumb_demo5.png
 ---
 
 Pourquoi ne pas commencer l'année en beauté avec une nouvelle petite vidéo sur mon projet? Cette vidéo est en

@@ -3,6 +3,7 @@ layout:     post
 title:      Visite guidée d'Akihabara
 date:       2008-11-02 17:58:07 +0100
 categories: ["Visites"]
+image:      /assets/images/galleries/akihabara-by-day/IMG_1888.JPG
 ---
 
 Comme je vous le disais, ma visite du jour a été uniquement le quartier d'Akihabara. J'ai eu droit à un guide privé

@@ -3,6 +3,7 @@ layout:     post
 title:      Super Mac Prevole
 date:       2008-11-29 16:35:00 +0100
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-11-29-super-mac-prevole/img_2087.jpg
 ---
 
 J'avais envie d'hamburger ce soir, mais pas de McDo, où la faim vous tiraille encore, une fois sorti. J'ai ressorti

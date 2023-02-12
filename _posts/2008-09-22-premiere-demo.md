@@ -3,6 +3,7 @@ layout:     post
 title:      Première démo
 date:       2008-09-22 17:28:14 +0200
 categories: ["Projet"]
+image:      /assets/media/posts/2008-09-22-premiere-demo/thumb_demo_1.png
 ---
 
 Je pense que suite à mes derniers articles, vous vous dites que c'est bien joli tout le temps qui passe et tout ce

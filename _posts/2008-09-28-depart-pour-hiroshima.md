@@ -3,6 +3,7 @@ layout:     post
 title:      Départ pour Hiroshima
 date:       2008-09-28 19:01:24 +0200
 categories: ["Divers"]
+image:      /assets/media/posts/2008-09-28-depart-pour-hiroshima/thumb_shinkansen_1b.png
 ---
 
 Le mercredi 24.09.2008 à 6h00 précises, mon réveil me tire d'un sommeil léger. Je me précipite sous la douche,

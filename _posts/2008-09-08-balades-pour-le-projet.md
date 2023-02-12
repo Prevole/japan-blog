@@ -3,6 +3,7 @@ layout:     post
 title:      Balades pour le projet
 date:       2008-09-08 18:14:48 +0200
 categories: ["Balades", "Projet"]
+image:      /assets/images/posts/2008-09-08-balades-pour-le-projet/dsc01274.jpg
 ---
 
 Cette semaine, c'est un temps radieux qui me permet de profiter et j'en profite. Je ne fais pas que de rester

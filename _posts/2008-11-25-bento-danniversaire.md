@@ -3,6 +3,7 @@ layout:     post
 title:      Bentô d'anniversaire
 date:       2008-11-25 23:21:51 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-11-25-bento-danniversaire/img_2075.jpg
 ---
 
 Bon, j'ai dû faire le ménage comme mon frère l'avait effectivement signalé. J'ai déplacé la nouvelle, qui n'avait

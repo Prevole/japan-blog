@@ -3,6 +3,7 @@ layout:     post
 title:      Deuxième démo
 date:       2008-11-13 08:38:16 +0100
 categories: ["Projet"]
+image:      /assets/media/posts/2008-11-13-deuxieme-demo/thumb_demo_2.png
 ---
 
 Ça fait une bonne dizaine de jours que je n'ai plus rien écrit sur mon blog et pour cause. C'est très simple, ces

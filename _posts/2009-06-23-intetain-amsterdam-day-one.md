@@ -3,6 +3,7 @@ layout:     post
 title:      Intetain - Amsterdam - Day One
 date:       2009-06-23 00:00:16 +0200
 categories: ["Projet"]
+image:      /assets/images/galleries/amsterdam-day-two/IMG_3263.JPG
 ---
 
 Le premier jour de la conférence a pris fin. C'est avec une certaine fatigue que je m'apprête à écrire ces quelques

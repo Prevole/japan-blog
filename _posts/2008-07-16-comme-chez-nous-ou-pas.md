@@ -3,6 +3,7 @@ layout:     post
 title:      Comme chez nous ou pas...
 date:       2008-07-16 17:46:00 +0200
 categories: ["Comparaisons"]
+image:      /assets/images/posts/2008-07-16-comme-chez-nous-ou-pas/garbage_2.jpg
 ---
 
 Une petite comparaison entre la façon de gérer les ordures entre Kyoto et Aigle (Sandrine sera contente que je parle 

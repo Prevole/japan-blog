@@ -3,6 +3,7 @@ layout:     post
 title:      APN comme neuf
 date:       2008-10-20 13:32:14 +0200
 categories: ["Balades", "Divers"]
+image:      /assets/images/posts/2008-10-20-apn-comme-neuf/img_1577.jpg
 ---
 
 Je suis allé à Osaka aujourd'hui pour récuperer mon APN, qui était en réparation au centre Canon. Le chemin pour y

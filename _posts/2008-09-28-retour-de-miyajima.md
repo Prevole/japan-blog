@@ -3,6 +3,7 @@ layout:     post
 title:      Retour de Miyajima
 date:       2008-09-28 19:12:17 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-retour/IMG_1444.JPG
 ---
 
 Après la rue commerçante, je suis retourné au port et j'ai pris mon billet pour le retour, avec directement le

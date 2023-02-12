@@ -3,6 +3,7 @@ layout:     post
 title:      Jardin botanique ... ou pas
 date:       2008-07-21 16:43:20 +0200
 categories: ["Balades"]
+image:      /assets/images/posts/2008-07-21-jardin-botanique-ou-pas/dsc00299.jpg
 ---
 
 Je voulais sortir cet après-midi pour aller voir le jardin botanique et prendre l'air. C'est bien ce que j'ai fait

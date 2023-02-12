@@ -3,6 +3,7 @@ layout:     post
 title:      Distribution de souvenirs - fin
 date:       2009-05-29 19:36:39 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2009-05-29-distribution-de-souvenirs-fin/img_3019.jpg
 ---
 
 Après de nombreuses rencontres, j'ai fini de distribuer tous les souvenirs aux personnes de mon entourage à qui je

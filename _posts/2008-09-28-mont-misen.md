@@ -3,6 +3,7 @@ layout:     post
 title:      Mont Misen
 date:       2008-09-28 19:11:41 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-misen-observatoire/IMG_1279.JPG
 ---
 
 Après les singes, nous avons bavardé avec Bertrand. Je lui ai fait part de mon envie de grimper en haut du Mont

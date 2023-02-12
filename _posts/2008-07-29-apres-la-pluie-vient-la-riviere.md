@@ -3,6 +3,7 @@ layout:     post
 title:      Après la pluie vient ... la rivière
 date:       2008-07-29 11:48:20 +0200
 categories: ["Balades"]
+image:      /assets/images/posts/2008-07-29-apres-la-pluie-vient-la-riviere/dsc00507.jpg
 ---
 
 Je me disais hier soir que la rivière avait dû se remplir la moindre avec la journée de pluie qu'il a fait. Ce

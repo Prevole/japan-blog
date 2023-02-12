@@ -3,6 +3,7 @@ layout:     post
 title:      Parc de la paix
 date:       2008-09-28 19:08:23 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/parc-de-la-paix/IMG_0737.JPG
 ---
 
 Après le dôme, je me suis rendu au parc de la paix. Il est juste à côté et contient un certain nombre de monuments

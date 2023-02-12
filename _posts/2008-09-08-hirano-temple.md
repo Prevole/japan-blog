@@ -3,6 +3,7 @@ layout:     post
 title:      Hirano Temple
 date:       2008-09-08 18:36:30 +0200
 categories: ["Visites", "Projet"]
+image:      /assets/images/galleries/hirano-temple/DSC01204.JPG
 ---
 
 Durant ma balade, j'ai visité deux temples. Le premier des deux est le nommé Hirano Temple. C'est un temple

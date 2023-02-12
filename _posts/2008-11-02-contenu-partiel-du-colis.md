@@ -3,6 +3,7 @@ layout:     post
 title:      Contenu partiel du colis
 date:       2008-11-02 12:05:48 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-11-02-contenu-partiel-du-colis/dsc01313.jpg
 ---
 
 Vous vous souvenez peut-être encore de mon envoi de colis vers la Suisse il y a quelques semaines. Je n'avais pas

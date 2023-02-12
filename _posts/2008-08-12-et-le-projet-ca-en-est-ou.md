@@ -3,6 +3,7 @@ layout:     post
 title:      Et le projet ? Ça en est où ?
 date:       2008-08-12 13:14:13 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-08-12-et-le-projet-ca-en-est-ou/screen_3.jpg
 ---
 
 Ça fait quelque temps que je n'ai plus parlé de mon projet et de l'état d'avancement. Alors je vais vous faire un

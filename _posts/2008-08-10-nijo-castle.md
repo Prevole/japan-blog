@@ -3,6 +3,7 @@ layout:     post
 title:      Nijo Castle
 date:       2008-08-10 13:43:03 +0200
 categories: ["Visites", "Nourriture"]
+image:      /assets/images/galleries/nijo-castle/DSC00792.JPG
 ---
 
 Aujourd'hui je n'étais pas rempli de motivation mais j'ai tout de même trouvé la force de m'extraire de chez moi et

@@ -3,6 +3,7 @@ layout:     post
 title:      Vue depuis mon hôtel à Tokyo
 date:       2008-11-02 17:04:20 +0100
 categories: ["Divers"]
+image:      /assets/images/galleries/tokyo-station-view/IMG_1850.JPG
 ---
 
 Le vendredi matin de ma visite tokyoïte, je me suis levé à 8h00 pour me préparer gentiment à partir pour Akihabara.

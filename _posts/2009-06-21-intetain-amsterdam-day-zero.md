@@ -3,6 +3,7 @@ layout:     post
 title:      Intetain - Amsterdam - Day Zero
 date:       2009-06-21 23:11:12 +0200
 categories: ["Général", "Balades", "Visites"]
+image:      /assets/images/galleries/amsterdam-day-one/IMG_3221.JPG
 ---
 
 Me voici arrivé au terme d'une petite heure ou deux de voyage, à Amsterdam. Ville où a lieu la conférence Intetain

@@ -3,6 +3,7 @@ layout:     post
 title:      Daishoin Temple
 date:       2008-09-28 19:10:47 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/miyajima-daishoin-temple/IMG_1159.JPG
 ---
 
 Après ma visite de l'aquarium et ma petite promenade vers le sanctuaire d'Omoto, je suis parti en direction du

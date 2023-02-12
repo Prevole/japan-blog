@@ -3,6 +3,7 @@ layout:     post
 title:      Petit Chalet
 date:       2008-11-16 14:46:51 +0100
 categories: ["Balades", "Nourriture", "Divers"]
+image:      /assets/images/posts/2008-11-16-petit-chalet/img_1979.jpg
 ---
 
 Ce soir, nous sommes allés manger une fondue au fromage avec l'assistant. Je lui ai proposé avant-hier, d'aller

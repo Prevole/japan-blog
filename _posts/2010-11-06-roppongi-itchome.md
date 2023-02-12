@@ -3,6 +3,7 @@ layout:     post
 title:      Roppongi-Itchôme
 date:       2010-11-06 18:04:10 +0100
 categories: ["Général"]
+image:      /assets/images/galleries/tokyo-roppongi-itchome-view/IMG_4529.JPG
 ---
 
 Lorsque je suis arrivé le premier jour, je n'ai pas manqué de prendre quelques photos des environs, visibles depuis

@@ -3,6 +3,7 @@ layout:     post
 title:      Bento suisse
 date:       2008-10-27 15:39:35 +0100
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/posts/2008-10-27-bento-suisse/img_1663.jpg
 ---
 
 A présent que vous savez, qu'hier j'ai reçu des provisions suisses, et bien j'en ai profité. Aujourd'hui, au menu,

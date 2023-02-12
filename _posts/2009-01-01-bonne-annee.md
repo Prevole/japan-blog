@@ -3,6 +3,7 @@ layout:     post
 title:      Bonne année
 date:       2009-01-01 07:07:13 +0100
 categories: ["Général", "Nourriture", "Divers"]
+image:      /assets/images/posts/2009-01-01-bonne-annee/img_2775.jpg
 ---
 
 Nous voilà déjà en 2009. Le temps passe tellement vite quand il est vécu intensément. Je vous souhaite, à vous mes

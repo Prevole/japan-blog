@@ -3,6 +3,7 @@ layout:     post
 title:      Hiroshima - Jour du retour
 date:       2008-09-29 17:59:59 +0200
 categories: ["Balades", "Visites", "Nourriture"]
+image:      /assets/images/galleries/hiroshima-hondori/IMG_1504.JPG
 ---
 
 Et oui, toutes les bonnes choses ont une fin, c'est bien connu. Mais autant finir correctement ce petit séjour

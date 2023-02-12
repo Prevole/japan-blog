@@ -3,6 +3,7 @@ layout:     post
 title:      Dernière virée à la Kamo River
 date:       2009-01-15 12:35:02 +0100
 categories: ["Balades", "Divers"]
+image:      /assets/images/galleries/final-kamo-river/IMG_2789.JPG
 ---
 
 Le dimanche avant de partir du Japon, je me suis pris d'envie de marcher. J'ai effectué un petit parcours de 11km

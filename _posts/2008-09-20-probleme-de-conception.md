@@ -3,6 +3,7 @@ layout:     post
 title:      Problème de conception
 date:       2008-09-20 16:56:41 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-09-20-probleme-de-conception/rendering.jpg
 ---
 
 Et voici un nouvel article qui, à mon avis, est encore plus technique que le précédent. Je vais tenter de le rendre

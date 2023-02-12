@@ -3,6 +3,7 @@ layout:     post
 title:      Christmas Tree
 date:       2008-12-04 15:55:39 +0100
 categories: ["Divers"]
+image:      /assets/media/posts/2008-12-04-christmas-tree/thumb_christmastree.png
 ---
 
 Etant un bon geek, et aimant Noël tout particulièrement, il me fallait faire quelque chose pour avoir au moins un

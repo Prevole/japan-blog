@@ -3,6 +3,7 @@ layout:     post
 title:      Tokyo Town Hall
 date:       2008-11-02 13:15:49 +0100
 categories: ["Divers"]
+image:      /assets/images/galleries/tokyo-town-hall/IMG_1689.JPG
 ---
 
 Le but de ma petite escapade de la semaine a été de passer un séjour sympa à Tokyo, dans le but de rencontrer le

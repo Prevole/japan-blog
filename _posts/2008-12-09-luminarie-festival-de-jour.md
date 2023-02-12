@@ -3,6 +3,7 @@ layout:     post
 title:      Luminarie Festival de jour
 date:       2008-12-09 14:24:34 +0100
 categories: ["Balades"]
+image:      /assets/images/galleries/kobe-by-day/IMG_2423.JPG
 ---
 
 Avant de rentrer de Kobe, j'avais trois heures à tuer. Je me suis dit que j'allais retourner voir à quoi ressemble

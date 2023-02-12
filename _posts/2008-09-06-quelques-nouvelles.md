@@ -3,6 +3,7 @@ layout:     post
 title:      Quelques nouvelles
 date:       2008-09-06 13:11:41 +0200
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/posts/2008-09-06-quelques-nouvelles/dsc01200.jpg
 ---
 
 Oui oui, je sais, les nouvelles s'espacent un peu. Mais après tout c'est assez logique. Pourquoi ça ? Bah tout

@@ -3,6 +3,7 @@ layout:     post
 title:      Un nouveau bento
 date:       2008-08-21 14:41:51 +0200
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/posts/2008-08-21-un-nouveau-bento-2/dsc01023.jpg
 ---
 
 Comme aujourd'hui j'ai travaillé depuis la maison, je suis allé m'acheter un bento pour mon repas de midi. Je dois

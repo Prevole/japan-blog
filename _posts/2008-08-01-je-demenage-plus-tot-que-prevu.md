@@ -3,6 +3,7 @@ layout:     post
 title:      Je déménage plus tôt que prévu
 date:       2008-08-01 08:24:44 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-08-01-je-demenage-plus-tot-que-prevu/dsc00521.jpg
 ---
 
 Ce matin, mon réveil n'a pas sonné parce que plus de batterie sur mon natel (celui qui fonctionne pas au Japon et

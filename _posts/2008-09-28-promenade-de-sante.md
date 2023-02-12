@@ -3,6 +3,7 @@ layout:     post
 title:      Promenade de santé
 date:       2008-09-28 19:05:06 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/hiroshima/IMG_0547.JPG
 ---
 
 Avant de partir, j'ai regardé ma carte dans mon prospectus de voyage pour repérer les lieux et organiser ma marche.

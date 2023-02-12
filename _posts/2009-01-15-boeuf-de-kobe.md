@@ -3,6 +3,7 @@ layout:     post
 title:      Boeuf de Kobe
 date:       2009-01-15 12:12:36 +0100
 categories: ["Nourriture"]
+image:      /assets/images/posts/2009-01-15-boeuf-de-kobe/dsc01430.jpg
 ---
 
 Avant de rentrer, je me suis permis une virée à Kobe (une de plus en fait :laughing:) pour aller déguster le

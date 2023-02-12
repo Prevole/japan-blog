@@ -3,6 +3,7 @@ layout:     post
 title:      Une journée de plus
 date:       2008-07-25 14:39:16 +0200
 categories: ["Général", "Comparaisons", "Nourriture"]
+image:      /assets/images/posts/2008-07-25-une-journee-de-plus/dsc00321.jpg
 ---
 
 J'ai enfin débuté mon projet aujourd'hui. J'ai posé mes premières lignes de code sur la base de ce que l'on avait

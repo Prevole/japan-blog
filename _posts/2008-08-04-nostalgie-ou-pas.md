@@ -3,6 +3,7 @@ layout:     post
 title:      Nostalgie ... ou pas
 date:       2008-08-04 07:36:40 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-08-04-nostalgie-ou-pas/dsc00714.jpg
 ---
 
 Et voilà c'est fait, je suis enfin parti de ce petit chez moi, presque insalubre. Pour la peine, j'ai encore pris

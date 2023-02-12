@@ -3,6 +3,7 @@ layout:     post
 title:      Gion Matsuri
 date:       2008-07-17 09:39:00 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/gion-matsuri/DSC00056.JPG
 ---
 
 Qu’est-ce donc ? C’est un festival qui a lieu en juillet à Kyoto. C’est très traditionnel et très sympa. J’ai eu 

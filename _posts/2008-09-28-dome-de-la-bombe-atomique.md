@@ -3,6 +3,7 @@ layout:     post
 title:      Dôme de la bombe atomique
 date:       2008-09-28 19:08:01 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/dome-de-la-bombe-atomique/IMG_0648.JPG
 ---
 
 Après le château, je me suis dirigé en direction du dôme de la bombe atomique. En m'y rendant, j'ai été confronté à

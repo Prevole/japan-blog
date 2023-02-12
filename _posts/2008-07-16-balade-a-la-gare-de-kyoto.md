@@ -3,6 +3,7 @@ layout:     post
 title:      Balade à la gare de Kyoto
 date:       2008-07-16 20:01:00 +0200
 categories: ["Général"]
+image:      /assets/images/galleries/kyoto-station/DSC00021.JPG
 ---
 
 Cet après-midi je suis sorti, histoire de prendre la température et commencer à me familiariser avec mon environnement.

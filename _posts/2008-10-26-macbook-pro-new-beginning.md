@@ -3,6 +3,7 @@ layout:     post
 title:      MacBook Pro ... New beginning
 date:       2008-10-26 18:39:40 +0100
 categories: ["Général"]
+image:      /assets/images/posts/2008-10-26-macbook-pro-new-beginning/img_1580.jpg
 ---
 
 Et oui, mon MacBook Pro est arrivé avec quelques jours d'avance sur ce que je pensais à la base. C'est pas pour me

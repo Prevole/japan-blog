@@ -3,6 +3,7 @@ layout:     post
 title:      Noël avant l'heure
 date:       2008-11-14 04:08:30 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-11-14-noel-avant-lheure/img_1976.jpg
 ---
 
 La semaine dernière, j'ai demandé à ma mère de me préparer un paquet et de me l'envoyer. Ce paquet est un peu

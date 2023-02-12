@@ -3,6 +3,7 @@ layout:     post
 title:      Miyajima et ses singes
 date:       2008-09-28 19:11:31 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-singes/IMG_1236.JPG
 ---
 
 Au sommet du téléférique, la première chose qui frappe c'est les avertissements concernant les sacs et effets

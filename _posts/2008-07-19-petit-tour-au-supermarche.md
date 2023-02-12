@@ -3,6 +3,7 @@ layout:     post
 title:      Petit tour au supermarché
 date:       2008-07-19 08:24:58 +0200
 categories: ["Comparaisons", "Balades", "Nourriture"]
+image:      /assets/images/posts/2008-07-19-petit-tour-au-supermarche/dsc00292.jpg
 ---
 
 Aujourd'hui, je suis pris de flémingite aiguë et je n'ai pas envie de sortir. Je suis assez fatigué des derniers jours 

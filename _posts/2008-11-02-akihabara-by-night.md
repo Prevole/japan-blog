@@ -3,6 +3,7 @@ layout:     post
 title:      Akihabara by Night
 date:       2008-11-02 14:38:22 +0100
 categories: ["Divers"]
+image:      /assets/images/galleries/akihabara-by-night/IMG_1828.JPG
 ---
 
 Comme je le disais dans l'article précédent, j'avais rendez-vous à 20h30 avec mon professeur pour aller manger du

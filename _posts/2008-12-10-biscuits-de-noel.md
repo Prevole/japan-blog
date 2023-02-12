@@ -3,6 +3,7 @@ layout:     post
 title:      Biscuits de Noël
 date:       2008-12-10 12:09:28 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-12-10-biscuits-de-noel/img_2503.jpg
 ---
 
 Aujourd'hui, j'ai reçu un petit paquet bien sympathique en provenance de la famille de Sandrine. Un paquet rempli

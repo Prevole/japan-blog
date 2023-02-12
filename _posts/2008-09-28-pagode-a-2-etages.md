@@ -3,6 +3,7 @@ layout:     post
 title:      Pagode à 2 étages
 date:       2008-09-28 19:10:28 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-pagode-2f/IMG_1019.JPG
 ---
 
 Comme annoncé précédemment, j'ai été voir à quoi ressemblait la pagode à deux étages. C'est un petit bâtiment sans

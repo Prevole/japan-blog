@@ -3,6 +3,7 @@ layout:     post
 title:      Miyajima et ses cerfs
 date:       2008-09-28 19:09:28 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-cerfs/IMG_0925.JPG
 ---
 
 Ce qui frappe tout de suite en arrivant sur l'ile, c'est la présence des cerfs directement sur les quais, dans les

@@ -3,6 +3,7 @@ layout:     post
 title:      Itsukushima Shrine
 date:       2008-09-28 19:09:58 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/miyajima-itsukushima-shrine/IMG_0956.JPG
 ---
 
 Il s'agit du sanctuaire se trouvant directement devant (ou derrière) la porte de l'océan. Ce sanctuaire est très

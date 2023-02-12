@@ -3,6 +3,7 @@ layout:     post
 title:      Promenade de remise en forme
 date:       2008-09-28 19:10:19 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-promenade/IMG_1025.JPG
 ---
 
 Après le sanctuaire d'Itsukushima, je savais pas trop quoi faire. J'ai pris mon plan et j'ai vu qu'il y avait une

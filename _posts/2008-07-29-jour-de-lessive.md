@@ -3,6 +3,7 @@ layout:     post
 title:      Jour de lessive
 date:       2008-07-29 12:05:05 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-07-29-jour-de-lessive/dsc00509.jpg
 ---
 
 Comme qui dirait, faut bien faire sa lessive de temps en temps. Normalement c'est quelque chose qui est facile à

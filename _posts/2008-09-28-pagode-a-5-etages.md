@@ -3,6 +3,7 @@ layout:     post
 title:      Pagode à 5 étages
 date:       2008-09-28 19:11:54 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-pagode-5f/IMG_0930.JPG
 ---
 
 Après la descente en télécabine/téléférique, je me suis arrêté sur un banc pour faire une petite pause et boire un

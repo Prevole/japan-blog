@@ -3,6 +3,7 @@ layout:     post
 title:      Aquarium de Miyajima
 date:       2008-09-28 19:10:37 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/miyajima-aquarium/IMG_1047.JPG
 ---
 
 L'ile comporte un aquarium. Sachant qu'il n'est pas très grand et sur le chemin, je me suis dit autant le visiter.

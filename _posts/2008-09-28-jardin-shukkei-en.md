@@ -3,6 +3,7 @@ layout:     post
 title:      Jardin Shukkei-en
 date:       2008-09-28 19:07:31 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/shukkei-en/IMG_0484.JPG
 ---
 
 Comme annoncé, j'ai visité un jardin qui reproduit une région de Chine. Je dois dire que ma visite a été très

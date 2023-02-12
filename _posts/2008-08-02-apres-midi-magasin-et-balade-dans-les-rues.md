@@ -3,6 +3,7 @@ layout:     post
 title:      Après-midi magasins et balade dans les rues
 date:       2008-08-02 13:46:18 +0200
 categories: ["Balades"]
+image:      /assets/images/posts/2008-08-02-apres-midi-magasin-et-balade-dans-les-rues/dsc00527.jpg
 ---
 
 Aujourd'hui, je suis allé dans quelques magasins d'appareils éléctroniques, histoire de voir un peu les prix et

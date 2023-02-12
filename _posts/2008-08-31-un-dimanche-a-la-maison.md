@@ -3,6 +3,7 @@ layout:     post
 title:      Un dimanche à la maison
 date:       2008-08-31 15:40:47 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-08-31-un-dimanche-a-la-maison/dsc01130.jpg
 ---
 
 C'est la première fois depuis que je suis au Japon que je ne mets pas les pieds dehors. Il faut dire que j'ai

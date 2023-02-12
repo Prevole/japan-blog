@@ -3,6 +3,7 @@ layout:     post
 title:      Omotesando, la rue commerçante
 date:       2008-09-28 19:12:06 +0200
 categories: ["Général"]
+image:      /assets/images/galleries/miyajima-omotesando/IMG_1420.JPG
 ---
 
 Après la pagode, j'en avais vraiment marre de marcher et de visiter. C'était déjà presque 16h00 et ça faisait 6h00

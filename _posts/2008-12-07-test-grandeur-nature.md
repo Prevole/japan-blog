@@ -3,6 +3,7 @@ layout:     post
 title:      Test Grandeur Nature
 date:       2008-12-07 17:58:38 +0100
 categories: ["Projet"]
+image:      /assets/media/posts/2008-12-07-test-grandeur-nature/thumb_demo_3.png
 ---
 
 Pour la première fois, j'ai pu tester mon application IRL (In Real Life). J'ai pu me balader dans Kyoto et admirer

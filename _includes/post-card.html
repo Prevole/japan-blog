@@ -2,32 +2,37 @@
 {%- assign comment_collection = post.name | remove: '.md' -%}
 {%- assign category = post.categories | first | slugify: "latin" -%}
 <article class="post-card">
-  {%- if include.force_category -%}
-  {%- assign real_category = include.force_category -%}
-  {%- else -%}
-  {%- assign real_category = category -%}
+  <div class="post-card-outer">
+    <div class="post-card-inner">
+      {%- if include.force_category -%}
+      {%- assign real_category = include.force_category -%}
+      {%- else -%}
+      {%- assign real_category = category -%}
+      {%- endif -%}
+      <header class="post-card-header {{ real_category | slugify: "latin" }}">
+        <div>
+          <time datetime="{{ post.date }}">{{ post.date | format_dt }}</time>
+          {{ post | comment_str }}
+          <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
+        </div>
+      </header>
+      <section class="post-card-categories">
+        {%- for category in post.categories -%}
+        {%- include post-card-category.html category=category -%}
+        {%- endfor -%}
+      </section>
+      <section class="post-card-excerpt">
+        {{ post.excerpt }}
+      </section>
+    </div>
+    {%- if post.image -%}
+    <div class="post-card-header-img">
+      <img src="{{ post.image }}">
+      {%- include post-card-footer.html post=post -%}
+    </div>
+    {%- endif -%}
+  </div>
+  {%- if post.image == nil -%}
+  {%- include post-card-footer.html post=post -%}
   {%- endif -%}
-  <header class="post-card-header {{ real_category | slugify: "latin" }}">
-    <time datetime="{{ post.date }}">{{ post.date | format_dt }}</time>
-    {{ post | comment_str }}
-    <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
-  </header>
-  <section class="post-card-categories">
-    {%- for category in post.categories -%}
-    {%- include post-card-category.html category=category -%}
-    {%- endfor -%}
-  </section>
-  <section class="post-card-excerpt">
-    {{ post.excerpt }}
-  </section>
-  <footer class="post-card-footer">
-    <a href="{{ post.url | relative_url }}">
-      <span class="post-card-footer-text">Suite </span>
-      <span class="post-card-footer-text icon-arrow-right2">
-        <svg class="icon icon-arrow-right2">
-          <use xlink:href="#icon-arrow-right2"></use>
-        </svg>
-      </span>
-    </a>
-  </footer>
 </article>

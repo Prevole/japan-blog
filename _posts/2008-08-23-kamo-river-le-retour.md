@@ -3,6 +3,7 @@ layout:     post
 title:      Kamo River le retour
 date:       2008-08-23 16:23:32 +0200
 categories: ["Balades", "Divers"]
+image:      /assets/images/galleries/kamo-river-le-retour/DSC01060.JPG
 ---
 
 Comme vous ne le savez peut être pas, aujourd'hui je voyais mon professeur local pour tenter de trouver un vélo

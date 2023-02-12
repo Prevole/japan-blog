@@ -3,6 +3,7 @@ layout:     post
 title:      Kobe Luminarie Festival
 date:       2008-12-09 14:14:10 +0100
 categories: ["Visites"]
+image:      /assets/images/galleries/kobe-luminarie-festival/IMG_2358.JPG
 ---
 
 Ce festival est l'occasion de commémorer le grand tremblement de terre de 1995, qui a fait dans les 6 - 7 mille

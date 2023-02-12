@@ -3,6 +3,7 @@ layout:     post
 title:      Kinkakuji again
 date:       2008-11-21 18:21:45 +0100
 categories: ["Balades", "Visites"]
+image:      /assets/images/galleries/kinkakuji-again/IMG_2033.JPG
 ---
 
 Comme j'avais rendez-vous en fin d'après-midi au bureau de mon professeur local, je me suis dit qu'une petite

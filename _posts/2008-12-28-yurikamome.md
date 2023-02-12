@@ -3,6 +3,7 @@ layout:     post
 title:      Yurikamome
 date:       2008-12-28 16:36:09 +0100
 categories: ["Balades"]
+image:      /assets/images/galleries/yurikamome/IMG_2584.JPG
 ---
 
 Ce terme n'est pas un lieu mais le nom d'un oiseau. Plus précisément, il s'agit de la mouette rieuse. Ce nom est

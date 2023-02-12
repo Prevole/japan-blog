@@ -3,6 +3,7 @@ layout:     post
 title:      Gros achats
 date:       2008-09-09 21:16:57 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-09-09-gros-achats/dsc01284.jpg
 ---
 
 Comme vous vous en souvenez peut-être, j'avais dans l'idée de me faire un petit plaisir avant de partir de Suisse.

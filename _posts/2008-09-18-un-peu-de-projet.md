@@ -3,6 +3,7 @@ layout:     post
 title:      Un peu de projet
 date:       2008-09-18 16:00:22 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-09-18-un-peu-de-projet/mvc.jpg
 ---
 
 Autant annoncer la couleur tout de suite. Cet article sera sûrement un des plus techniques que j'aurai écrit depuis

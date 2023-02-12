@@ -3,6 +3,7 @@ layout:     post
 title:      Journées portes ouvertes
 date:       2009-01-25 12:09:56 +0100
 categories: ["Projet"]
+image:      /assets/images/posts/2009-01-25-journees-portes-ouvertes/img_2892.jpg
 ---
 
 Et voilà une étape de plus, passée dans ce final qu'est le travail de diplôme. Les 23 et 24 janvier ont été le

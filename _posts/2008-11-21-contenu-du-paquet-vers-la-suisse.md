@@ -3,6 +3,7 @@ layout:     post
 title:      Contenu du paquet vers la Suisse
 date:       2008-11-21 17:41:16 +0100
 categories: ["Comparaisons", "Nourriture"]
+image:      /assets/images/posts/2008-11-21-contenu-du-paquet-vers-la-suisse/img_1982.jpg
 ---
 
 J'ai oublié de poster les photos des quelques aliments que j'ai envoyés pour la Suisse. Comme je le disais, il

@@ -3,6 +3,7 @@ layout:     post
 title:      Kinkakuji Temple
 date:       2008-08-03 11:22:23 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/kinkakuji-temple/DSC00559.JPG
 ---
 
 Ce matin, j'ai dû me battre contre mon envie de flemmer. Finalement, je suis sorti sur les coups des 13h00 et je

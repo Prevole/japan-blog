@@ -3,6 +3,7 @@ layout:     post
 title:      Château d'Hiroshima
 date:       2008-09-28 19:07:44 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/chateau-dhiroshima/IMG_0559.JPG
 ---
 
 Le château d'Hiroshima n'a pas fait exception des bâtiments qui furent soufflés, détruits, réduits en cendres par

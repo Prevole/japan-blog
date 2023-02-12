@@ -3,6 +3,7 @@ layout:     post
 title:      Balade à Osaka
 date:       2008-12-31 06:45:48 +0100
 categories: ["Balades"]
+image:      /assets/images/galleries/balade-a-osaka/IMG_2761.JPG
 ---
 
 En cet après-midi du 31, l'assistant m'a proposé de faire un tour à Osaka. J'ai accepté et me suis dépéché pour le

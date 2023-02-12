@@ -3,6 +3,7 @@ layout:     post
 title:      Nouvelle expérience culinaire
 date:       2008-07-28 13:48:28 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-07-28-nouvelle-experience-cullinaire/dsc00505.jpg
 ---
 
 Il y a une chose de marrant ici. C'est que je ne sais pas toujours ce que j'achète et donc ce que je mange. Pour le

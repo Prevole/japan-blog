@@ -3,6 +3,7 @@ layout:     post
 title:      Zoo de Kyoto
 date:       2008-07-19 04:29:45 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/zoo-de-kyoto/DSC00179.JPG
 ---
 
 Après mon périple au Kyoto International House, je suis allé me promener au Zoo de Kyoto. Vu qu'il se trouve juste à 

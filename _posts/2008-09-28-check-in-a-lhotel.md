@@ -3,6 +3,7 @@ layout:     post
 title:      Check-In à l'hôtel
 date:       2008-09-28 19:04:22 +0200
 categories: ["Divers"]
+image:      /assets/images/galleries/hiroshima-granvia-hotel/IMG_0438.JPG
 ---
 
 Je dois dire que j'avais l'air pas tout à fait à ma place en arrivant à l'hôtel, en Jeans/T-Shirt. Je sortais du

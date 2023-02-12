@@ -3,6 +3,7 @@ layout:     post
 title:      Nouvelles expériences alimentaires
 date:       2008-09-03 13:07:07 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-09-03-nouvelles-experiences-alimentaires/dsc01194.jpg
 ---
 
 Tout est dans le titre. En faisant les courses aujourd'hui, je me suis pris l'envie de tester quelques trucs. Pour

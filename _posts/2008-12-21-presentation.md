@@ -3,6 +3,7 @@ layout:     post
 title:      Présentation
 date:       2008-12-21 16:50:42 +0100
 categories: ["Projet"]
+image:      /assets/media/posts/2008-12-21-presentation/thumb_demo_4.png
 ---
 
 En ce soir du 20 décembre 2008, j'ai appris de mon professeur local, qu'il serait chouette de faire une

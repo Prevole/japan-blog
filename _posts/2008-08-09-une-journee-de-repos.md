@@ -3,6 +3,7 @@ layout:     post
 title:      Une journée de repos
 date:       2008-08-09 13:29:10 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-08-09-une-journee-de-repos/dsc00774.jpg
 ---
 
 Aujourd'hui, je me suis accordé une journée de repos. Pas de sortie, pas de visite, pas de balade. Enfin si, il

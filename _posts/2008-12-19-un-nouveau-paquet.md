@@ -3,6 +3,7 @@ layout:     post
 title:      Un nouveau paquet
 date:       2008-12-19 16:20:09 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-12-19-un-nouveau-paquet/img_2510.jpg
 ---
 
 Celui-là, à l'instar de celui de mon frère, je m'y attendais pas du tout. C'est un paquet rempli de choses pour

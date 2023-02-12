@@ -3,6 +3,7 @@ layout:     post
 title:      Mon nouveau chez moi
 date:       2008-08-04 08:04:51 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-08-04-mon-nouveau-chez-moi/dsc00728.jpg
 ---
 
 Après un périple de 20 minutes de bus et surtout l'attente de 4 bus, car je cherchais à avoir un bus abaissé,

@@ -3,6 +3,7 @@ layout:     post
 title:      Ninnaji Temple
 date:       2008-08-03 12:15:53 +0200
 categories: ["Visites"]
+image:      /assets/images/galleries/ninnaji-temple/DSC00659.JPG
 ---
 
 Après le temple de Ryoanji, je me suis dit pourquoi pas continuer sur la lancée et marcher dans la direction que

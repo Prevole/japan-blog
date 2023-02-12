@@ -3,6 +3,7 @@ layout:     post
 title:      Mon chez moi
 date:       2008-07-16 16:55:00 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-07-16-mon-chez-moi/house_1.jpg
 ---
 
 Après mon arrivée hier soir, je n’étais pas très motivé à préparer ce sujet. Une nuit a passé et je peux enfin vous 

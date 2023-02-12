@@ -3,6 +3,7 @@ layout:     post
 title:      Retour à la gare d'Hiroshima
 date:       2008-09-28 19:08:55 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/animaux-dhiroshima/IMG_0703.JPG
 ---
 
 Après toutes ces visites et balades, il a commencé à se faire tard (enfin c'est relatif). J'ai décidé de revenir à

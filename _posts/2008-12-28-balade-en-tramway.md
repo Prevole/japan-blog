@@ -3,6 +3,7 @@ layout:     post
 title:      Balade en tramway
 date:       2008-12-28 17:07:48 +0100
 categories: ["Balades", "Visites"]
+image:      /assets/images/galleries/tokyo-tramway/IMG_2690.JPG
 ---
 
 Nous avons pris le dernier tramway (pas en heure, mais en existence :wink:) de Tokyo depuis Minowa-bashi pour

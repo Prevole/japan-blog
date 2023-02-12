@@ -3,6 +3,7 @@ layout:     post
 title:      Imperial Palace
 date:       2008-08-10 14:10:44 +0200
 categories: ["Balades", "Visites", "Nourriture"]
+image:      /assets/images/galleries/imperial-palace/DSC00861.JPG
 ---
 
 Après le château de Nijo, je me suis dirigé vers le Palais Impérial. Malheureusement pour moi, mon sens de

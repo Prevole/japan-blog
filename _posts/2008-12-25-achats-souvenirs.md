@@ -3,6 +3,7 @@ layout:     post
 title:      Achats souvenirs
 date:       2008-12-25 03:40:08 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-12-25-achats-souvenirs/img_2530.jpg
 ---
 
 Normalement, on dit qu'il ne faut pas faire ces achats le 24 décembre, car il y a beaucoup trop de monde dans les

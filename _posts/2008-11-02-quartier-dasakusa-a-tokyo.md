@@ -3,6 +3,7 @@ layout:     post
 title:      Quartier d'Asakusa à Tokyo
 date:       2008-11-02 13:46:29 +0100
 categories: ["Visites"]
+image:      /assets/images/galleries/asakusa/IMG_1727.JPG
 ---
 
 Après notre début d'après midi, nous sommes allés à la station de Tawaramachi, afin que mon professeur puisse faire

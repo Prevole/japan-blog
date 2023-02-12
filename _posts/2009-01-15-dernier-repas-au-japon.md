@@ -3,6 +3,7 @@ layout:     post
 title:      Dernier repas au Japon
 date:       2009-01-15 13:21:11 +0100
 categories: ["Nourriture"]
+image:      /assets/images/posts/2009-01-15-dernier-repas-au-japon/r0010568.jpg
 ---
 
 Le soir avant le décollage, nous sommes allés manger avec l'assistant à la gare de Kyoto. Nous avons trouvé un

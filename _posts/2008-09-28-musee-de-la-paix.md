@@ -3,6 +3,7 @@ layout:     post
 title:      Musée de la paix
 date:       2008-09-28 19:08:33 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/musee-de-la-paix/IMG_0740.JPG
 ---
 
 Après avoir parcouru le parc de la paix, je suis arrivé au bout, où se trouve le musée de la paix. C'est un musée

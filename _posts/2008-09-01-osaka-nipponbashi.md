@@ -3,6 +3,7 @@ layout:     post
 title:      Osaka Nipponbashi
 date:       2008-09-01 15:39:14 +0200
 categories: ["Balades", "Visites", "Nourriture"]
+image:      /assets/images/posts/2008-09-01-osaka-nipponbashi/dsc01141.jpg
 ---
 
 Aujourd'hui, je suis allé à Osaka avec l'assistant et un ami à lui qui voulait absolument me rencontrer et qui

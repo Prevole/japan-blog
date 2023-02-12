@@ -3,6 +3,7 @@ layout:     post
 title:      Soirée de fin d'année
 date:       2008-12-26 10:12:04 +0100
 categories: ["Général"]
+image:      /assets/images/galleries/karaoke/DSC01336.JPG
 ---
 
 Pour fêter la fin d'année et le début de la nouvelle année (enfin si on veut) ainsi que mon départ (si on veut

@@ -3,6 +3,7 @@ layout:     post
 title:      Ginkakuji Temple
 date:       2008-08-17 13:17:49 +0200
 categories: ["Balades", "Visites"]
+image:      /assets/images/galleries/ginkakuji-temple/DSC00934.JPG
 ---
 
 Aujourd'hui, je n'ai pas fait un nombre conséquent de visites, vu que ça se limite à un temple :laughing: Toutefois, 

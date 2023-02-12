@@ -3,6 +3,7 @@ layout:     post
 title:      Un nouveau colis de Suisse
 date:       2008-10-26 19:40:51 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2008-10-26-un-nouveau-colis-de-suisse/img_1654.jpg
 ---
 
 Quelle ne fut pas ma surprise en ce dimanche pluvieux, lorsque le téléphone de ma chambre se mit à sonner.

@@ -3,6 +3,7 @@ layout:     post
 title:      Fin d'après-midi orageuse
 date:       2008-08-06 12:33:43 +0200
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/posts/2008-08-06-fin-dapres-midi-orageuse/dsc00751.jpg
 ---
 
 Lorsque je suis rentré ce soir, il s'est mis à pleuvoir. Je n'avais pas de parapluie bien entendu et je suis vite

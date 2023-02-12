@@ -3,6 +3,7 @@ layout:     post
 title:      Kyoto International House
 date:       2008-07-18 20:29:48 +0200
 categories: ["Balades"]
+image:      /assets/images/posts/2008-07-18-kyoto-international-house/dsc00164.jpg
 ---
 
 Qu'est-ce donc ? C'est un endroit où les étrangers sont vraiment les bienvenus (non pas que je sois pas le bienvenu

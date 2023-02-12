@@ -3,6 +3,7 @@ layout:     post
 title:      Journée pépère
 date:       2008-09-13 14:18:31 +0200
 categories: ["Comparaisons", "Balades"]
+image:      /assets/images/galleries/kyoto-station-le-retour/IMG_0116.JPG
 ---
 
 Je me suis accordé une petite journée pépère. Enfin c'est à dire que j'ai consacré 2h00 de ma matinée à faire mon

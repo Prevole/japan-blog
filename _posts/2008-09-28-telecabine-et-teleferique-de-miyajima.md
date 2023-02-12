@@ -3,6 +3,7 @@ layout:     post
 title:      Télécabine et Téléférique de Miyajima
 date:       2008-09-28 19:11:10 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-telecabine-teleferique/IMG_1221.JPG
 ---
 
 J'avais prévu de monter sur le Mont Misen pour voir la vue depuis là haut. C'est ce que j'ai fait. Mais j'avais pas

@@ -3,6 +3,7 @@ layout:     post
 title:      Paquet surprise
 date:       2008-10-17 10:49:42 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-10-17-paquet-surprise/dsc01319.jpg
 ---
 
 Quel ne fut pas ma surprise ce matin, quand le personnel de la réception m'a appelé pour me dire qu'un paquet est

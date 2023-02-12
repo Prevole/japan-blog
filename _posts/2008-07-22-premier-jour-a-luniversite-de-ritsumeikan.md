@@ -3,6 +3,7 @@ layout:     post
 title:      Premier jour à l'Université de Ritsumeikan
 date:       2008-07-22 14:13:17 +0200
 categories: ["Général"]
+image:      /assets/images/posts/2008-07-22-premier-jour-a-luniversite-de-ritsumeikan/dsc00310.jpg
 ---
 
 Et voilà. Aujourd'hui a eu lieu mon premier jour à l'université. J'avais rendez-vous à 8h30 avec le professeur

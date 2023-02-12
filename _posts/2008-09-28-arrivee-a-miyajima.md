@@ -3,6 +3,7 @@ layout:     post
 title:      Arrivée à Miyajima
 date:       2008-09-28 19:09:17 +0200
 categories: ["Balades"]
+image:      /assets/images/galleries/miyajima-arrivee/IMG_0928.JPG
 ---
 
 Le 2ème jour de mon séjour à Hiroshima était consacré à la visite de l'ile Miyajima. J'avais élaboré ma petite

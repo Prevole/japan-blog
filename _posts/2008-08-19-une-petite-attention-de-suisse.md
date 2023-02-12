@@ -3,6 +3,7 @@ layout:     post
 title:      Une petite attention de Suisse
 date:       2008-08-19 13:51:51 +0200
 categories: ["Divers"]
+image:      /assets/images/posts/2008-08-19-une-petite-attention-de-suisse/dsc01022.jpg
 ---
 
 Et oui, aujourd'hui n'était pas un jour comme les autres. Pour commencer, j'ai réussi à prendre le premier bus pour

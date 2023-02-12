@@ -3,6 +3,7 @@ layout:     post
 title:      Chambre décorée
 date:       2009-03-15 15:37:06 +0100
 categories: ["Divers"]
+image:      /assets/images/posts/2009-03-15-chambre-decoree/img_3008.jpg
 ---
 
 Je me suis décidé de mettre en exposition les quelques figurines de Final Fantasy VII dans ma chambre. Je vous

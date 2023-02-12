@@ -95,8 +95,6 @@ body
   justify-content: space-between
 
 .post-card
-  flex: 0 1 48%
-  box-sizing: border-box
   margin: 1rem .25em
   display: flex
   flex-direction: column
@@ -104,13 +102,41 @@ body
   p
     text-align: justify
 
+  .post-card-outer
+    display: flex
+
+    .post-card-inner
+      flex: 1 0 50%
+      background: gray
+      border-top-left-radius: 20px
+
+    .post-card-inner:last-child
+      border-top-right-radius: 20px
+
+      .post-card-header
+        border-top-right-radius: 20px
+
+    .post-card-header-img
+      background: gray
+      border-top-right-radius: 20px
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+
+      img
+        max-width: 400px
+        max-height: 250px
+        border-top-right-radius: 20px
+        border-bottom-left-radius: 20px
+        margin-bottom: 1em
+
 .post-card-header
   $background-icon-size: 2em
 
   font-family: $title-font-family
   padding: 10px 20px
   border-top-left-radius: 20px
-  border-top-right-radius: 20px
+  display: flex
 
   @mixin category_header($cls, $color)
     &.#{$cls}
@@ -191,7 +217,7 @@ body
       color: lighten(yellow, 40%)
 
 .post-card-excerpt
-  flex: 0 1 100%
+  flex: 1 1 100%
   padding: 1em
   background-color: gray
 
@@ -204,6 +230,7 @@ body
   background-color: gray
   display: flex
   justify-content: flex-end
+  flex-wrap: wrap
 
   a
     display: flex

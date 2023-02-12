@@ -3,6 +3,7 @@ layout:     post
 title:      Shinkansen Family
 date:       2008-12-09 14:30:14 +0100
 categories: ["Nourriture", "Divers"]
+image:      /assets/images/galleries/shinkansen-family/IMG_2465.JPG
 ---
 
 Après ce petit séjour très bref à Kobe, j'ai repris mon train depuis la gare de Shinkobe. Cette gare me plait tout

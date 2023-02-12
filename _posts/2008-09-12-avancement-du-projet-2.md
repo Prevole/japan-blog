@@ -3,6 +3,7 @@ layout:     post
 title:      Avancement du projet
 date:       2008-09-12 16:42:06 +0200
 categories: ["Projet"]
+image:      /assets/images/posts/2008-09-12-avancement-du-projet-2/wui_7.jpg
 ---
 
 Voilà quelques temps que je n'ai pas parlé du projet et pour cause. Il n y avait pas vraiment lieu de le faire.

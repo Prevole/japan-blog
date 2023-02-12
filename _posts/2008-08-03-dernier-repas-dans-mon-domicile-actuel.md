@@ -3,6 +3,7 @@ layout:     post
 title:      Dernier repas dans mon domicile actuel
 date:       2008-08-03 14:18:51 +0200
 categories: ["Nourriture"]
+image:      /assets/images/posts/2008-08-03-dernier-repas-dans-mon-domicile-actuel/dsc00711.jpg
 ---
 
 Quelle joie c'est de prendre son dernier repas dans un endroit que l'on apprécie que très moyennement. Dès demain,

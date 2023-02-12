@@ -3,6 +3,7 @@ layout:     post
 title:      Un nouveau bentô
 date:       2008-08-08 15:46:34 +0200
 categories: ["Nourriture", "Projet"]
+image:      /assets/images/posts/2008-08-08-un-nouveau-bento/dsc00770.jpg
 ---
 
 Ce soir je suis rentré tard à la maison après un après-midi de magasins. Du moins de visites de magasins de
