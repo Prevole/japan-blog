@@ -16,9 +16,17 @@ $comment-font-color: lighten(#111, 20%)
 $site-font-family: system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji
 $title-font-family: Comfortaa,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
 
+$site-width: 940px
+
 body
   font-family: $site-font-family
   background-color: $site-bg-color
+
+.main-wrapper
+  max-width: $site-width
+  margin-left: auto
+  margin-right: auto
+  position: relative
 
 .icon
   display: inline-block
@@ -32,6 +40,9 @@ body
   background-color: $site-header-color
   padding-bottom: .5em
   border: none
+  position: sticky
+  top: 0
+  z-index: 999
 
   .header-title
     display: flex
@@ -52,6 +63,100 @@ body
 
     span
       margin-left: 1em
+
+.site-footer
+  $pager-item-size: 25px
+
+  border: none
+  padding: 0
+
+  .wrapper
+    display: flex
+    justify-content: space-between
+    margin-bottom: 3em
+
+    &::after
+      content: none
+
+    &.wrapper-end
+      justify-content: flex-end
+
+    ul.pager
+      background-color: darken(lightgray, 60%)
+      border-radius: $pager-item-size
+      padding: 4px
+      margin: 0
+      display: flex
+      justify-content: center
+      align-items: center
+
+      li
+        background-color: darken(lightgray, 40%)
+        padding: 7px
+        margin-right: 5px
+        border-radius: 50%
+        line-height: 1
+        min-height: $pager-item-size
+        max-height: $pager-item-size
+        min-width: $pager-item-size
+        max-width: $pager-item-size
+        display: flex
+        justify-content: center
+        align-items: center
+
+        &:last-child
+          margin-right: 0
+
+        &.selected
+          background-color: darken(lightgray, 20%)
+
+        a
+          color: darken(darkgray, 60%)
+          font-weight: 700
+          min-height: $pager-item-size
+          max-height: $pager-item-size
+          min-width: $pager-item-size
+          max-width: $pager-item-size
+          display: flex
+          justify-content: center
+          align-items: center
+
+          &:hover
+            text-decoration: none
+            color: lighten(yellow, 40%)
+
+          &.icon
+            min-height: $pager-item-size
+            max-height: $pager-item-size
+            min-width: $pager-item-size
+            max-width: $pager-item-size
+
+    //.feed-subscribe
+      background-color: darken(lightgray, 60%)
+      border-radius: $pager-item-size
+      padding: 4px
+      margin: 0
+      min-height: $pager-item-size
+      max-height: $pager-item-size
+      min-width: $pager-item-size
+      max-width: $pager-item-size
+      display: flex
+      justify-content: center
+      align-items: center
+
+      a
+        border-radius: $pager-item-size
+        background-color: darken(lightgray, 40%)
+        padding: 7px
+        min-height: $pager-item-size
+        max-height: $pager-item-size
+        min-width: $pager-item-size
+        max-width: $pager-item-size
+        color: darken(darkgray, 60%)
+        line-height: 1
+
+      a:hover
+        color: lighten(yellow, 40%)
 
 .wrapper
   max-width: calc(1000px - (30px * 2))
@@ -157,6 +262,9 @@ body
   span > a, a:visited
     color: #111
 
+    & > span
+      margin-right: 5px
+
   span > a:hover
     text-decoration: none
     color: lighten(yellow, 40%)
@@ -236,9 +344,20 @@ body
     display: flex
     align-items: center
     line-height: 1
+    border-radius: 20px
+    background-color: darken(lightgray, 40%)
+    margin: 5px
+    padding-left: 10px
 
     span:last-child
+      background-color: darken(lightgray, 60%)
+      color: darkgray
+      border-radius: 20px
       margin-left: 5px
+      padding: 5px
+      display: flex
+      justify-content: center
+      align-items: center
 
   a, a:visited
     color: #111
@@ -246,6 +365,9 @@ body
 
   a:hover
     color: lighten(yellow, 40%)
+
+    span:last-child
+      color: lighten(yellow, 40%)
 
 $post-left-right-padding: 30px
 
@@ -274,8 +396,13 @@ $post-left-right-padding: 30px
       background-color: lighten($post-bg-color, 5%)
       margin-bottom: 0
       padding: 10px $post-left-right-padding
-      font-family: $title-font-family
+      //font-family: $title-font-family
       color: darken($font-title-color, 10%)
+      display: flex
+      align-items: center
+
+      *
+        margin-right: 5px
 
   .post-content
     text-align: justify
@@ -364,16 +491,6 @@ $post-left-right-padding: 30px
   &:last-child
     margin-bottom: 0
 
-ul.pager
-  text-align: center
-  list-style: none
-
-  li
-    display: inline
-    border: 1px solid black
-    padding: 10px
-    margin: 5px
-
 .comments
   header > h1
     background-color: $post-bg-color
@@ -458,3 +575,35 @@ $comment-radius: 10px
     background-color: darken(lightgoldenrodyellow, 10%)
     font-weight: 600
     border-radius: 10px
+
+.scroll-to-top
+  position: fixed
+  bottom: 3em
+  right: calc(50vw - ($site-width / 2) - 40px)
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 4px
+  background-color: darken(lightgray, 60%)
+  border-radius: 50%
+
+  a
+    background-color: darken(lightgray, 40%)
+    color: #111
+    padding: 7px
+    border-radius: 50%
+    max-width: 25px
+    min-width: 25px
+    max-height: 25px
+    min-height: 25px
+    display: flex
+    justify-content: center
+    align-items: center
+    line-height: 1
+
+  a:visited
+    color: #111
+
+  a:hover
+    color: lighten(yellow, 40%)
+

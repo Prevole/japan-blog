@@ -11,7 +11,7 @@
       {%- endif -%}
       <header class="post-card-header {{ real_category | slugify: "latin" }}">
         <div>
-          <time datetime="{{ post.date }}">{{ post.date | format_dt }}</time>
+          <time datetime="{{ post.date }}"><svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg> {{ post.date | format_dt }}</time>
           {{ post | comment_str }}
           <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
         </div>

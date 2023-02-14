@@ -20,8 +20,13 @@ module Jekyll
       if input[:comments_count].nil?
         ""
       else
-        "<span> | <a href=\"#{input[:url]}#comments\">#{input[:comments_count]} commentaire#{input[:comments_count].to_i > 1 ? "s" : ""}</a></span>"
+        "<span> | <a href=\"#{input[:url]}#comments\"><span><svg class=\"icon icon-bubbles4\"><use xlink:href=\"#icon-bubbles4\"></use></svg></span>#{input[:comments_count]} commentaire#{input[:comments_count].to_i > 1 ? "s" : ""}</a></span>"
       end
+    end
+
+    def time_to_read(input)
+      plural = input == 1 ? "" : "s"
+      "#{input} minute#{plural} de lecture"
     end
 
     def comment_class_author(input, base_class, class_if_author)

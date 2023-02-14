@@ -1,22 +1,21 @@
 <footer class="site-footer h-card">
-  <data class="u-url" href="{{ "
-  /" | relative_url }}"></data>
+  {%- assign activate_paginator =  -%}
+  <div class="wrapper{% if include.paginator == nil %} wrapper-end{% endif %}">
+    {%- if include.paginator.total_pages > 1 -%}
+    {%- include pager.html paginator=include.paginator -%}
+    {%- endif -%}
+    <ul class="pager">
+      <li>
+        <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
+          <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+        </a>
+      </li>
+    </ul>
+  </div>
 
-  <div class="wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg>
-          </a>
-        </p>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
+  <div class="scroll-to-top">
+    <a data-scroll href="#page-header">
+      <svg class="icon icon-top"><use xlink:href="#icon-top"></use></svg>
+    </a>
   </div>
 </footer>

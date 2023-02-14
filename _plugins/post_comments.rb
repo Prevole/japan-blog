@@ -1,6 +1,6 @@
 require 'yaml'
 
-module AddTagsCountPlugin
+module AddCommentsCountPlugin
   class Generator < Jekyll::Generator
     def generate(site)
       site.posts.docs.each do |post|

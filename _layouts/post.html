@@ -9,19 +9,19 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">
       <span class="post-title-icon">
-        <svg class="icon icon-{{ category }}">
-          <use xlink:href="#icon-{{ category }}"></use>
-        </svg>
+        <svg class="icon icon-{{ category }}"><use xlink:href="#icon-{{ category }}"></use></svg>
       </span>
       <span class="post-title-text">{{ page.title | escape }}</span>
     </h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | format_dt }}
-      </time>
+      <svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | format_dt }}</time>
       {%- if page.modified_date -%},
-      <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}
-      </time>
+      <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}</time>
       {%- endif -%}
+      <span>|</span>
+      <svg class="icon icon-clock"><use xlink:href="#icon-clock"></use></svg>
+      <span>{{ page.read_time | time_to_read }}</span>
     </p>
   </header>
 
