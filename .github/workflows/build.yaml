@@ -1,8 +1,8 @@
 name: Build
 
 on:
-#  push:
-#    branches: [ main ]
+  push:
+    branches: [ main ]
 
   workflow_dispatch:
 
@@ -22,6 +22,3 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-
-      - name: Publish
-        uses: ./.github/workflows/publish.yaml

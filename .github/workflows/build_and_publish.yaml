@@ -1,0 +1,33 @@
+name: Build and Publish
+
+on:
+#  push:
+#    branches: [ main ]
+
+  workflow_dispatch:
+
+env:
+  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+  AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
+  AWS_S3_BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET_NAME }}
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout project
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Build Site
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+
+      - name: "Deploy to AWS S3"
+        run: aws s3 sync ./_site/ s3://${{ secrets.AWS_S3_BUCKET_NAME }} --delete --cache-control max-age=604800 --size-only
