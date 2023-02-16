@@ -6,7 +6,7 @@
     <span>-</span>
     <span>{{ site.description | escape }}</span>
   </div>
-  <div class="wrapper">
+  <div class="wrapper wrapper-categories">
     <nav class="categories">
       {%- for category in site.categories -%}
       {%- assign category_slug = category | first | slugify: "latin" -%}

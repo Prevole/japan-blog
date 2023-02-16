@@ -5,6 +5,11 @@
     {%- include pager.html paginator=include.paginator -%}
     {%- endif -%}
     <ul class="pager">
+      <li class="scroll-to-top-footer">
+        <a data-scroll href="#page-header">
+          <svg class="icon icon-top"><use xlink:href="#icon-top"></use></svg>
+        </a>
+      </li>
       <li>
         <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
           <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>

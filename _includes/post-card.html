@@ -27,7 +27,9 @@
     </div>
     {%- if post.image -%}
     <div class="post-card-header-img">
-      <img src="{{ post.image }}">
+      <div class="post-card-header-img-wrapper">
+        <img src="{{ post.image }}">
+      </div>
       {%- include post-card-footer.html post=post -%}
     </div>
     {%- endif -%}

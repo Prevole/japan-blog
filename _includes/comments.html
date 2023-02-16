@@ -15,7 +15,7 @@
   </header>
 
   {%- for comment in site.data.comments[include.comments_file] -%}
-  <section class="comment">
+  <section class="comment {{ comment | comment_class_author: "", "comment-owner" }}">
     <div class="{{ comment | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
     <div class="comment-meta-icon">
       <span>

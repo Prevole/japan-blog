@@ -11,8 +11,8 @@ module Jekyll
       formatted_day = day == "1" ? "1er" : day
 
       (
-        "#{front_word} le #{formatted_day} #{MONTHS[input.strftime("%m").to_i - 1]} #{input.strftime("%Y")} à " +
-        "#{input.strftime("%k")}:#{input.strftime("%M")}"
+        "<span class=\"hide-small\">#{front_word} le </span>#{formatted_day} #{MONTHS[input.strftime("%m").to_i - 1]} #{input.strftime("%Y")}<span class=\"hide-small\">&nbsp;à&nbsp;</span>" +
+        "<span class=\"hide-big\">,&nbsp;</span>#{input.strftime("%k")}:#{input.strftime("%M")}"
       ).gsub("  ", " ")
     end
 
@@ -26,7 +26,7 @@ module Jekyll
 
     def time_to_read(input)
       plural = input == 1 ? "" : "s"
-      "#{input} minute#{plural} de lecture"
+      "#{input} minute#{plural}<span class=\"hide-small\"> de lecture</span>"
     end
 
     def comment_class_author(input, base_class, class_if_author)

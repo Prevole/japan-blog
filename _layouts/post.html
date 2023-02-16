@@ -19,7 +19,7 @@ layout: default
       {%- if page.modified_date -%},
       <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}</time>
       {%- endif -%}
-      <span>|</span>
+      <span class="post-meta-separator">|</span>
       <svg class="icon icon-clock"><use xlink:href="#icon-clock"></use></svg>
       <span>{{ page.read_time | time_to_read }}</span>
     </p>
