@@ -3,6 +3,7 @@ email: japan@prevole.ch
 description: Un travail de diplôme pas comme les autres
 baseurl: ''
 url: 'https://japan.prevole.ch'
+version: 1
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
