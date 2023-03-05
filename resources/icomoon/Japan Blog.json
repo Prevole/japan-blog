@@ -1,8 +1,8 @@
 {
   "metadata": {
     "name": "Japan Blog",
-    "lastOpened": 1418773394855,
-    "created": 1675620206364
+    "lastOpened": 0,
+    "created": 1676101022263
   },
   "iconSets": [
     {
@@ -639,8 +639,9 @@
         {
           "ligatures": "envelop, mail",
           "name": "envelop",
-          "order": 0,
-          "id": 70
+          "order": 54,
+          "id": 70,
+          "prevSize": 32
         },
         {
           "ligatures": "pushpin, pin",
@@ -2782,8 +2783,9 @@
         {
           "ligatures": "feed2, rss",
           "name": "rss",
-          "order": 0,
-          "id": 412
+          "order": 53,
+          "id": 412,
+          "prevSize": 32
         },
         {
           "ligatures": "feed3, rss2",
@@ -10801,6 +10803,5 @@
     "showCodes": true,
     "gridSize": 16
   },
-  "uid": -1,
-  "time": 1676069115152
+  "uid": -1
 }

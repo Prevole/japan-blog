@@ -1,5 +1,5 @@
-module AddReadTimePlugin
-  class Generator < Jekyll::Generator
+module Jekyll
+  class ReadTimeGenerator < Jekyll::Generator
     include Liquid::StandardFilters
 
     def generate(site)
@@ -14,8 +14,7 @@ module AddReadTimePlugin
     end
 
     def strip_pre_tags(input)
-      empty = ''.freeze
-      input.to_s.gsub(/<pre(?:(?!<\/pre).|\s)*<\/pre>/mi, empty)
+      input.to_s.gsub(/<pre.*?>(.*)<\/pre>/mi, "\\1")
     end
   end
 end

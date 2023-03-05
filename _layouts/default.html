@@ -41,6 +41,16 @@
     updateURL: false
   });
 </script>
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10.0.2/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({
+    startOnLoad: true,
+    theme: "dark",
+  });
+  mermaid.run({
+    nodes: document.querySelectorAll('.language-mermaid')
+  });
+</script>
 </body>
 
 <svg style="position: absolute; width: 0; height: 0; overflow: hidden" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

@@ -1,4 +1,3 @@
-{%- if site.data.comments[include.comments_file] -%}
 <section class="comments">
   <a id="comments"></a>
   <header>
@@ -12,9 +11,9 @@
     </h1>
   </header>
 
-  {%- for comment in site.data.comments[include.comments_file] -%}
+  {%- for comment in page.comments -%}
   <section class="comment {{ comment | comment_class_author: "", "comment-owner" }}">
-    <div class="{{ comment | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
+    <div class="{{ comment.author | comment_class_author: "comment-meta-outer", "comment-owner-left" }}">
     <div class="comment-meta-icon">
       <span>
         <svg class="icon icon-bubble">
@@ -24,13 +23,12 @@
     </div>
     <div class="comment-meta">
       <p class="comment-author">{{ comment.author }}</p>
-      <p class="comment-date">{{ comment.date | format_dt }}</p>
+      <p class="comment-date">{% include date.html date=comment.date front_word="Posté" %}</p>
     </div>
     </div>
-    <div class="{{ comment | comment_class_author: "comment-content", "comment-owner-right" }}">
-    {{ comment.text | markdownify | comment_reply_to }}
+    <div class="{{ comment.author | comment_class_author: "comment-content", "comment-owner-right" }}">
+    {{ comment.text | markdownify | mention }}
     </div>
   </section>
   {%- endfor -%}
 </section>
-{%- endif -%}

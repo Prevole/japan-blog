@@ -1,4 +1,4 @@
-def smilleys(content)
+def smileys(content)
   " #{content}"
     .gsub(" :D", " :laughing:")
     .gsub(" ;)", " :wink:")

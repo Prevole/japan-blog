@@ -1,8 +1,12 @@
 require 'yaml'
 require 'mysql2'
 
-require "#{File.expand_path(File.dirname(__FILE__))}/db.rb"
-require "#{File.expand_path(File.dirname(__FILE__))}/smilleys.rb"
+require "#{__dir__}/db.rb"
+require "#{__dir__}/smileys.rb"
+
+DOWNLOAD_PATH = File.expand_path '~/Downloads/web 2/japan/wp-content/gallery'
+BASE_DIR = File.expand_path("#{File.dirname(__FILE__)}/..")
+DATE_FORMAT = '%Y-%m-%d %H:%M:%S %z'.freeze
 
 def sanitize_title(title)
   smilleys(
@@ -11,8 +15,8 @@ def sanitize_title(title)
       .gsub("\\'", "'")
       .gsub(/(\\)?&#039;/, "'")
   )
-  .gsub(/(:[a-z_]+:)[a-z_]+:/, "\\1")
-  .gsub("...", "…")
+  .gsub(/(:[a-z_]+:)[a-z_]+:/, '\\1')
+  .gsub('...', '…')
 end
 
 def gallery_to_yaml(gallery)
@@ -20,19 +24,65 @@ def gallery_to_yaml(gallery)
     .to_yaml(line_width: 110)
     .gsub(/title: (>-\n {4})?/, "title: |\n    ")
     .gsub(/(\s+thumb:\s.*)/, "\\1\n")
-    .gsub(/---\n/, "")
-    .gsub(/^\s{4}'/, "    ")
+    .gsub(/---\n/, '')
+    .gsub(/^\s{4}'/, '    ')
     .gsub(/:'\n/, ":\n")
     .gsub(/''/, "'")
-    .gsub(/(\s{4})"/, "\\1")
-    .gsub(/"(\n)/, "\\1")
-    .gsub(/(\/.*?\.[jJ][pP][gG])/, "\\1\"")
+    .gsub(/(\s{4})"/, '\\1')
+    .gsub(/"(\n)/, '\\1')
+    .gsub(%r{(/.*?\.[jJ][pP][gG])}, '\\1"')
 end
 
-def gallery(gallery_id)
-  download_path = File.expand_path"~/Downloads/web 2/japan/wp-content/gallery"
-  base_dir = File.expand_path("#{File.dirname(__FILE__)}/..")
+def gallery(id)
+  name, title = extract_gallery_name id
 
+  source_path = "#{DOWNLOAD_PATH}/#{name}"
+  site_path = "/assets/images/galleries/#{name}"
+  dest_path = "#{BASE_DIR}/assets/images/galleries/"
+  files_path = "#{dest_path}/#{name}"
+  data_path = "#{BASE_DIR}/_data/galleries/#{name}.yaml"
+
+  if ENV['J_DRY_RUN']
+    p """
+Source gallery: #{source_path}
+Destination gallery: #{dest_path}
+    """
+  else
+    FileUtils.mv(source_path, dest_path) if Dir.exist?(source_path)
+  end
+
+  gallery_images id, name, title, site_path, data_path, files_path
+end
+
+def gallery_images(id, name, title, site_path, data_path, files_path)
+  first_date, extracted_images = extract_images id
+
+  files = Dir.glob('*.JPG', files_path).sort
+
+  images = files.map do |file_name|
+    {
+      **(extracted_images[file_name].nil? ? { 'title' => 'n/a', 'date' => first_date } : extracted_images[file_name]),
+      'file' => file_name,
+      'path' => File.join(site_path, file_name),
+      'thumb' => File.join(site_path, 'thumbs', "thumbs_#{file_name}")
+    }
+  end
+
+  yaml_content = gallery_to_yaml({ 'name' => title, 'date' => first_date, 'images' => images })
+
+  if ENV['J_DRY_RUN']
+    p """
+Gallery: #{name}
+Content: #{yaml_content}
+"""
+  else
+    File.open(data_path, 'w') { |file| file.write(yaml_content) }
+  end
+
+  "{% include gallery.html gallery=\"#{name}\" %}"
+end
+
+def extract_gallery_data(id)
   client = db_client
 
   statement_gallery = client.prepare("""
@@ -44,32 +94,14 @@ WHERE
   gid = ?;
 """)
 
-  result_gallery = statement_gallery.execute(gallery_id).first
+  result_gallery = statement_gallery.execute(id).first
 
-  gallery_name = result_gallery["name"]
+  return result_gallery['name'], result_gallery['title']
+end
 
-  gallery_source_path = "#{download_path}/#{gallery_name}"
-  gallery_relative_dest_path = "/assets/images/galleries/#{gallery_name}"
-  gallery_dest_path = "#{base_dir}/assets/images/galleries/"
-  gallery_dest_full_path = "#{gallery_dest_path}/#{gallery_name}"
-  gallery_data_path = "#{base_dir}/_data/galleries/#{gallery_name}.yaml"
-
-  if ENV["J_DRY_RUN"]
-    p """
-Source gallery: #{gallery_source_path}
-Destination gallery: #{gallery_dest_path}
-"""
-  else
-    FileUtils.mv(gallery_source_path, gallery_dest_path) if Dir.exist?(gallery_source_path)
-  end
-
-  if Dir.exist?("#{gallery_dest_full_path}")
-    gallery_current_path = gallery_dest_full_path
-  else
-    gallery_current_path = gallery_source_path
-  end
-
-  statement_images = client.prepare("""
+def extract_images(id)
+  result = client
+    .prepare("""
 SELECT
   *
 FROM
@@ -79,65 +111,21 @@ WHERE
 ORDER BY
   imagedate ASC;
 """)
+    .execute(id)
 
-  result_images = statement_images.execute(gallery_id)
+  first_date = nil
 
-  one_date = nil
+  return first_date, result
+    .map do |row|
+      first_date ||= row['imagedate'].strftime(DATE_FORMAT)
 
-  images_hash = {}
-  result_images.each do |row|
-    title = sanitize_title row["alttext"]
-
-    one_date = row["imagedate"].strftime("%Y-%m-%d %H:%M:%S %z") if one_date.nil?
-
-    images_hash[row["filename"]] = {
-      "title" => "#{title}",
-      "date" => row["imagedate"].strftime("%Y-%m-%d %H:%M:%S %z")
-    }
-  end
-
-  files = Dir
-    .entries(gallery_current_path)
-    .reject{|f| f == ".DS_Store"}
-    .select { |f| File.file? File.join(gallery_current_path, f) }
-    .sort
-
-  images = []
-
-  files.each do |file_name|
-    if images_hash[file_name].nil?
-      image_data = {
-        "title" => "n/a",
-        "date" => one_date
-      }
-    else
-      image_data = images_hash[file_name]
+      [
+        row['filename'],
+        {
+          'title' => sanitize_title(row['alttext']),
+          'date' => row['imagedate'].strftime(DATE_FORMAT)
+        }
+      ]
     end
-
-    images << {
-      **image_data,
-      "file" => file_name,
-      "path" => File.join("", gallery_relative_dest_path, file_name),
-      "thumb" => File.join("", gallery_relative_dest_path, "thumbs", "thumbs_#{file_name}")
-    }
-  end
-
-  gallery = {
-    "name" => result_gallery["title"],
-    "date" => result_images.first["imagedate"].strftime("%Y-%m-%d %H:%M:%S %z"),
-    "images" => images
-  }
-
-  yaml_content = gallery_to_yaml gallery
-
-  if ENV["J_DRY_RUN"]
-    p """
-Gallery: #{gallery_name}
-Content: #{yaml_content}
-"""
-  else
-    File.open(gallery_data_path, "w") { |file| file.write(yaml_content) }
-  end
-
-  "{% include gallery.html gallery=\"#{gallery_name}\" %}"
+    .to_h
 end

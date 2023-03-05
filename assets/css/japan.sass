@@ -222,6 +222,7 @@ body
   padding: 10px 20px
   border-top-left-radius: 20px
   display: flex
+  flex-direction: column
 
   @mixin category_header($cls, $color)
     &.#{$cls}
@@ -236,16 +237,22 @@ body
   @include category_header("tuiles", yellowgreen)
   @include category_header("visites", lightyellow)
 
-  time, span
+  div
+    display: flex
+    margin: 4px 0
     font-size: 12px
+    align-items: center
 
-  span > a, a:visited
+    .post-card-header-separator
+      margin: 0px 5px
+
+  a, a:visited
     color: #111
 
     & > span
       margin-right: 5px
 
-  span > a:hover
+  a:hover
     text-decoration: none
     color: lighten(yellow, 40%)
 
@@ -403,6 +410,13 @@ $post-left-right-padding: 30px
     p:last-child
       margin-bottom: .5em
 
+    code.language-plaintext, .admonition code
+      background-color: darken(#aaa, 50%)
+      border: 0
+      padding: 5px 10px
+      font-weight: 600
+      color: lighten(darkred, 20%)
+
     hr
       border-top: .15em dashed darkgray
       border-bottom: 0
@@ -432,7 +446,25 @@ $post-left-right-padding: 30px
     .post-media-cartridge:last-child
       margin-bottom: -$post-left-right-padding
 
-  figure.highlight
+  pre
+    border: none
+    border-radius: 0
+    font-size: 1.1em
+    margin-left: -$post-left-right-padding
+    margin-right: -$post-left-right-padding
+    background-color: #333
+
+    code
+      background-color: transparent
+
+  pre > code.language-mermaid
+    display: flex
+    justify-content: center
+
+  & > pre:last-of-type
+    margin-bottom: -$post-left-right-padding
+
+  .highlight
     margin-left: -$post-left-right-padding
     margin-right: -$post-left-right-padding
 
@@ -444,6 +476,17 @@ $post-left-right-padding: 30px
 
       code
         background-color: transparent
+
+  div.highlight
+    margin-left: 0
+    margin-right: 0
+
+  .highlighter-rouge
+    margin-bottom: 1.5em
+
+    & > div.highlight > pre.highlight
+      background-color: #333
+      line-height: 1.2
 
 .image-gallery
   overflow: auto
@@ -732,3 +775,69 @@ $comment-radius: 10px
 
   .comment-owner
     background-image: linear-gradient(-15deg, #fff, rgba(255, 122, 24, .25))
+
+$admonitions: ()
+$admonitions: map-merge($admonitions, (note: (color: #448aff, title-color: #448aff1a)))
+$admonitions: map-merge($admonitions, (abstract: (color: #00b0ff, title-color: #00b0ff1a)))
+$admonitions: map-merge($admonitions, (info: (color: #00b8d4, title-color: #00b8d41a)))
+$admonitions: map-merge($admonitions, (tip: (color: #00bfa5, title-color: #00bfa51a)))
+$admonitions: map-merge($admonitions, (success: (color: #00c853, title-color: #00c8531a)))
+$admonitions: map-merge($admonitions, (question: (color: #64dd17, title-color: #64dd171a)))
+$admonitions: map-merge($admonitions, (warning: (color: #ff9100, title-color: #ff91001a)))
+$admonitions: map-merge($admonitions, (failure: (color: #ff5252, title-color: #ff52521a)))
+$admonitions: map-merge($admonitions, (danger: (color: #ff1744, title-color: #ff17441a)))
+$admonitions: map-merge($admonitions, (bug: (color: #f50057, title-color: #f500571a)))
+$admonitions: map-merge($admonitions, (example: (color: #7c4dff, title-color: #7c4dff1a)))
+$admonitions: map-merge($admonitions, (quote: (color: #9e9e9e, title-color: #9e9e9e1a)))
+
+.admonition
+  $admonition-icon-size: 20px
+  $admonition-radius: 20px
+
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4.8px 12px 0, rgba(0, 0, 0, 0.1) 0 0 1.2px 0
+  margin-bottom: 1.5em
+  border-radius: $admonition-radius
+  display: flex
+  flex-direction: column
+
+  .admonition-title
+    padding: 5px 15px
+    margin: 0
+    display: flex
+    align-items: center
+    border-top-left-radius: $admonition-radius
+    border-top-right-radius: $admonition-radius
+
+    .admonition-title-icon
+      width: $admonition-icon-size
+      height: $admonition-icon-size
+
+      svg
+        width: $admonition-icon-size
+        height: $admonition-icon-size
+
+    .admonition-title-text
+      padding: 5px
+      font-weight: 700
+      margin-bottom: 0 !important
+      margin-left: 10px
+
+  .admonition-content
+    padding: 10px 20px
+
+    *:last-child
+      margin-bottom: 0 !important
+
+@each $name, $value in $admonitions
+  .admonition.#{$name}
+    border-left-color: map-get($value, "color")
+    border-top-color: map-get($value, "color")
+
+    .admonition-title
+      background-color: map-get($value, "title-color")
+
+      svg
+        fill: map-get($value, "color")
+
+      .admonition-title-text
+        color: map-get($value, "color")

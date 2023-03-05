@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
 {%- assign category = page.categories | first | slugify: "latin" -%}
 
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
@@ -15,13 +14,13 @@ layout: default
     </h1>
     <p class="post-meta">
       <svg class="icon icon-envelop"><use xlink:href="#icon-envelop"></use></svg>
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | format_dt }}</time>
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{% include date.html date=page.date front_word="Posté" %}</time>
       {%- if page.modified_date -%},
-      <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{{ page.modified_date | format_dt: "modifié" }}</time>
+      <time class="dt-modified" datetime="{{ page.modified_date | date_to_xmlschema }}" itemprop="dateModified">{% include date.html date=page.modified_date front_word="Modifié" %}</time>
       {%- endif -%}
       <span class="post-meta-separator">|</span>
       <svg class="icon icon-clock"><use xlink:href="#icon-clock"></use></svg>
-      <span>{{ page.read_time | time_to_read }}</span>
+      <span>{{ page.read_time | pluralize: "minute", "minutes" }}<span class="hide-small"> de lecture</span></span>
     </p>
   </header>
 
@@ -38,8 +37,9 @@ layout: default
   <p>{{ staff_member.content | markdownify }}</p>
   {% endfor %}
 
-  {%- assign comment_file = page.name | remove: '.md' -%}
-  {% include comments.html comments_file=comment_file %}
+  {%- if page.comments_count > 0 -%}
+  {%- include comments.html -%}
+  {%- endif -%}
 
   <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

@@ -4,41 +4,45 @@ require 'fileutils'
 require 'mysql2'
 require 'yaml'
 
-require "#{File.expand_path(File.dirname(__FILE__))}/db.rb"
-require "#{File.expand_path(File.dirname(__FILE__))}/comments.rb"
-require "#{File.expand_path(File.dirname(__FILE__))}/gallery.rb"
-require "#{File.expand_path(File.dirname(__FILE__))}/smilleys.rb"
-require "#{File.expand_path(File.dirname(__FILE__))}/utils.rb"
+require "#{__dir__}/db.rb"
+require "#{__dir__}/comments.rb"
+require "#{__dir__}/gallery.rb"
+require "#{__dir__}/smileys.rb"
+require "#{__dir__}/utils.rb"
+
+BASE_DIR = File.expand_path("#{File.dirname(__FILE__)}/..")
+DOWNLOAD_PATH = File.expand_path('~/Downloads/web/japan/wp-content/uploads')
 
 def categories_str(categories)
   categories.map do |result|
-    "\"#{result["name"].gsub(/&amp;/, "&")}\""
+    "\"#{result['name'].gsub(/&amp;/, '&')}\""
   end
 end
 
-def front_matter(title, date, categories)
+def front_matter(post)
   """---
 layout:     post
-title:      #{title}
-date:       #{date}
-categories: [#{categories}]
+title:      #{post[:title]}
+date:       #{post[:date]}
+categories: [#{post[:categories]}]
 ---
 
 """
 end
 
 def sanitize_post_content(content)
-  lines = smilleys(content)
+  lines = smileys(content)
     .split("\n")
-    .map { |line| line.strip }
-    .select { |line| line.length > 0 }
+    .map(&:strip)
+    .reject(&:empty?)
     .map do |line|
-      if line =~ /<p.*?><a/
-        line.gsub(/(<p.*?>|<\/p>)/, "")
-      elsif line =~ /^\w/
+      case line
+      when /<p.*?><a/
+        line.gsub(%r{(<p.*?>|</p>)}, '')
+      when /^\w/
         word_wrap line
-      elsif line =~ /<p.*?>/
-        word_wrap line.gsub(/(<p.*?>|<\/p>)/, "")
+      when /<p.*?>/
+        word_wrap line.gsub(%r{(<p.*?>|</p>)}, '')
       else
         line
       end
@@ -46,26 +50,38 @@ def sanitize_post_content(content)
 
   lines
     .join("\n\n")
-    .gsub(/<hr( \/)?>/, "-----\n")
+    .gsub(%r{<hr( /)?>}, "-----\n")
     .gsub("\\'", "'")
     .gsub(/(\\)?&#039;/, "'")
-    .gsub(/(\d+)\s*?[yY][eE][nN]/, "\\1¥")
-    .gsub(/ {2,}/, " ")
-    .gsub(/: \)/, ":)")
+    .gsub(/(\d+)\s*?[yY][eE][nN]/, '\\1¥')
+    .gsub(/ {2,}/, ' ')
+    .gsub(/: \)/, ':)')
 end
 
-def create_image_file(paths, short_date, name, img_name, extension, title, width, height)
-  if width == "225" or width == "200"
-    orientation = "portrait"
-  else
-    orientation = "landscape"
-  end
+def create_image_file(post, img_name, extension, title, width, height)
+  orientation = %w[225 200].include?(width) ? 'portrait' : 'landscape'
 
   thumb = "#{width}x#{height}"
 
   files = %W[#{img_name}#{extension} #{img_name}-#{thumb}#{extension}]
 
-  replacement = """
+  if ENV['J_DRY_RUN']
+    p "Create destination directory (if required): #{post[:images_path]}"
+  else
+    Dir.mkdir(post[:images_path]) unless Dir.exist? post[:images_path]
+  end
+
+  files.each do |file|
+    source_path = "#{DOWNLOAD_PATH}/#{post[:download_image_subpath]}/#{file}"
+
+    if ENV['J_DRY_RUN']
+      p "Source file: #{source_path}"
+    else
+      FileUtils.mv(source_path, post[:images_path]) if File.exist? source_path
+    end
+  end
+
+  """
 {% include img.html
     image=\"#{img_name}#{extension}\"
     type=\"#{orientation}\"
@@ -75,32 +91,26 @@ def create_image_file(paths, short_date, name, img_name, extension, title, width
 %}
 
 """
-
-  if files.count > 0
-    if ENV["J_DRY_RUN"]
-      p "Create destination directory (if required): #{paths[:images_file_path]}"
-    else
-      Dir.mkdir(paths[:images_file_path]) unless Dir.exist? paths[:images_file_path]
-    end
-
-    files.each do |file|
-      source_path = "#{paths[:download_path]}/#{paths[:download_image_subpath]}/#{file}"
-
-      if ENV["J_DRY_RUN"]
-        p "Source file: #{source_path}"
-      else
-        FileUtils.mv(source_path, paths[:images_file_path]) if File.exist? source_path
-      end
-    end
-  end
-
-  replacement
 end
 
-def create_media_file(paths, short_date, name, media_name, extension, title)
-  files = ["#{media_name}#{extension}"]
+def create_media_file(post, media_name, extension, title)
+  file = "#{media_name}#{extension}"
 
-  replacement = """
+  if ENV['J_DRY_RUN']
+    p "Create destination directory (if required): #{post[:media_path]}"
+  else
+    Dir.mkdir(paths[:media_path]) unless Dir.exist? post[:media_path]
+  end
+
+  source_path = "#{DOWNLOAD_PATH}/#{post[:download_image_subpath]}/#{file}"
+
+  if ENV['J_DRY_RUN']
+    p "Source file: #{source_path}"
+  else
+    FileUtils.mv(source_path, post[:media_path]) if File.exist? source_path
+  end
+
+  """
 {% include media.html
     media=\"#{media_name}.mp4\"
     title=\"#{title}\"
@@ -108,47 +118,27 @@ def create_media_file(paths, short_date, name, media_name, extension, title)
 %}
 
 """
-
-  if files.count > 0
-    if ENV["J_DRY_RUN"]
-      p "Create destination directory (if required): #{paths[:media_file_path]}"
-    else
-      Dir.mkdir(paths[:media_file_path]) unless Dir.exist? paths[:media_file_path]
-    end
-
-    files.each do |file|
-      source_path = "#{paths[:download_path]}/#{paths[:download_image_subpath]}/#{file}"
-
-      if ENV["J_DRY_RUN"]
-        p "Source file: #{source_path}"
-      else
-        FileUtils.mv(source_path, paths[:media_file_path]) if File.exist? source_path
-      end
-    end
-  end
-
-  replacement
 end
 
-def process_media(content, short_date, name, paths)
-  sanitized_blocks = content.scan(/<a.*\/a>/).map do |a_block|
+def process_media(content, post)
+  sanitized_blocks = content.scan(%r{<a.*/a>}).map do |a_block|
     {
-      :original => a_block,
-      :list => a_block.gsub(/<\/a><a/, "</a>\n<a").split("\n")
+      original: a_block,
+      list: a_block.gsub(%r{</a><a}, "</a>\n<a").split("\n")
     }
   end
 
   sanitized_blocks.each do |block|
     block[:list].each do |elem|
-      elem.scan(/<a href=".*\/(.*?)(.jpg)"><img .*?title="(.*?)" .*?width="(\d+)".*?<\/a>/).each do |image|
-        height = elem.gsub(/.*?height="(\d+)".*/, "\\1")
+      elem.scan(%r{<a href=".*/(.*?)(.jpg)"><img .*?title="(.*?)" .*?width="(\d+)".*?</a>}).each do |image|
+        height = elem.gsub(/.*?height="(\d+)".*/, '\\1')
         image << height
-        media_str = create_image_file paths, short_date, name, *image
+        media_str = create_image_file paths, post, *image
         content = content.sub(elem, media_str)
       end
 
-      elem.scan(/<a href=".*\/(.*?)(.mpg)">(.*?)<\/a>/).each do |media|
-        media_str = create_media_file paths, short_date, name, *media
+      elem.scan(%r{<a href=".*/(.*?)(.mpg)">(.*?)</a>}).each do |media|
+        media_str = create_media_file paths, post, *media
         content = content.sub(elem, media_str)
       end
     end
@@ -166,25 +156,23 @@ def process_gallery(content)
   content
 end
 
-base_dir = File.expand_path("#{File.dirname(__FILE__)}/..")
-download_path = File.expand_path("~/Downloads/web/japan/wp-content/uploads")
+def retrieve_post(name)
+  client = db_client
 
-post_name = ARGV[0]
-
-client = db_client
-
-statement_post = client.prepare("""
+  statement_post = client.prepare("""
 SELECT
   *
 FROM
   wpjapan_posts
 WHERE
-  post_name = ? and post_status = 'publish';
+  post_name = ?
+  and post_status = 'publish';
 """)
 
-result_post = statement_post.execute(post_name).first
+  result_post = statement_post.execute(name).first
+  post_id = result_post['ID']
 
-statement_categories = client.prepare("""
+  statement_categories = client.prepare("""
 SELECT
 	t.*
 FROM
@@ -194,41 +182,53 @@ LEFT JOIN
 LEFT JOIN
 	wpjapan_posts AS p ON tr.object_id = p.ID
 WHERE
-	post_name = ?
-	and post_status = \"publish\";
+	p.ID = ?
+	and p.post_status = 'publish';
 """)
-result_categories = categories_str statement_categories.execute(post_name)
 
-post_year = result_post["post_date"].strftime("%Y")
-post_month = result_post["post_date"].strftime("%m")
-post_short_date = result_post["post_date"].strftime("%Y-%m-%d")
-post_date = result_post["post_date"].strftime("%Y-%m-%d %H:%M:%S %z")
-post_file_path = "_posts/#{post_short_date}-#{post_name}.md"
+  year = result_post['post_date'].strftime('%Y')
+  month = result_post['post_date'].strftime('%m')
+  short_date = result_post['post_date'].strftime('%Y-%m-%d')
 
-paths = {
-  :images_file_path => "#{base_dir}/assets/images/posts/#{post_short_date}-#{post_name}",
-  :media_file_path => "#{base_dir}/assets/media/posts/#{post_short_date}-#{post_name}",
-  :download_image_subpath => "#{post_year}/#{post_month}",
-  :download_path => download_path
-}
-
-front_matter = front_matter result_post["post_title"], post_date, result_categories.join(", ")
-
-post_content = sanitize_post_content result_post["post_content"]
-post_content = process_media post_content, post_short_date, post_name, paths
-post_content = process_gallery post_content
-
-post_content = post_content.gsub(/\n{2,}/, "\n\n")
-
-full_content = "#{front_matter}#{post_content}"
-
-if ENV["J_DRY_RUN"]
-  p """#################### Post
-File path: #{post_file_path}
-Content: #{full_content}
-"""
-else
-  File.open(post_file_path, "w") { |file| file.write(full_content) }
+  {
+    id: post_id,
+    name: name,
+    date: result_post['post_date'],
+    short_date: short_date,
+    formatted_date: result_post['post_date'].strftime('%Y-%m-%d %H:%M:%S %z'),
+    title: result_post['post_title'],
+    content: result_post['post_content'],
+    categories: categories_str(statement_categories.execute(post_id)).join(", "),
+    path: "_posts/#{short_date}-#{name}.md",
+    images_path: "#{BASE_DIR}/assets/images/posts/#{short_date}-#{name}",
+    media_path: "#{BASE_DIR}/assets/media/posts/#{short_date}-#{name}",
+    download_image_subpath: "#{year}/#{month}"
+  }
 end
 
-comments post_name
+def post(name)
+  post = retrieve_post name
+
+  front_matter = front_matter post
+
+  post_content = sanitize_post_content post[:post_content]
+  post_content = process_media post_content, post
+  post_content = process_gallery post_content
+
+  post_content = post_content.gsub(/\n{2,}/, "\n\n")
+
+  full_content = "#{front_matter}#{post_content}"
+
+  if ENV['J_DRY_RUN']
+    p """#################### Post
+File path: #{post[:path]}
+Content: #{full_content}
+    """
+  else
+    File.open(post[:path], 'w') { |file| file.write(full_content) }
+  end
+
+  comments post[:name], post[:id], post[:date]
+end
+
+post ARGV[0]
