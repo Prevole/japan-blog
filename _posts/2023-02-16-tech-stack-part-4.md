@@ -72,7 +72,7 @@ module Jekyll
       # On load à la volée le template et les icônes. En mode production
       # on garde en cache ce qui a été loadé alors qu'en dev on reload 
       # chaque fois.
-      if ENV['JEKYLL_ENV'] != 'production' || !@@admonition_template
+      if ENV['JEKYLL_ENV'] != 'production' || !defined?(@@admonition_template)
         load_template context 
         load_icons context
       end

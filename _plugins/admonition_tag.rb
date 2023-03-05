@@ -11,8 +11,10 @@ module Jekyll
     end
 
     def render(context)
-      load_template context if ENV['JEKYLL_ENV'] != 'production' || !@@admonition_template
-      load_icons context if ENV['JEKYLL_ENV'] != 'production' || !@@admonition_icons
+      if ENV['JEKYLL_ENV'] != 'production' || !defined?(@@admonition_template)
+        load_template context
+        load_icons context
+      end
 
       @@admonition_template.render({
         'title' => @admonition_title,
