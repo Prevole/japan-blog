@@ -33,3 +33,7 @@ utilisé pour construire le site. Jekyll, Liquid, Markdown sont les thèmes prin
 - [Tech Stack - Partie 6]({% post_url 2023-02-16-tech-stack-part-6 %}) : Cette partie va traiter de comment builder et 
   publier mon site statique. Bah oui, c'est bien joli de parler technique, convertir un blog WordPress en site statique
   et de mettre en place toute cette plomberie si ce n'est pas pour le publier quelque part.
+
+- [Tech Stack - Partie 7]({% post_url 2023-02-16-tech-stack-part-7 %}) : Cette dernière partie s'intéresse à AWS et son
+  son service S3 qui permet de stocker des fichiers et de les servir comme un serveur web le ferait mais sans aucune
+  gestion particulière.
