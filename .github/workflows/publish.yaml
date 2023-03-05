@@ -11,8 +11,6 @@ on:
       - completed
 
 env:
-  AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-  AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
   AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
   AWS_S3_BUCKET_NAME: ${{ secrets.AWS_S3_BUCKET_NAME }}
 
@@ -23,6 +21,7 @@ jobs:
     environment: production
     permissions:
       id-token: write
+      contents: read
     steps:
       - name: Checkout project
         uses: actions/checkout@v3
