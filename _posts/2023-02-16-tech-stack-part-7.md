@@ -265,6 +265,22 @@ Dans l'exemple précédent, il faut remplacer la chaine `123…456` par son acco
 la partie qui configure l'accès au repository souhaité.
 {% endadmonition %}
 
+{% admonition bug %}
+Il se trouve que pendant la rédaction de l'article, je n'avais pas encore testé le flot de déploiement. Une fois que 
+je suis arrivé à tester ma publication de mon site, je me suis rendu compte que le `sub` du trusted entity ne pouvait
+pas fonctionner. Dans une autre page de [doc de GitHub](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect#filtering-for-a-specific-branch){:target="_blank"},
+il est spécifié que la branche ne passe pas quand un workflow est associé à un environnement ce qui est mon cas.
+
+A la place, il faut configurer quelque chose comme ça `repo:octo-org/octo-repo:environment:production`. Une fois cette
+correction apportée du côté de la configuration IAM d'AWS, j'ai pu publié mon site sans problème avec la configuration
+OIDC.
+
+Sans cette modification, j'obtenais l'erreur suivante: `Not authorized to perform sts:AssumeRoleWithWebIdentity`
+
+J'en ai profité pour faire ma première [contribution](https://github.com/github/docs/pull/24300){:target="_blank"} à la 
+documentation de GitHub. On verra bien si c'est accepté :smiley:
+{% endadmonition %}
+
 Dans l'écran suivant, on configure le rôle qui donne effectivement les droits au contexte de connexion. Et comme on a
 déjà préparé une policy qui fait exactement ce qu'on veut, et bien, on l'a réutilise.
 
@@ -579,12 +595,15 @@ au même endroit que la configuration du site statique. Elle apparaît après l'
 %}
 {%- endmedia_cartridge -%}
 
-# Publication
-
-TBD
-
 # Conclusion
 
 Et voilà, au terme de cet article, nous avons vu deux manières de configurer les accès et de les utiliser dans les 
 workflows GitHub Actions. Mais surtout, nous avons vu comment configurer un Bucket S3 pour héberger un site web. C'est
 ce que j'utilise à présent pour héberger mon site statique du Japon.
+
+Après avoir pushé mon article sur mon repository sur GitHub, le build s'est effectué et la publication a eu lieu avec la
+seconde technique d’authentification. J'ai un peu galéré à trouver le problème rencontré qui disait que je n'étais pas 
+autorisé à faire l'opération. Après ce petit contre-temps, nickel-chrome, la publication fonctionne parfaitement bien.
+
+Dans le prochain et dernier article de la série, nous allons voir comment configurer la partie DNS afin que mon ancien
+blog du Japon disparaisse au profit du nouveau.
