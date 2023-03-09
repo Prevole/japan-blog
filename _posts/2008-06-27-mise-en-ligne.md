@@ -20,18 +20,6 @@ quotidien. De plus, il me sera plus facile d’écrire souvent et beaucoup. Comm
 est plus facile de faire part de ses émotions dans sa langue maternelle". J’avoue que cette simple phrase a fini de me 
 convaincre pour la tenue de mon blog en français.
 
-{%- comment -%}
-# Généralités
-
-Vous pouvez découvrir quelques informations succinctes sur cet espace dans l’aperçu se trouvant sur la droite ou en
-suivant ce lien. Vous pouvez aussi découvrir les détails de ma vie ainsi que des préparatifs de mon voyage et quelques
-détails de mon projet dans Récit d’une vie.
-
-J’imagine que plus d’une personne sera découragée par la lecture de ma page personnelle. Pour cela je vous offre un
-aperçu résumant la page en question. Tout du moins, je vais vous décrire le lieu et le travail dans leurs grandes
-lignes.
-{%- endcomment -%}
-
 # Kyoto
 
 Je vais me rendre dans la ville de Kyoto (Capitale de l’ouest) située au nord d’Osaka et à l’ouest de Tokyo sur l’île 
@@ -56,3 +44,15 @@ un aspect culturel en tentant de promouvoir les lieux touristiques et culturel d
 Par dessus tout cet aspect de jeu, le but est également d’amener le joueur à faire de l’exercice au moyen d’un vélo ou 
 même de la marche à pied. Le fait de réaliser des quêtes obligeant le joueur à se mouvoir d’un endroit à un autre 
 favorise cet aspect d’exercice physique dans le jeu.
+
+{%- comment -%}
+# Généralités
+
+Vous pouvez découvrir quelques informations succinctes sur cet espace dans l’aperçu se trouvant sur la droite ou en
+suivant ce lien. Vous pouvez aussi découvrir les détails de ma vie ainsi que des préparatifs de mon voyage et quelques
+détails de mon projet dans Récit d’une vie.
+
+J’imagine que plus d’une personne sera découragée par la lecture de ma page personnelle. Pour cela je vous offre un
+aperçu résumant la page en question. Tout du moins, je vais vous décrire le lieu et le travail dans leurs grandes
+lignes.
+{%- endcomment -%}
